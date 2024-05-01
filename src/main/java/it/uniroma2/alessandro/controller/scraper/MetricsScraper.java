@@ -2,7 +2,7 @@ package it.uniroma2.alessandro.controller.scraper;
 
 import it.uniroma2.alessandro.exception.ReleaseNotFoundException;
 import it.uniroma2.alessandro.model.Commit;
-import it.uniroma2.alessandro.model.ReleaseList;
+import it.uniroma2.alessandro.model.Release;
 import it.uniroma2.alessandro.model.Ticket;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
@@ -21,10 +21,10 @@ public class MetricsScraper {
         try {
             JiraScraper jiraScraper = new JiraScraper(projName);
             logger.info("Scraping releases of " + projName + " project...\n");
-            ReleaseList jiraReleases = jiraScraper.scrapeReleases();
+            List<Release> jiraReleases = jiraScraper.scrapeReleases();
 
             logger.info("Cloning repository of " + projName + " project...\n");
-            GitScraper gitScraper = new GitScraper(projName, projRepoUrl, jiraReleases);
+            GitScraper gitScraper = new GitScraper(projName, projRepoUrl);
 
             logger.info("Scraping commits of " + projName + " project...\n");
             List<Commit> commitList = gitScraper.scrapeCommits(jiraReleases);

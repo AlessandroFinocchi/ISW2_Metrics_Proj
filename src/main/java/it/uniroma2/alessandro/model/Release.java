@@ -56,10 +56,9 @@ public class Release {
      * @param releases list of release to compare
      * @return the release with the closest greater date if exists, null otherwise
      */
-    public static Release getReleaseAfterOrEqualDate(LocalDate specificDate, ReleaseList releases) {
-        List<Release> releasesList = releases.getReleaseList();
-        releasesList.sort(Comparator.comparing(Release::getReleaseDateTime));
-        for (Release release : releasesList) {
+    public static Release getReleaseAfterOrEqualDate(LocalDate specificDate, List<Release> releases) {
+        releases.sort(Comparator.comparing(Release::getReleaseDateTime));
+        for (Release release : releases) {
             if (!release.getReleaseDateTime().isBefore(specificDate)) {
                 return release;
             }
@@ -74,14 +73,22 @@ public class Release {
      * @param releasesList list of releases
      * @return list of AV releases ordered by date
      */
-    public static List<Release> returnValidAffectedVersions(JSONArray affectedVersionsArray, ReleaseList releasesList) throws ReleaseNotFoundException {
+    public static List<Release> returnValidAffectedVersions(JSONArray affectedVersionsArray, List<Release> releasesList) throws ReleaseNotFoundException {
         List<Release> existingAffectedVersions = new ArrayList<>();
         for (int i = 0; i < affectedVersionsArray.length(); i++) {
             String affectedVersionName = affectedVersionsArray.getJSONObject(i).get("name").toString();
-            Release release = releasesList.getReleaseByName(affectedVersionName);
+            Release release = getReleaseByName(releasesList, affectedVersionName);
             existingAffectedVersions.add(release);
         }
         existingAffectedVersions.sort(Comparator.comparing(Release::getReleaseDateTime));
         return existingAffectedVersions;
     }
+
+    private static Release getReleaseByName(List<Release> releaseList, String releaseName) throws ReleaseNotFoundException {
+        for (Release release : releaseList) {
+            if (Objects.equals(releaseName, release.getReleaseName())) return release;
+        }
+        throw new ReleaseNotFoundException();
+    }
 }
+

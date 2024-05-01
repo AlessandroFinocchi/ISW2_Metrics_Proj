@@ -2,7 +2,6 @@ package it.uniroma2.alessandro.controller.scraper;
 
 import it.uniroma2.alessandro.model.Commit;
 import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.ReleaseList;
 import it.uniroma2.alessandro.model.Ticket;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.ListBranchCommand;
@@ -32,7 +31,7 @@ public class GitScraper {
     protected final Git git;
     private final Repository repository;
 
-    public GitScraper(String projName, String projRepoUrl, ReleaseList jiraReleases) throws IOException, GitAPIException {
+    public GitScraper(String projName, String projRepoUrl) throws IOException, GitAPIException {
         String filename = CLONE_DIR + projName.toLowerCase() + "Clone";
         this.projName = projName;
         this.projRepoUrl = projRepoUrl;
@@ -52,7 +51,7 @@ public class GitScraper {
         }
     }
 
-    public List<Commit> scrapeCommits(ReleaseList jiraReleases) throws GitAPIException, IOException {
+    public List<Commit> scrapeCommits(List<Release> jiraReleases) throws GitAPIException, IOException {
         // All the commits extracted
         List<RevCommit> revCommitList = new ArrayList<>();
 
@@ -85,7 +84,7 @@ public class GitScraper {
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
             LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
             LocalDate previusReleaseDate = LocalDate.parse(formatter.format(new Date(0))); // lowerBoundDate = 01/01/1970
-            for(Release release: jiraReleases.getReleaseList()){
+            for(Release release: jiraReleases){
                 // Get the date of a release
                 LocalDate nextReleaseDate = release.getReleaseDateTime();
                 // If a commit date is after the last release date considered and the next one being considered add it
@@ -102,7 +101,7 @@ public class GitScraper {
         }
 
         // Remove a release if it hasn't got any commit
-        jiraReleases.getReleaseList().removeIf(release -> release.getCommitList().isEmpty());
+        //jiraReleases.removeIf(release -> release.getCommitList().isEmpty());
 
         // Order commits by date
         commitList.sort(Comparator.comparing(commit -> commit.getRevCommit().getCommitTime()));

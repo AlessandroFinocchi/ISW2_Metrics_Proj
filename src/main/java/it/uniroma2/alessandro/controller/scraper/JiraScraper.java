@@ -2,7 +2,6 @@ package it.uniroma2.alessandro.controller.scraper;
 
 import it.uniroma2.alessandro.exception.ReleaseNotFoundException;
 import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.ReleaseList;
 import it.uniroma2.alessandro.model.Ticket;
 import it.uniroma2.alessandro.utilities.JsonUtility;
 import org.json.JSONArray;
@@ -14,7 +13,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Objects;
 
 import static it.uniroma2.alessandro.utilities.JsonUtility.readJsonFromUrl;
 
@@ -26,10 +24,10 @@ public class JiraScraper {
         this.projName = projName.toUpperCase();
     }
 
-    public ReleaseList scrapeReleases() throws IOException, URISyntaxException, IllegalArgumentException {
+    public List<Release> scrapeReleases() throws IOException, URISyntaxException, IllegalArgumentException {
         String url = "https://issues.apache.org/jira/rest/api/2/project/" + projName;
 
-        ReleaseList releases = new ReleaseList();
+        List<Release> releases = new ArrayList<>();
 
         JSONObject json = readJsonFromUrl(url);
         JSONArray versions = json.getJSONArray("versions");
@@ -43,16 +41,16 @@ public class JiraScraper {
             if(version.has("id")) releaseID = version.getString("id");
             if(version.has("name")) releaseName = version.getString("name");
             if(version.has("releaseDate")) releaseDateString = version.getString("releaseDate");
-            releases.addRelease(new Release(releaseID, releaseName, releaseDateString));
+            releases.add(new Release(releaseID, releaseName, releaseDateString));
         }
 
         // Order temporally the list of releases
-        releases.sort();
+        releases.sort(Comparator.comparing(Release::getReleaseDateTime));
 
         return releases;
     }
 
-    public List<Ticket> scrapeTickets(ReleaseList releasesList) throws IOException, URISyntaxException, ReleaseNotFoundException {
+    public List<Ticket> scrapeTickets(List<Release> releasesList) throws IOException, URISyntaxException, ReleaseNotFoundException {
         int total, j, i = 0;
         List<Ticket> ticketsList = new ArrayList<>();
 
@@ -71,7 +69,7 @@ public class JiraScraper {
             //Iterate through each jira ticket
             for (; i < total && i < j; i++) {
                 // Key is the name of the issue ticketed, like "BOOKKEEPER-1105"
-                String key = issues.getJSONObject(i%1000).get("key").toString();
+                String key = issues.getJSONObject(i % 1000).get("key").toString();
 
                 // Get the creation and resolution date
                 JSONObject fields = issues.getJSONObject(i%1000).getJSONObject("fields");
