@@ -8,8 +8,8 @@ import java.util.Map;
 public class Main {
 
     public static final List<Map.Entry<String, String>> projects = List.of(
-            Map.entry("BOOKKEEPER", "https://github.com/AlessandroFinocchi/bookkeeper.git"),
-            Map.entry("AVRO", "https://github.com/AlessandroFinocchi/avro.git")
+            Map.entry("BOOKKEEPER", "https://github.com/AlessandroFinocchi/bookkeeper.git")
+            //, Map.entry("AVRO", "https://github.com/AlessandroFinocchi/avro.git")
     );
 
     public static void main(String[] args) {
