@@ -284,14 +284,13 @@ public class GitScraper {
     private static void labelBuggyClasses(String modifiedClass, Release injectedVersion,
                                           Release fixedVersion, List<ProjectClass> classList) {
         for(ProjectClass projectClass: classList){
-            // Get the class named correctly
-            if(!projectClass.getName().equals(modifiedClass)) continue;
-
-            // Check that the class release is before the FV
-            if(projectClass.getRelease().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime())) continue;
-
-            // Check that the class release is after the IV
-            if(projectClass.getRelease().getReleaseDateTime().isBefore(injectedVersion.getReleaseDateTime())) continue;
+            if(// Get the class named correctly
+                !projectClass.getName().equals(modifiedClass) ||
+                // Check that the class release is before the FV
+                projectClass.getRelease().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime()) ||
+                // Check that the class release is after the IV
+                projectClass.getRelease().getReleaseDateTime().isBefore(injectedVersion.getReleaseDateTime())
+            ) continue;
 
             // Then the class is buggy
             projectClass.getMetrics().setBuggyness(true);

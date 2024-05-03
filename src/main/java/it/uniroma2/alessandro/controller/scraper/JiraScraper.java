@@ -51,7 +51,9 @@ public class JiraScraper {
     }
 
     public List<Ticket> scrapeTickets(List<Release> releasesList) throws IOException, URISyntaxException, ReleaseNotFoundException {
-        int total, j, i = 0;
+        int total;
+        int j;
+        int i = 0;
         List<Ticket> ticketsList = new ArrayList<>();
 
         do {
@@ -90,21 +92,18 @@ public class JiraScraper {
                 //Get the list of AV ordered by date
                 List<Release> affectedVersionsList = Release.returnValidAffectedVersions(affectedVersionsArray, releasesList);
 
-                // If there are no affected version, ticket isn't needed
-                if(affectedVersionsList.isEmpty()) continue;
-
-                // If there are no OV or FV, ticket isn't needed
-                if(openingVersion== null || fixedVersion == null) continue;
-
-                // Check that OV<AV1: if the first AV is before the OV, ticket is inconsistent, and thus isn't needed
-                if(affectedVersionsList.getFirst().getReleaseDateTime().isBefore(openingVersion.getReleaseDateTime())) continue;
-
-                // Check that AVN<FV: if the last AV is after the FV, ticket is inconsistent, and thus isn't needed
-                if(affectedVersionsList.getLast().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime())) continue;
+                if(// If there are no affected version, ticket isn't needed
+                    affectedVersionsList.isEmpty() ||
+                    // If there are no OV or FV, ticket isn't needed
+                    (openingVersion== null || fixedVersion == null) ||
+                    // Check that OV<AV1: if the first AV is before the OV, ticket is inconsistent, and thus isn't needed
+                    affectedVersionsList.getFirst().getReleaseDateTime().isBefore(openingVersion.getReleaseDateTime()) ||
+                    // Check that AVN<FV: if the last AV is after the FV, ticket is inconsistent, and thus isn't needed
+                    affectedVersionsList.getLast().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime())
+                ) continue;
 
                 // Since the list of AVs is ordered, we already know that AV1 < AVN, thus at this point we got
                 // the whole inequality chain consistent, that's to say: OV < AV1 < AVN < FV
-
                 ticketsList.add(new Ticket(key, creationDate, resolutionDate, openingVersion, fixedVersion, affectedVersionsList));
             }
         } while (i < total);

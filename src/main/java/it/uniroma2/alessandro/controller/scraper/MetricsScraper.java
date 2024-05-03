@@ -6,7 +6,6 @@ import it.uniroma2.alessandro.model.Commit;
 import it.uniroma2.alessandro.model.ProjectClass;
 import it.uniroma2.alessandro.model.Release;
 import it.uniroma2.alessandro.model.Ticket;
-import it.uniroma2.alessandro.utilities.CustomLogger;
 import it.uniroma2.alessandro.utilities.ReportUtility;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.slf4j.LoggerFactory;
@@ -21,7 +20,6 @@ import java.util.logging.Logger;
  * Retrieves the metric information online
  */
 public class MetricsScraper {
-    private static final org.slf4j.Logger log = LoggerFactory.getLogger(MetricsScraper.class);
     private final Logger logger;
 
     public MetricsScraper(){
@@ -31,47 +29,47 @@ public class MetricsScraper {
     public void scrapeData(String projName, String projRepoUrl){
         try {
             String loggerString;
-            String ProjString = projName + " project...\n";
+            String projString = projName + " project...\n";
             logger.info("Starting\n");
 
             JiraScraper jiraScraper = new JiraScraper(projName);
-            loggerString = "Scraping releases of " + ProjString;
+            loggerString = "Scraping releases of " + projString;
             logger.info(loggerString);
             List<Release> jiraReleases = jiraScraper.scrapeReleases();
 
-            loggerString = "Cloning repository of " + ProjString;
+            loggerString = "Cloning repository of " + projString;
             logger.info(loggerString);
             GitScraper gitScraper = new GitScraper(projName, projRepoUrl);
 
-            loggerString = "Scraping commits of " + ProjString;
+            loggerString = "Scraping commits of " + projString;
             logger.info(loggerString);
             List<Commit> commitList = gitScraper.scrapeCommits(jiraReleases);
 
-            loggerString = "Scraping tickets of " + ProjString;
+            loggerString = "Scraping tickets of " + projString;
             logger.info(loggerString);
             List<Ticket> ticketList = jiraScraper.scrapeTickets(jiraReleases);
 
-            loggerString = "Filtering commits of " + ProjString;
+            loggerString = "Filtering commits of " + projString;
             logger.info(loggerString);
             List<Commit> ticketedCommitList = gitScraper.filterCommits(commitList, ticketList);
 
             // If a ticket has no commits it means it isn't solved, so we don't care about it
             ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
 
-            loggerString = "Extracting touched classes from " + ProjString;
+            loggerString = "Extracting touched classes from " + projString;
             logger.info(loggerString);
             List<ProjectClass> classList = gitScraper.extractProjectClasses(jiraReleases, ticketList, commitList);
 
-            loggerString = "Extracting metrics from " + ProjString;
+            loggerString = "Extracting metrics from " + projString;
             logger.info(loggerString);
             MetricsProcessor metricsProcessor = new MetricsProcessor(ticketedCommitList, classList, gitScraper);
             metricsProcessor.processMetrics();
 
-            loggerString = "Reporting results from " + ProjString;
+            loggerString = "Reporting results from " + projString;
             logger.info(loggerString);
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
-            loggerString = "Building training and test sets from " + ProjString;
+            loggerString = "Building training and test sets from " + projString;
             logger.info(loggerString);
             // Consider only the first half of releases
             LocalDate lastReleaseDate = jiraReleases.get(jiraReleases.size()/2).getReleaseDateTime();

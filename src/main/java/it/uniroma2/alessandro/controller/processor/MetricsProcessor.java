@@ -91,43 +91,64 @@ public class MetricsProcessor {
                 int churningFactor = Math.abs(locAddedByClass.get(i) - locRemovedByClass.get(i));
                 int touchedLinesOfCode = locAddedByClass.get(i) + locRemovedByClass.get(i);
 
-                // Set the values
-                addedLOC.addToVal(addedLineOfCode);
-                removedLOC.addToVal(removedLineOfCode);
-                churnLOC.addToVal(churningFactor);
-                touchedLOC.addToVal(touchedLinesOfCode);
+                processValLOCMetrics(addedLOC, removedLOC, churnLOC, touchedLOC,
+                        addedLineOfCode, removedLineOfCode, churningFactor, touchedLinesOfCode);
 
-                // Set the max values
-                if (addedLineOfCode > addedLOC.getMaxVal()) {
-                    addedLOC.setMaxVal(addedLineOfCode);
-                }
-                if (removedLineOfCode > removedLOC.getMaxVal()) {
-                    removedLOC.setMaxVal(removedLineOfCode);
-                }
-                if (churningFactor > churnLOC.getMaxVal()) {
-                    churnLOC.setMaxVal(churningFactor);
-                }
-                if (touchedLinesOfCode > touchedLOC.getMaxVal()) {
-                    touchedLOC.setMaxVal(touchedLinesOfCode);
-                }
+                processMaxLOCMetrics(addedLOC, removedLOC, churnLOC, touchedLOC,
+                        addedLineOfCode, removedLineOfCode, churningFactor, touchedLinesOfCode);
             }
 
-            // Set the average values
-            int nRevisions = currentClass.getMetrics().getNumberOfRevisions();
-            if(!locAddedByClass.isEmpty()) {
-                addedLOC.setAvgVal(1.0* addedLOC.getVal()/ nRevisions);
-            }
-            if(!locRemovedByClass.isEmpty()) {
-                removedLOC.setAvgVal(1.0* removedLOC.getVal()/ nRevisions);
-            }
-            if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
-                churnLOC.setAvgVal(1.0* churnLOC.getVal()/ nRevisions);
-                touchedLOC.setAvgVal(1.0* touchedLOC.getVal()/nRevisions);
-            }
-            currentClass.getMetrics().setAddedLOCMetrics(addedLOC.getVal(), addedLOC.getMaxVal(), addedLOC.getAvgVal());
-            currentClass.getMetrics().setRemovedLOCMetrics(removedLOC.getVal(), removedLOC.getMaxVal(), removedLOC.getAvgVal());
-            currentClass.getMetrics().setChurnMetrics(churnLOC.getVal(), churnLOC.getMaxVal(), churnLOC.getAvgVal());
-            currentClass.getMetrics().setTouchedLOCMetrics(touchedLOC.getVal(), touchedLOC.getMaxVal(), touchedLOC.getAvgVal());
+            processAverageLOCMetrics(currentClass, locAddedByClass, locRemovedByClass,
+                    addedLOC, removedLOC, churnLOC, touchedLOC);
         }
+    }
+
+    private void processValLOCMetrics(LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC,
+                         int addedLineOfCode, int removedLineOfCode, int churningFactor, int touchedLinesOfCode){
+
+        // Set the values
+        addedLOC.addToVal(addedLineOfCode);
+        removedLOC.addToVal(removedLineOfCode);
+        churnLOC.addToVal(churningFactor);
+        touchedLOC.addToVal(touchedLinesOfCode);
+
+    }
+
+    private void processMaxLOCMetrics(LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC,
+                                      int addedLineOfCode, int removedLineOfCode, int churningFactor, int touchedLinesOfCode){
+        // Set the max values
+        if (addedLineOfCode > addedLOC.getMaxVal()) {
+            addedLOC.setMaxVal(addedLineOfCode);
+        }
+        if (removedLineOfCode > removedLOC.getMaxVal()) {
+            removedLOC.setMaxVal(removedLineOfCode);
+        }
+        if (churningFactor > churnLOC.getMaxVal()) {
+            churnLOC.setMaxVal(churningFactor);
+        }
+        if (touchedLinesOfCode > touchedLOC.getMaxVal()) {
+            touchedLOC.setMaxVal(touchedLinesOfCode);
+        }
+
+    }
+
+    private void processAverageLOCMetrics(ProjectClass currentClass, List<Integer> locAddedByClass, List<Integer> locRemovedByClass,
+                                          LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC){
+        // Set the average values
+        int nRevisions = currentClass.getMetrics().getNumberOfRevisions();
+        if(!locAddedByClass.isEmpty()) {
+            addedLOC.setAvgVal(1.0* addedLOC.getVal()/ nRevisions);
+        }
+        if(!locRemovedByClass.isEmpty()) {
+            removedLOC.setAvgVal(1.0* removedLOC.getVal()/ nRevisions);
+        }
+        if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
+            churnLOC.setAvgVal(1.0* churnLOC.getVal()/ nRevisions);
+            touchedLOC.setAvgVal(1.0* touchedLOC.getVal()/nRevisions);
+        }
+        currentClass.getMetrics().setAddedLOCMetrics(addedLOC.getVal(), addedLOC.getMaxVal(), addedLOC.getAvgVal());
+        currentClass.getMetrics().setRemovedLOCMetrics(removedLOC.getVal(), removedLOC.getMaxVal(), removedLOC.getAvgVal());
+        currentClass.getMetrics().setChurnMetrics(churnLOC.getVal(), churnLOC.getMaxVal(), churnLOC.getAvgVal());
+        currentClass.getMetrics().setTouchedLOCMetrics(touchedLOC.getVal(), touchedLOC.getMaxVal(), touchedLOC.getAvgVal());
     }
 }

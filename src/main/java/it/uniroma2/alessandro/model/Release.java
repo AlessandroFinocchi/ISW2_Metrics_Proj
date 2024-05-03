@@ -73,7 +73,7 @@ public class Release {
      * @param releasesList list of releases
      * @return list of AV releases ordered by date
      */
-    public static List<Release> returnValidAffectedVersions(JSONArray affectedVersionsArray, List<Release> releasesList) throws ReleaseNotFoundException {
+    public static List<Release> returnValidAffectedVersions(JSONArray affectedVersionsArray, List<Release> releasesList) {
         List<Release> existingAffectedVersions = new ArrayList<>();
         for (int i = 0; i < affectedVersionsArray.length(); i++) {
             String affectedVersionName = affectedVersionsArray.getJSONObject(i).get("name").toString();
