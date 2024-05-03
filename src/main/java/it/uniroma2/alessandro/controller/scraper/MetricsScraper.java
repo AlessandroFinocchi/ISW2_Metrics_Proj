@@ -6,6 +6,7 @@ import it.uniroma2.alessandro.model.Commit;
 import it.uniroma2.alessandro.model.ProjectClass;
 import it.uniroma2.alessandro.model.Release;
 import it.uniroma2.alessandro.model.Ticket;
+import it.uniroma2.alessandro.utilities.ReportUtility;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.slf4j.LoggerFactory;
 
@@ -48,6 +49,9 @@ public class MetricsScraper {
             logger.info("Extracting metrics from " + projName + " project...\n");
             MetricsProcessor metricsProcessor = new MetricsProcessor(ticketedCommitList, classList, gitScraper);
             metricsProcessor.processMetrics();
+
+            logger.info("Reporting results from " + projName + " project...\n");
+            ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
             logger.info("Building training and test sets from " + projName + " project...\n");
 

@@ -1,0 +1,112 @@
+---------- /Tickets List/ ---------
+
+Ticket[key= BOOKKEEPER-38, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 2, creationDate= 2011-08-08, resolutionDate= 2011-08-23]
+
+Ticket[key= BOOKKEEPER-39, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-08, resolutionDate= 2011-11-28]
+
+Ticket[key= BOOKKEEPER-43, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-11, resolutionDate= 2011-08-23]
+
+Ticket[key= BOOKKEEPER-50, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-18, resolutionDate= 2011-11-04]
+
+Ticket[key= BOOKKEEPER-51, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-18, resolutionDate= 2011-08-30]
+
+Ticket[key= BOOKKEEPER-52, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-18, resolutionDate= 2011-08-30]
+
+Ticket[key= BOOKKEEPER-53, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-25, resolutionDate= 2011-11-28]
+
+Ticket[key= BOOKKEEPER-55, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.1.1, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-25, resolutionDate= 2013-01-02]
+
+Ticket[key= BOOKKEEPER-56, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], numOfCommits= 2, creationDate= 2011-08-26, resolutionDate= 2012-04-28]
+
+Ticket[key= BOOKKEEPER-57, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-08-29, resolutionDate= 2011-08-31]
+
+Ticket[key= BOOKKEEPER-61, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 2, creationDate= 2011-08-30, resolutionDate= 2011-10-07]
+
+Ticket[key= BOOKKEEPER-69, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-09-28, resolutionDate= 2011-11-18]
+
+Ticket[key= BOOKKEEPER-71, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-09-29, resolutionDate= 2011-10-28]
+
+Ticket[key= BOOKKEEPER-79, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-14, resolutionDate= 2011-11-21]
+
+Ticket[key= BOOKKEEPER-80, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-14, resolutionDate= 2011-11-08]
+
+Ticket[key= BOOKKEEPER-81, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-14, resolutionDate= 2011-11-17]
+
+Ticket[key= BOOKKEEPER-92, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-25, resolutionDate= 2011-10-25]
+
+Ticket[key= BOOKKEEPER-93, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-25, resolutionDate= 2011-10-27]
+
+Ticket[key= BOOKKEEPER-94, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-10-26, resolutionDate= 2011-10-26]
+
+Ticket[key= BOOKKEEPER-107, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-11-04, resolutionDate= 2011-11-08]
+
+Ticket[key= BOOKKEEPER-118, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-11-23, resolutionDate= 2011-11-28]
+
+Ticket[key= BOOKKEEPER-129, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.0.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-11-30, resolutionDate= 2011-11-30]
+
+Ticket[key= BOOKKEEPER-133, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-12-01, resolutionDate= 2011-12-22]
+
+Ticket[key= BOOKKEEPER-140, injectedVersion= 4.0.0, openingVersion= 4.0.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], numOfCommits= 1, creationDate= 2011-12-06, resolutionDate= 2011-12-21]
+
+Ticket[key= BOOKKEEPER-197, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-03-30, resolutionDate= 2012-04-16]
+
+Ticket[key= BOOKKEEPER-209, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-05, resolutionDate= 2012-05-15]
+
+Ticket[key= BOOKKEEPER-215, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-11, resolutionDate= 2012-05-09]
+
+Ticket[key= BOOKKEEPER-216, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-13, resolutionDate= 2012-04-16]
+
+Ticket[key= BOOKKEEPER-217, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-16, resolutionDate= 2012-04-24]
+
+Ticket[key= BOOKKEEPER-229, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-26, resolutionDate= 2012-05-08]
+
+Ticket[key= BOOKKEEPER-231, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-28, resolutionDate= 2012-04-28]
+
+Ticket[key= BOOKKEEPER-232, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-04-29, resolutionDate= 2012-05-07]
+
+Ticket[key= BOOKKEEPER-234, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-05-03, resolutionDate= 2012-05-09]
+
+Ticket[key= BOOKKEEPER-263, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-05-16, resolutionDate= 2012-05-24]
+
+Ticket[key= BOOKKEEPER-273, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-05-30, resolutionDate= 2012-05-30]
+
+Ticket[key= BOOKKEEPER-285, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-06-04, resolutionDate= 2012-06-05]
+
+Ticket[key= BOOKKEEPER-286, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-06-04, resolutionDate= 2012-06-05]
+
+Ticket[key= BOOKKEEPER-294, injectedVersion= 4.1.0, openingVersion= 4.1.0, fixedVersion= 4.1.1, affectedVersions= [4.1.0], numOfCommits= 1, creationDate= 2012-06-13, resolutionDate= 2012-07-05]
+
+Ticket[key= BOOKKEEPER-313, injectedVersion= 4.2.1, openingVersion= 4.1.1, fixedVersion= 4.2.2, affectedVersions= [4.2.1], numOfCommits= 1, creationDate= 2012-06-23, resolutionDate= 2013-06-21]
+
+Ticket[key= BOOKKEEPER-581, injectedVersion= 4.2.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.1], numOfCommits= 1, creationDate= 2013-03-05, resolutionDate= 2013-03-25]
+
+Ticket[key= BOOKKEEPER-583, injectedVersion= 4.2.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.1], numOfCommits= 1, creationDate= 2013-03-07, resolutionDate= 2013-03-25]
+
+Ticket[key= BOOKKEEPER-638, injectedVersion= 4.3.0, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.3.0], numOfCommits= 1, creationDate= 2013-06-28, resolutionDate= 2013-10-11]
+
+Ticket[key= BOOKKEEPER-695, injectedVersion= 4.3.0, openingVersion= 4.3.0, fixedVersion= 4.3.2, affectedVersions= [4.3.0], numOfCommits= 1, creationDate= 2013-10-16, resolutionDate= 2015-09-25]
+
+Ticket[key= BOOKKEEPER-904, injectedVersion= 4.4.0, openingVersion= 4.4.0, fixedVersion= 4.4.0, affectedVersions= [4.4.0], numOfCommits= 1, creationDate= 2016-03-14, resolutionDate= 2016-04-06]
+
+Ticket[key= BOOKKEEPER-917, injectedVersion= 4.4.0, openingVersion= 4.4.0, fixedVersion= 4.4.0, affectedVersions= [4.4.0], numOfCommits= 1, creationDate= 2016-04-07, resolutionDate= 2016-04-10]
+
+Ticket[key= BOOKKEEPER-921, injectedVersion= 4.4.0, openingVersion= 4.4.0, fixedVersion= 4.4.0, affectedVersions= [4.4.0], numOfCommits= 1, creationDate= 2016-04-11, resolutionDate= 2016-04-27]
+
+Ticket[key= BOOKKEEPER-938, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2016-07-08, resolutionDate= 2016-08-01]
+
+Ticket[key= BOOKKEEPER-940, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2016-07-12, resolutionDate= 2016-07-14]
+
+Ticket[key= BOOKKEEPER-987, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2016-12-16, resolutionDate= 2016-12-17]
+
+Ticket[key= BOOKKEEPER-1020, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-04-01, resolutionDate= 2017-04-03]
+
+Ticket[key= BOOKKEEPER-1071, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-05-18, resolutionDate= 2017-06-01]
+
+Ticket[key= BOOKKEEPER-1079, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-05-26, resolutionDate= 2017-05-26]
+
+Ticket[key= BOOKKEEPER-1102, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-07-22, resolutionDate= 2017-08-01]
+
+Ticket[key= BOOKKEEPER-1103, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-07-26, resolutionDate= 2017-07-28]
+
+Ticket[key= BOOKKEEPER-1105, injectedVersion= 4.5.0, openingVersion= 4.5.0, fixedVersion= 4.5.1, affectedVersions= [4.5.0], numOfCommits= 1, creationDate= 2017-08-09, resolutionDate= 2017-08-16]
+

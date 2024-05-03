@@ -1,0 +1,10 @@
+---------- /Summary List/ ---------
+
+----------------------------------------------------------
+EXTRACTION INFO:
+13 RELEASES 
+55 TICKETS 
+1127 TOTAL COMMITS 
+58 COMMITS CONTAINING BUG-ISSUES
+----------------------------------------------------------
+
