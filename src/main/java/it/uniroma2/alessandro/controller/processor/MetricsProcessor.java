@@ -91,45 +91,30 @@ public class MetricsProcessor {
                 int churningFactor = Math.abs(locAddedByClass.get(i) - locRemovedByClass.get(i));
                 int touchedLinesOfCode = locAddedByClass.get(i) + locRemovedByClass.get(i);
 
-                processValLOCMetrics(addedLOC, removedLOC, churnLOC, touchedLOC,
-                        addedLineOfCode, removedLineOfCode, churningFactor, touchedLinesOfCode);
+                // Set the values
+                addedLOC.addToVal(addedLineOfCode);
+                removedLOC.addToVal(removedLineOfCode);
+                churnLOC.addToVal(churningFactor);
+                touchedLOC.addToVal(touchedLinesOfCode);
 
-                processMaxLOCMetrics(addedLOC, removedLOC, churnLOC, touchedLOC,
-                        addedLineOfCode, removedLineOfCode, churningFactor, touchedLinesOfCode);
+                // Set the max values
+                if (addedLineOfCode > addedLOC.getMaxVal()) {
+                    addedLOC.setMaxVal(addedLineOfCode);
+                }
+                if (removedLineOfCode > removedLOC.getMaxVal()) {
+                    removedLOC.setMaxVal(removedLineOfCode);
+                }
+                if (churningFactor > churnLOC.getMaxVal()) {
+                    churnLOC.setMaxVal(churningFactor);
+                }
+                if (touchedLinesOfCode > touchedLOC.getMaxVal()) {
+                    touchedLOC.setMaxVal(touchedLinesOfCode);
+                }
             }
 
             processAverageLOCMetrics(currentClass, locAddedByClass, locRemovedByClass,
                     addedLOC, removedLOC, churnLOC, touchedLOC);
         }
-    }
-
-    private void processValLOCMetrics(LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC,
-                         int addedLineOfCode, int removedLineOfCode, int churningFactor, int touchedLinesOfCode){
-
-        // Set the values
-        addedLOC.addToVal(addedLineOfCode);
-        removedLOC.addToVal(removedLineOfCode);
-        churnLOC.addToVal(churningFactor);
-        touchedLOC.addToVal(touchedLinesOfCode);
-
-    }
-
-    private void processMaxLOCMetrics(LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC,
-                                      int addedLineOfCode, int removedLineOfCode, int churningFactor, int touchedLinesOfCode){
-        // Set the max values
-        if (addedLineOfCode > addedLOC.getMaxVal()) {
-            addedLOC.setMaxVal(addedLineOfCode);
-        }
-        if (removedLineOfCode > removedLOC.getMaxVal()) {
-            removedLOC.setMaxVal(removedLineOfCode);
-        }
-        if (churningFactor > churnLOC.getMaxVal()) {
-            churnLOC.setMaxVal(churningFactor);
-        }
-        if (touchedLinesOfCode > touchedLOC.getMaxVal()) {
-            touchedLOC.setMaxVal(touchedLinesOfCode);
-        }
-
     }
 
     private void processAverageLOCMetrics(ProjectClass currentClass, List<Integer> locAddedByClass, List<Integer> locRemovedByClass,

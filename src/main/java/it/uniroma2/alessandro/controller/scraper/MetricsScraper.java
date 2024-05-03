@@ -8,7 +8,6 @@ import it.uniroma2.alessandro.model.Release;
 import it.uniroma2.alessandro.model.Ticket;
 import it.uniroma2.alessandro.utilities.ReportUtility;
 import org.eclipse.jgit.api.errors.GitAPIException;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

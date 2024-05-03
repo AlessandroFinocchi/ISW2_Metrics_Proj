@@ -1,6 +1,5 @@
 package it.uniroma2.alessandro.model;
 
-import it.uniroma2.alessandro.exception.ReleaseNotFoundException;
 import org.json.JSONArray;
 
 import java.time.LocalDate;
