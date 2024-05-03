@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         for(Map.Entry<String, String> project: projects){
-            MetricsScraper.scrapeAndComputeData(project.getKey(), project.getValue());
+            MetricsScraper.scrapeData(project.getKey(), project.getValue());
         }
     }
 }

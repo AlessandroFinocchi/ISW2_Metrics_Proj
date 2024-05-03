@@ -112,7 +112,6 @@ public class JiraScraper {
         // Sort tickets by resolution date
         ticketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-
         List<Ticket> ticketsList2 = new ArrayList<>();
         ticketsList2 = ticketsList;
         ticketsList2.sort(Comparator.comparing(Ticket::getTicketKey));

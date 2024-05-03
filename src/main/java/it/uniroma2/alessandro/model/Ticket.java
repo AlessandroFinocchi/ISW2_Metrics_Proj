@@ -18,11 +18,11 @@ public class Ticket {
     /***
      *
      * @param ticketKey the name of the ticket
-     * @param creationDate
-     * @param resolutionDate
-     * @param openingVersion
-     * @param fixedVersion
-     * @param affectedVersions
+     * @param creationDate when the ticket was created
+     * @param resolutionDate when the ticket was resolved
+     * @param openingVersion the first release affected by the issue ticketed
+     * @param fixedVersion the first release no more affected after the OV
+     * @param affectedVersions the list of releases affected by the issue ticketed
      */
     public Ticket(String ticketKey, LocalDate creationDate, LocalDate resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
@@ -31,7 +31,7 @@ public class Ticket {
         if(affectedVersions.isEmpty()){
             injectedVersion = null;
         }else{
-            injectedVersion = affectedVersions.get(0);
+            injectedVersion = affectedVersions.getFirst();
         }
         this.openingVersion = openingVersion;
         this.fixedVersion = fixedVersion;

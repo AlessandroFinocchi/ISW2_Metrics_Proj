@@ -78,17 +78,27 @@ public class Release {
         for (int i = 0; i < affectedVersionsArray.length(); i++) {
             String affectedVersionName = affectedVersionsArray.getJSONObject(i).get("name").toString();
             Release release = getReleaseByName(releasesList, affectedVersionName);
-            existingAffectedVersions.add(release);
+
+            // todo: check if ok
+            // If release is null it means that is not in the list, and since releases are deleted only when they have
+            // no commits, it means that the release had no commits and thus it's not interesting, so we can ignore it
+            if(release != null)
+               existingAffectedVersions.add(release);
         }
         existingAffectedVersions.sort(Comparator.comparing(Release::getReleaseDateTime));
         return existingAffectedVersions;
     }
 
-    private static Release getReleaseByName(List<Release> releaseList, String releaseName) throws ReleaseNotFoundException {
+    /***
+     * Finds a release in a list by its name
+     * @param releaseList list of releases
+     * @param releaseName name of the release
+     * @return the release named as wanted if it exists, null otherwise
+     */
+    private static Release getReleaseByName(List<Release> releaseList, String releaseName) {
         for (Release release : releaseList) {
             if (Objects.equals(releaseName, release.getReleaseName())) return release;
         }
-        throw new ReleaseNotFoundException();
-    }
+        return null;    }
 }
 
