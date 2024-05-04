@@ -29,8 +29,10 @@ public class Ticket {
         this.creationDate = creationDate;
         this.resolutionDate = resolutionDate;
         if(affectedVersions.isEmpty()){
+            // The tickets with null IV will be the one to predict
             injectedVersion = null;
         }else{
+            // IV = AV[1] by definition
             injectedVersion = affectedVersions.getFirst();
         }
         this.openingVersion = openingVersion;

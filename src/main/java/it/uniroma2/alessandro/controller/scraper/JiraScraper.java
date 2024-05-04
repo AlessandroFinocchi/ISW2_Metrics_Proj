@@ -55,6 +55,7 @@ public class JiraScraper {
         int j;
         int i = 0;
         List<Ticket> ticketsList = new ArrayList<>();
+        //List<Ticket> invalidTickets = new ArrayList<>();
 
         do {
             // Get 1000 tickets per while cicle
@@ -87,20 +88,27 @@ public class JiraScraper {
                 Release openingVersion = Release.getReleaseAfterOrEqualDate(creationDate, releasesList);
 
                 // Get the FV of the issue
-                Release fixedVersion =  Release.getReleaseAfterOrEqualDate(resolutionDate, releasesList);
+                Release fixedVersion = Release.getReleaseAfterOrEqualDate(resolutionDate, releasesList);
 
-                //Get the list of AV ordered by date
-                List<Release> affectedVersionsList = Release.returnValidAffectedVersions(affectedVersionsArray, releasesList);
+                // Get the list of AV ordered by date
+                List<Release> affectedVersionsList = Release.getValidAffectedVersions(affectedVersionsArray, releasesList);
 
-                if(// If there are no affected version, ticket isn't needed
-                    affectedVersionsList.isEmpty() ||
-                    // If there are no OV or FV, ticket isn't needed
-                    (openingVersion== null || fixedVersion == null) ||
-                    // Check that OV<AV1: if the first AV is before the OV, ticket is inconsistent, and thus isn't needed
-                    affectedVersionsList.getFirst().getReleaseDateTime().isBefore(openingVersion.getReleaseDateTime()) ||
-                    // Check that AVN<FV: if the last AV is after the FV, ticket is inconsistent, and thus isn't needed
-                    affectedVersionsList.getLast().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime())
-                ) continue;
+                if( // If there are no OV or FV, ticket isn't needed
+                    openingVersion == null || fixedVersion == null ||
+                    // Check consistency of OV and FV dates: OV<=FV
+                    openingVersion.getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime()) ||
+                    // If there are AVs specified, check their consistency too
+                    (!affectedVersionsList.isEmpty() &&
+                        // Check that OV<=AV1: if the first AV is before the OV, ticket is inconsistent, and thus isn't needed
+                        (affectedVersionsList.getFirst().getReleaseDateTime().isBefore(openingVersion.getReleaseDateTime()) ||
+                        // Check that AVN<FV: if the last AV is after the FV, ticket is inconsistent, and thus isn't needed
+                        affectedVersionsList.getLast().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime()))
+                    )
+                ) {
+//                    invalidTickets.add(new Ticket(key, creationDate, resolutionDate, openingVersion,
+//                            fixedVersion, affectedVersionsList));
+                    continue;
+                }
 
                 // Since the list of AVs is ordered, we already know that AV1 < AVN, thus at this point we got
                 // the whole inequality chain consistent, that's to say: OV < AV1 < AVN < FV
@@ -110,10 +118,6 @@ public class JiraScraper {
 
         // Sort tickets by resolution date
         ticketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
-
-        List<Ticket> ticketsList2 = new ArrayList<>();
-        ticketsList2 = ticketsList;
-        ticketsList2.sort(Comparator.comparing(Ticket::getTicketKey));
 
         return ticketsList;
     }

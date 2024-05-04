@@ -81,7 +81,6 @@ public class GitScraper {
                 if(!revCommitList.contains(commit)) {
                     revCommitList.add(commit);
                 }
-
             }
         }
 
@@ -131,10 +130,10 @@ public class GitScraper {
     public List<Commit> filterCommits(List<Commit> commitList, List<Ticket> ticketList) {
         List<Commit> filteredCommitList = new ArrayList<>();
         for (Commit commit : commitList) {
+            String commitFullMessage = commit.getRevCommit().getFullMessage();
             for (Ticket ticket : ticketList) {
-                String commitFullMessage = commit.getRevCommit().getFullMessage();
                 String ticketKey = ticket.getTicketKey();
-                if (matchRegex(commitFullMessage, ticketKey)) { //matchRegex(commitFullMessage, ticketKey)
+                if (matchRegex(commitFullMessage, ticketKey)) {
                     filteredCommitList.add(commit);
                     ticket.addCommit(commit);
                     commit.setTicket(ticket);
@@ -212,12 +211,12 @@ public class GitScraper {
     private void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> classList) throws IOException {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
-        // For each ticket ...
+        // For each ticket get its commits and the IV
         for(Ticket ticket: ticketList) {
             List<Commit> ticketCommits = ticket.getCommitList();
             Release injectedVersion = ticket.getInjectedVersion();
 
-            // For each commit of that ticket...
+            // For each commit of the ticket
             for (Commit commit : ticketCommits) {
                 RevCommit revCommit = commit.getRevCommit();
                 LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
@@ -226,6 +225,7 @@ public class GitScraper {
                 if (!commitDate.isAfter(ticket.getResolutionDate()) && !commitDate.isBefore(ticket.getCreationDate())) {
                     // Get a list of touched class names
                     List<String> modifiedClassesNames = getTouchedClassesNames(revCommit);
+                    // Get the release of that commit
                     Release releaseOfCommit = commit.getRelease();
                     for (String modifiedClass : modifiedClassesNames) {
                         // Set the buggyness of each class
