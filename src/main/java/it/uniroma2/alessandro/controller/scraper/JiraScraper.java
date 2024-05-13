@@ -48,12 +48,6 @@ public class JiraScraper {
         // Order temporally the list of releases
         releases.sort(Comparator.comparing(Release::getReleaseDateTime));
 
-        i = 1;
-        for (Release release: releases){
-            release.setNumericID(i);
-            i++;
-        }
-
         return releases;
     }
 
