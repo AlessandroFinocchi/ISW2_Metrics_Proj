@@ -26,6 +26,7 @@ public class JiraScraper {
 
     public List<Release> scrapeReleases() throws IOException, URISyntaxException, IllegalArgumentException {
         String url = "https://issues.apache.org/jira/rest/api/2/project/" + projName;
+        int i;
 
         List<Release> releases = new ArrayList<>();
 
@@ -33,7 +34,7 @@ public class JiraScraper {
         JSONArray versions = json.getJSONArray("versions");
 
         // Create the list of releases
-        for(int i = 0; i < versions.length(); i++) {
+        for(i = 0; i < versions.length(); i++) {
             String releaseID = null;
             String releaseName = null;
             String releaseDateString = null;
@@ -47,6 +48,12 @@ public class JiraScraper {
         // Order temporally the list of releases
         releases.sort(Comparator.comparing(Release::getReleaseDateTime));
 
+        i = 1;
+        for (Release release: releases){
+            release.setNumericID(i);
+            i++;
+        }
+
         return releases;
     }
 
@@ -54,7 +61,7 @@ public class JiraScraper {
         int total;
         int j;
         int i = 0;
-        List<Ticket> ticketsList = new ArrayList<>();
+        List<Ticket> ticketList = new ArrayList<>();
         //List<Ticket> invalidTickets = new ArrayList<>();
 
         do {
@@ -112,13 +119,18 @@ public class JiraScraper {
 
                 // Since the list of AVs is ordered, we already know that AV1 < AVN, thus at this point we got
                 // the whole inequality chain consistent, that's to say: OV < AV1 < AVN < FV
-                ticketsList.add(new Ticket(key, creationDate, resolutionDate, openingVersion, fixedVersion, affectedVersionsList));
+                ticketList.add(new Ticket(key, creationDate, resolutionDate, openingVersion, fixedVersion, affectedVersionsList));
             }
         } while (i < total);
 
         // Sort tickets by resolution date
-        ticketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
+        ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-        return ticketsList;
+        // Adjust the infos of the tickets setting their IVs with proportion
+        List<Ticket> proportionedTicketsList = Ticket.proportionTickets(ticketList, releasesList, projName);
+
+        proportionedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
+
+        return proportionedTicketsList;
     }
 }

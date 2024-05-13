@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Release {
+    private int numericID;
     private final String releaseID;
     private final String releaseName;
     private final String releaseDateString;
@@ -19,11 +20,21 @@ public class Release {
         if(releaseID == null || releaseName == null || releaseDateString == null){
             throw new IllegalArgumentException();
         }
+        this.numericID = 0;
         this.releaseID = releaseID;
         this.releaseName = releaseName;
         this.releaseDateString = releaseDateString;
         this.releaseDateTime = LocalDate.parse(releaseDateString);
         commitList = new ArrayList<>();
+    }
+
+    public void setNumericID(int numericID){
+        if(this.numericID == 0)
+            this.numericID = numericID;
+    }
+
+    public int getNumericID() {
+        return numericID;
     }
 
     public String getReleaseID() {
@@ -81,6 +92,10 @@ public class Release {
             // todo: check if ok
             // If release is null it means that is not in the list, and since releases are deleted only when they have
             // no commits, it means that the release had no commits and thus it's not interesting, so we can ignore it
+
+            /* risposta: in una release senza commit ci possono essere bugs ereditati dalle release precedenti
+               però possiamo mettere questa cosa nei threat to validities
+             */
             if(release != null)
                existingAffectedVersions.add(release);
         }

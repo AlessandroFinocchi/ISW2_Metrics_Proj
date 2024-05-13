@@ -110,9 +110,6 @@ public class GitScraper {
             }
         }
 
-        // Remove a release if it hasn't got any commit
-        jiraReleases.removeIf(release -> release.getCommitList().isEmpty());
-
         // Order commits by date
         commitList.sort(Comparator.comparing(commit -> commit.getRevCommit().getCommitTime()));
 
