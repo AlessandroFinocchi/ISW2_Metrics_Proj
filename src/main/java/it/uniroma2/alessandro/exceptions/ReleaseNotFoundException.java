@@ -1,4 +1,4 @@
-package it.uniroma2.alessandro.exception;
+package it.uniroma2.alessandro.exceptions;
 
 public class ReleaseNotFoundException extends Exception{
     public ReleaseNotFoundException() {

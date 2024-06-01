@@ -1,9 +1,9 @@
-package it.uniroma2.alessandro.controller.processor;
+package it.uniroma2.alessandro.controllers.processors;
 
-import it.uniroma2.alessandro.controller.scraper.GitScraper;
-import it.uniroma2.alessandro.model.Commit;
-import it.uniroma2.alessandro.model.LOCMetrics;
-import it.uniroma2.alessandro.model.ProjectClass;
+import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
+import it.uniroma2.alessandro.models.Commit;
+import it.uniroma2.alessandro.models.LOCMetrics;
+import it.uniroma2.alessandro.models.ProjectClass;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;

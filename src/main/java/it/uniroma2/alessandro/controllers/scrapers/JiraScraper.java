@@ -1,8 +1,9 @@
-package it.uniroma2.alessandro.controller.scraper;
+package it.uniroma2.alessandro.controllers.scrapers;
 
-import it.uniroma2.alessandro.exception.ReleaseNotFoundException;
-import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.Ticket;
+import it.uniroma2.alessandro.exceptions.IncorrectProportionException;
+import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
+import it.uniroma2.alessandro.models.Release;
+import it.uniroma2.alessandro.models.Ticket;
 import it.uniroma2.alessandro.utilities.JsonUtility;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -51,7 +52,8 @@ public class JiraScraper {
         return releases;
     }
 
-    public List<Ticket> scrapeTickets(List<Release> releasesList) throws IOException, URISyntaxException, ReleaseNotFoundException {
+    public List<Ticket> scrapeTickets(List<Release> releasesList)
+            throws IOException, URISyntaxException, ReleaseNotFoundException, IncorrectProportionException {
         int total;
         int j;
         int i = 0;

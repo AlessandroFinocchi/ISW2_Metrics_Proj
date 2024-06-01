@@ -1,11 +1,12 @@
-package it.uniroma2.alessandro.controller.scraper;
+package it.uniroma2.alessandro.controllers.scrapers;
 
-import it.uniroma2.alessandro.controller.processor.MetricsProcessor;
-import it.uniroma2.alessandro.exception.ReleaseNotFoundException;
-import it.uniroma2.alessandro.model.Commit;
-import it.uniroma2.alessandro.model.ProjectClass;
-import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.Ticket;
+import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
+import it.uniroma2.alessandro.exceptions.IncorrectProportionException;
+import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
+import it.uniroma2.alessandro.models.Commit;
+import it.uniroma2.alessandro.models.ProjectClass;
+import it.uniroma2.alessandro.models.Release;
+import it.uniroma2.alessandro.models.Ticket;
 import it.uniroma2.alessandro.utilities.ReportUtility;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
@@ -83,7 +84,8 @@ public class MetricsScraper {
 
             logger.info("Finished\n");
 
-        } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException e) {
+        } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException |
+                 IncorrectProportionException e) {
             logger.info(e.toString());
         }
     }

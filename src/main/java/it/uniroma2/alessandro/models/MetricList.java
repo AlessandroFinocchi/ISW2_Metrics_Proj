@@ -1,4 +1,4 @@
-package it.uniroma2.alessandro.model;
+package it.uniroma2.alessandro.models;
 
 public class MetricList {
     private final LOCMetrics removedLOCMetrics;

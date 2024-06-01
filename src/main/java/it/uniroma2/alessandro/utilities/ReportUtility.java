@@ -1,9 +1,9 @@
 package it.uniroma2.alessandro.utilities;
 
 
-import it.uniroma2.alessandro.model.Commit;
-import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.Ticket;
+import it.uniroma2.alessandro.models.Commit;
+import it.uniroma2.alessandro.models.Release;
+import it.uniroma2.alessandro.models.Ticket;
 
 import java.io.File;
 import java.io.FileWriter;

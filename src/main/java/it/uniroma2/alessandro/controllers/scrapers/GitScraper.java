@@ -1,9 +1,9 @@
-package it.uniroma2.alessandro.controller.scraper;
+package it.uniroma2.alessandro.controllers.scrapers;
 
-import it.uniroma2.alessandro.model.Commit;
-import it.uniroma2.alessandro.model.ProjectClass;
-import it.uniroma2.alessandro.model.Release;
-import it.uniroma2.alessandro.model.Ticket;
+import it.uniroma2.alessandro.models.Commit;
+import it.uniroma2.alessandro.models.ProjectClass;
+import it.uniroma2.alessandro.models.Release;
+import it.uniroma2.alessandro.models.Ticket;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.ListBranchCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;

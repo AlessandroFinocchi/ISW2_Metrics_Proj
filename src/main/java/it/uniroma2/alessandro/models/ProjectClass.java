@@ -1,4 +1,4 @@
-package it.uniroma2.alessandro.model;
+package it.uniroma2.alessandro.models;
 
 import java.util.ArrayList;
 import java.util.List;
