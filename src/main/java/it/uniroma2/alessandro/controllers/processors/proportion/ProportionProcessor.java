@@ -31,14 +31,14 @@ public abstract class ProportionProcessor implements IProportionProcessor{
         int injectedVersionId;
 
         // Predicted IV = max(1; FV-(FV-OV)*P), ma se FV = OV allora sostituisco FV - OV con 1
-        // ID(FV) == ID(OV) => ID(IV) = max{1, ID(FV) - 1 * p}
+        // If the ID(FV) is equal to ID(OV)m then ID(IV) = max{1, ID(FV) - 1 * p}
         if(ticket.getFixedVersion().getNumericID() == ticket.getOpeningVersion().getNumericID()){
             injectedVersionId = max(
                     1,
                     (int) (ticket.getFixedVersion().getNumericID() - proportion)
             );
         }
-        // ID(FV) != ID(OV) => ID(IV) = max{1, ID(FV) - [ID(FV) - IF(OV)] * p}
+        // If the ID(FV) isn't equal to ID(OV), then ID(IV) = max{1, ID(FV) - [ID(FV) - IF(OV)] * p}
         else{
             injectedVersionId = max(
                     1,

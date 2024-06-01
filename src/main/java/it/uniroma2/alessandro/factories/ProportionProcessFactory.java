@@ -14,7 +14,6 @@ public class ProportionProcessFactory {
             Properties properties = new Properties();
             properties.load(propFile);
             ProportionType proportionType = ProportionType.valueOf(properties.getProperty("PROPORTION_TYPE"));
-            propFile.close();
             return switch (proportionType) {
                 case ProportionType.INCREMENT -> new IncrementProportionProcessor();
                 case ProportionType.NEW -> new NewProportionProcessor();
