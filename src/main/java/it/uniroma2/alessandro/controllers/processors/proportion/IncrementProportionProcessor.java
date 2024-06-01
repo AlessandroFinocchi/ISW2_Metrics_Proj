@@ -14,7 +14,7 @@ import java.util.List;
 
 public class IncrementProportionProcessor extends ProportionProcessor {
 
-    public float processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) {
+    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) {
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> finalTicketList = new ArrayList<>();
         float proportion = 0;
@@ -61,7 +61,6 @@ public class IncrementProportionProcessor extends ProportionProcessor {
         } catch(IOException e){
             logger.info("Error in ComputeProportion when trying to create directory");
         }
-        return proportion;
     }
 
     /**
@@ -79,16 +78,7 @@ public class IncrementProportionProcessor extends ProportionProcessor {
                 .append(ENDING_SEPARATOR);
 
         // If the computation doesn't have to be done, it just appends a line
-        if(!doActualComputation) {
-            if (!ticket.getFixedVersion().getReleaseID().equals(ticket.getOpeningVersion().getReleaseID()))
-                outputToFile.append("PROPORTION: WILL USE PROPORTION AS IT IS!");
-            else
-                outputToFile.append("PROPORTION: WILL SET DENOMINATOR=1!");
-
-            outputToFile.append(NORMAL_SEPARATOR);
-
-            return 0;
-        }
+        if(!doActualComputation) return 0;
 
         // Order the tickets by date
         ticketForProportionList.sort(Comparator.comparing(Ticket::getResolutionDate));
@@ -97,7 +87,7 @@ public class IncrementProportionProcessor extends ProportionProcessor {
         float proportion = computeProportion(ticketForProportionList);
 
         // Write report
-        outputToFile.append("SIZE_OF_FILTERED_TICKET_LIST: ")
+        outputToFile.append("SIZE OF FILTERED TICKET LIST: ")
                 .append(ticketForProportionList.size())
                 .append("\n")
                 .append("PROPORTION : ")

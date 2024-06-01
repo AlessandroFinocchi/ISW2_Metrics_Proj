@@ -65,7 +65,6 @@ public class MetricsScraper {
             MetricsProcessor metricsProcessor = new MetricsProcessor(ticketedCommitList, classList, gitScraper);
             metricsProcessor.processMetrics();
 
-            // todo:CANNOT WORK UNTIL FINISH PROPORTION
             loggerString = "Reporting results from " + projString;
             logger.info(loggerString);
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);

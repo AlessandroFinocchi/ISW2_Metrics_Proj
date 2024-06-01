@@ -8,6 +8,6 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 public interface IProportionProcessor {
-    float processProportion(List<Ticket> fixedTicketsList, List<Release> releaseList, String projName)
+    void processProportion(List<Ticket> fixedTicketsList, List<Release> releaseList, String projName)
             throws URISyntaxException, IncorrectProportionException;
 }

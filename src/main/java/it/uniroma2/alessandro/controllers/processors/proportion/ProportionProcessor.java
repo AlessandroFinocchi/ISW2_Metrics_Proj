@@ -1,7 +1,5 @@
 package it.uniroma2.alessandro.controllers.processors.proportion;
 
-
-import it.uniroma2.alessandro.enums.ProportionType;
 import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
 
@@ -22,7 +20,6 @@ public abstract class ProportionProcessor implements IProportionProcessor{
 
     protected static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
     protected static final StringBuilder outputToFile = new StringBuilder();
-
 
     /**
      * Set, given the proportion and the release list, the IV of a ticket
