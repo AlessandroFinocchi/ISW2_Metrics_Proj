@@ -10,13 +10,15 @@ import java.util.Properties;
 
 public class ProportionProcessFactory {
     public IProportionProcessor createProportionProcessor() throws IOException {
-        FileInputStream propFile = new FileInputStream("config.properties");
-        Properties properties = new Properties();
-        properties.load(propFile);
-        ProportionType proportionType = ProportionType.valueOf(properties.getProperty("PROPORTION_TYPE"));
-        return switch (proportionType) {
-            case ProportionType.INCREMENT -> new IncrementProportionProcessor();
-            case ProportionType.NEW -> new NewProportionProcessor();
-        };
+        try(FileInputStream propFile = new FileInputStream("config.properties")) {
+            Properties properties = new Properties();
+            properties.load(propFile);
+            ProportionType proportionType = ProportionType.valueOf(properties.getProperty("PROPORTION_TYPE"));
+            propFile.close();
+            return switch (proportionType) {
+                case ProportionType.INCREMENT -> new IncrementProportionProcessor();
+                case ProportionType.NEW -> new NewProportionProcessor();
+            };
+        }
     }
 }
