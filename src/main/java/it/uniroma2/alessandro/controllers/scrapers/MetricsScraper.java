@@ -1,7 +1,6 @@
 package it.uniroma2.alessandro.controllers.scrapers;
 
 import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
-import it.uniroma2.alessandro.exceptions.IncorrectProportionException;
 import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
 import it.uniroma2.alessandro.models.Commit;
 import it.uniroma2.alessandro.models.ProjectClass;
@@ -71,6 +70,7 @@ public class MetricsScraper {
 
             loggerString = "Building training and test sets from " + projString;
             logger.info(loggerString);
+
             // Consider only the first half of releases
             LocalDate lastReleaseDate = jiraReleases.get(jiraReleases.size()/2).getReleaseDateTime();
             List<Release> firstHalfReleases = jiraReleases.stream()
@@ -83,8 +83,7 @@ public class MetricsScraper {
 
             logger.info("Finished\n");
 
-        } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException |
-                 IncorrectProportionException e) {
+        } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException e) {
             logger.info(e.toString());
         }
     }

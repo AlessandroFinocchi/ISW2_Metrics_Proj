@@ -1,15 +1,12 @@
 package it.uniroma2.alessandro.models;
 
 import it.uniroma2.alessandro.controllers.processors.proportion.IProportionProcessor;
-import it.uniroma2.alessandro.exceptions.IncorrectProportionException;
 import it.uniroma2.alessandro.factories.ProportionProcessFactory;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.time.LocalDate;
 import java.util.*;
-
-import static java.lang.Math.max;
 
 public class Ticket {
     private final String ticketKey;
@@ -99,7 +96,7 @@ public class Ticket {
     }
 
     public static List<Ticket> proportionTickets(List<Ticket> ticketsList, List<Release> releaseList, String projName)
-            throws URISyntaxException, IncorrectProportionException, IOException {
+            throws URISyntaxException, IOException {
         ProportionProcessFactory proportionProcessFactory = new ProportionProcessFactory();
         IProportionProcessor proportionProcessor = proportionProcessFactory.createProportionProcessor();
 

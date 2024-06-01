@@ -1,6 +1,5 @@
 package it.uniroma2.alessandro.controllers.processors.proportion;
 
-import it.uniroma2.alessandro.exceptions.IncorrectProportionException;
 import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
 
@@ -9,5 +8,5 @@ import java.util.List;
 
 public interface IProportionProcessor {
     void processProportion(List<Ticket> fixedTicketsList, List<Release> releaseList, String projName)
-            throws URISyntaxException, IncorrectProportionException;
+            throws URISyntaxException;
 }
