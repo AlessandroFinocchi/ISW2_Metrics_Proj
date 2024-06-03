@@ -41,6 +41,13 @@ public class GitScraper {
     protected final Git git;
     private final Repository repository;
 
+    public GitScraper(){
+        projName = "";
+        projRepoUrl = "";
+        git = null;
+        repository = null;
+    }
+
     public GitScraper(String projName, String projRepoUrl) throws IOException, GitAPIException {
         String filename = CLONE_DIR + projName.toLowerCase() + "Clone";
         this.projName = projName;
@@ -130,7 +137,7 @@ public class GitScraper {
 
     }
 
-    /***
+    /**
      * Filter commits that have a ticket id inside their message, setting the ticket of a commit and the list of
      * commits for each ticket
      * @param commitList commits to filter
@@ -236,13 +243,18 @@ public class GitScraper {
         return allClasses;
     }
 
-    /***
-     * Get the commits that touch each class and set the buggy attribute
+    /**
+     * Initialize buggyness to false, get the commits that touch each class and set the buggy attribute
      * @param ticketList the tickets where taking information
      * @param classList the classes to set information
      */
-    private void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> classList) throws IOException {
+    public void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> classList) throws IOException {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+        // Initialize buggyness to false
+        for(ProjectClass projectClass : classList){
+            projectClass.getMetrics().setBuggyness(false);
+        }
 
         // For each ticket get its commits and the IV
         for(Ticket ticket: ticketList) {
@@ -254,10 +266,11 @@ public class GitScraper {
                 RevCommit revCommit = commit.getRevCommit();
                 LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
 
+                // Get the name list of classes touched by the commit
+                List<String> modifiedClassesNames = getTouchedClassesNames(revCommit);
+
                 // If the commit date is between the ticket creation and resolution date then it is valid
                 if (!commitDate.isAfter(ticket.getResolutionDate()) && !commitDate.isBefore(ticket.getCreationDate())) {
-                    // Get a list of touched class names
-                    List<String> modifiedClassesNames = getTouchedClassesNames(revCommit);
                     // Get the release of that commit
                     Release releaseOfCommit = commit.getRelease();
                     for (String modifiedClass : modifiedClassesNames) {
