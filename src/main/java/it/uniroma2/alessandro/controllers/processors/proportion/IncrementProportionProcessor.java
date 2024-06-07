@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+
 public class IncrementProportionProcessor extends ProportionProcessor {
 
     public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) {
@@ -19,7 +21,7 @@ public class IncrementProportionProcessor extends ProportionProcessor {
         List<Ticket> finalTicketList = new ArrayList<>();
         float proportion = 0;
         try {
-            File file = new File("outputFiles/reportFiles/" + projName);
+            File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
             if (!file.exists() && !file.mkdirs()) throw new IOException();
 
             // We can start proportion from the first ticket with an IV, the preceding ones cannot be proportioned
@@ -53,7 +55,7 @@ public class IncrementProportionProcessor extends ProportionProcessor {
 
             finalTicketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-            file = new File("outputFiles/reportFiles/" + projName + "/Proportion.txt");
+            file = new File(RESULT_DIRECTORY_NAME + projName + "/reportFiles/Proportion.txt");
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append(outputToFile.toString());
                 FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);

@@ -11,6 +11,7 @@ public class MetricList {
     private int numberOfRevisions;
     private int numberOfDefectFixes;
     private int numberOfAuthors;
+    //todo: fan in and fan out, or add other complexity metrics
 
     public MetricList() {
         bugged = false;

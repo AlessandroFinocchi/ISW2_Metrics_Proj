@@ -17,21 +17,23 @@ public class DatasetsProcessor {
 
     public static final String NAME_OF_THIS_CLASS = DatasetsProcessor.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
+    public final static String RESULT_DIRECTORY_NAME = "results/";
 
     private DatasetsProcessor() {}
     
     public static void writeDataset(String projName, List<Release> releaseList, List<ProjectClass> classList, int iterationNumber,
                                         DatasetType datasetType, OutputFileType extension) throws IOException {
-        File file = new File("outputFiles/" + extension.getId().toLowerCase() + "Files/" + projName + "/" + datasetType.getId());
+        String pathname = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" +
+                extension.getId().toLowerCase() + "Files/" + datasetType.getId().toLowerCase();
+        File file = new File(pathname);
         if (!file.exists() && !file.mkdirs())  throw new IOException();
 
         StringBuilder fileName = new StringBuilder();
-        fileName.append(projName).append("_").append(iterationNumber).append("_").append(datasetType.getId()).append("Set");
-
-        fileName.append(".").append(extension.getId().toLowerCase());
-        file = new File("outputFiles/" + extension.getId().toLowerCase() + "Files/" + projName + "/"
-                + datasetType.getId() + "/" + projName + "_" + iterationNumber + "_" + datasetType.getId() + "Set."
-                + extension.getId().toLowerCase());
+        fileName.append(projName.toLowerCase()).append("_").append(datasetType.getId().toLowerCase()).append("Set").append(iterationNumber)
+                .append(".").append(extension.getId().toLowerCase());
+        pathname = RESULT_DIRECTORY_NAME + projName.toLowerCase()  + "/" + extension.getId().toLowerCase()
+                + "Files/" + datasetType.getId().toLowerCase() + "/" + fileName;
+        file = new File(pathname);
 
         try(FileWriter fileWriter = new FileWriter(file)) {
             appendOnFile(releaseList, classList, extension.equals(OutputFileType.ARFF), fileName.toString(), fileWriter);
@@ -64,7 +66,8 @@ public class DatasetsProcessor {
                         """);
             appendByRelease(releaseList, allProjectClasses, fileWriter, true);
         }else{
-            fileWriter.append("RELEASE_ID," +
+            fileWriter.append(
+                    "RELEASE_ID," +
                     "FILE_NAME," +
                     "SIZE," +
                     "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +

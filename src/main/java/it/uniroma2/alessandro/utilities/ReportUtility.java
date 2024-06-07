@@ -1,6 +1,7 @@
 package it.uniroma2.alessandro.utilities;
 
 
+import it.uniroma2.alessandro.models.ClassifierResult;
 import it.uniroma2.alessandro.models.Commit;
 import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
@@ -17,52 +18,39 @@ import java.util.logging.Logger;
 
 import org.eclipse.jgit.revwalk.RevCommit;
 
+import it.uniroma2.alessandro.enums.ReportType;
+
+import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+
 public class ReportUtility {
 
     public static final String CLOSE_BRACKET_AND_NEW_LINE = "]\n\n";
     public static final String NAME_OF_THIS_CLASS = ReportUtility.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
 
-    private enum ReportTypes {
-        RELEASES("/Releases"),
-        TICKETS("/Tickets"),
-        COMMITS("/Commits"),
-        SUMMARY("/Summary");
-
-        private final String fileName;
-
-        ReportTypes(String fileName) {
-            this.fileName = fileName;
-        }
-        @Override
-        public String toString() {
-            return fileName;
-        }
-    }
-
     private ReportUtility() {
     }
 
     public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
         try {
-            File file = new File("outputFiles/reportFiles/" + projName);
+            File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {
                     throw new IOException();
                 }
             }
-            for(ReportTypes reportType: ReportTypes.values()){
-                file = new File("outputFiles/reportFiles/" + projName + reportType.toString() + ".txt");
+            for(ReportType reportType: ReportType.values()){
+                file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/" + reportType.getId() + ".txt");
                 try(FileWriter fileWriter = new FileWriter(file)) {
                     fileWriter.append("---------- ")
                             .append(String.valueOf(reportType))
                             .append(" List/ ---------\n\n");
                     switch (reportType) {
-                        case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
-                        case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
                         case COMMITS -> appendCommitsInfo(commitList, fileWriter);
+                        case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
                         case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, fileWriter);
+                        case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
                     }
                     FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
                 }
@@ -121,6 +109,71 @@ public class ReportUtility {
                     .append(", releaseName= ").append(release.getReleaseName())
                     .append(", releaseDate= ").append(String.valueOf(release.getReleaseDateString()))
                     .append(", numOfCommits= ").append(String.valueOf(release.getCommitList().size())).append(CLOSE_BRACKET_AND_NEW_LINE);
+        }
+    }
+
+
+    public static void writeCsvFinalResultsFile(String projName, List<ClassifierResult> finalResultsList){
+        try {
+            File file = new File("finalResults/" + projName );
+            if (!file.exists()) {
+                boolean success = file.mkdirs();
+                if (!success) {
+                    throw new IOException();
+                }
+            }
+            StringBuilder fileName = new StringBuilder();
+            fileName.append("/").append(projName).append("_finalReport").append(".csv");
+            file = new File("finalResults/" + projName + fileName);
+            try(FileWriter fileWriter = new FileWriter(file)) {
+                fileWriter.append("DATASET," +
+                        "#TRAINING_RELEASES," +
+                        "%TRAINING_INSTANCES," +
+                        "CLASSIFIER," +
+                        "FEATURE_SELECTION," +
+                        "BALANCING," +
+                        "COST_SENSITIVE," +
+                        "PRECISION," +
+                        "RECALL," +
+                        "AREA_UNDER_ROC," +
+                        "KAPPA," +
+                        "TRUE_POSITIVES," +
+                        "FALSE_POSITIVES," +
+                        "TRUE_NEGATIVES," +
+                        "FALSE_NEGATIVES").append("\n");
+                for(ClassifierResult resultOfClassifier: finalResultsList){
+                    fileWriter.append(projName).append(",")
+                            .append(String.valueOf(resultOfClassifier.getWalkForwardIteration())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getTrainingPercent())).append(",")
+                            .append(resultOfClassifier.getClassifierName()).append(",");
+                    if(resultOfClassifier.hasFeatureSelection()){
+                        fileWriter.append(resultOfClassifier.getCustomClassifier().getFeatureSelectionFilterName()).append(",");
+                    }else {
+                        fileWriter.append("None").append(",");
+                    }
+                    if(resultOfClassifier.hasSampling()){
+                        fileWriter.append(resultOfClassifier.getCustomClassifier().getSamplingFilterName()).append(",");
+                    }else {
+                        fileWriter.append("None").append(",");
+                    }
+                    if (resultOfClassifier.hasCostSensitive()){
+                        fileWriter.append("SensitiveLearning").append(",");
+                    }else {
+                        fileWriter.append("None").append(",");
+                    }
+                    fileWriter.append(String.valueOf(resultOfClassifier.getPrecision())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getRecall())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getAreaUnderROC())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getKappa())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getTruePositives())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getFalsePositives())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getTrueNegatives())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getFalseNegatives())).append("\n");
+                }
+                FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
+            }
+        } catch (IOException e) {
+            logger.info("Error in .csv creation when trying to create directory");
         }
     }
 }

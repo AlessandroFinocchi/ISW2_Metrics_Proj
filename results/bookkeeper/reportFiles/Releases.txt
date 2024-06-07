@@ -1,0 +1,54 @@
+---------- RELEASES List/ ---------
+
+Release[id= 12317843, releaseName= 4.0.0, releaseDate= 2011-12-07, numOfCommits= 92]
+
+Release[id= 12319145, releaseName= 4.1.0, releaseDate= 2012-06-13, numOfCommits= 111]
+
+Release[id= 12321757, releaseName= 4.1.1, releaseDate= 2013-01-16, numOfCommits= 198]
+
+Release[id= 12323840, releaseName= 4.2.1, releaseDate= 2013-03-27, numOfCommits= 23]
+
+Release[id= 12324601, releaseName= 4.2.2, releaseDate= 2013-10-10, numOfCommits= 51]
+
+Release[id= 12323267, releaseName= 4.3.0, releaseDate= 2014-02-02, numOfCommits= 33]
+
+Release[id= 12325569, releaseName= 4.2.3, releaseDate= 2014-06-27, numOfCommits= 35]
+
+Release[id= 12328755, releaseName= 4.3.1, releaseDate= 2015-05-24, numOfCommits= 73]
+
+Release[id= 12333529, releaseName= 4.3.2, releaseDate= 2015-11-17, numOfCommits= 15]
+
+Release[id= 12325566, releaseName= 4.4.0, releaseDate= 2016-05-16, numOfCommits= 46]
+
+Release[id= 12335340, releaseName= 4.5.0, releaseDate= 2017-08-10, numOfCommits= 324]
+
+Release[id= 12341342, releaseName= 4.5.1, releaseDate= 2017-09-10, numOfCommits= 54]
+
+Release[id= 12335749, releaseName= 4.6.0, releaseDate= 2017-11-10, numOfCommits= 72]
+
+Release[id= dummy2018-05-01, releaseName= dummy2018-05-01, releaseDate= 2018-05-01, numOfCommits= 545]
+
+Release[id= dummy2018-10-20, releaseName= dummy2018-10-20, releaseDate= 2018-10-20, numOfCommits= 254]
+
+Release[id= dummy2019-04-10, releaseName= dummy2019-04-10, releaseDate= 2019-04-10, numOfCommits= 185]
+
+Release[id= dummy2019-09-29, releaseName= dummy2019-09-29, releaseDate= 2019-09-29, numOfCommits= 67]
+
+Release[id= dummy2020-03-19, releaseName= dummy2020-03-19, releaseDate= 2020-03-19, numOfCommits= 61]
+
+Release[id= dummy2020-09-07, releaseName= dummy2020-09-07, releaseDate= 2020-09-07, numOfCommits= 69]
+
+Release[id= dummy2021-02-26, releaseName= dummy2021-02-26, releaseDate= 2021-02-26, numOfCommits= 113]
+
+Release[id= dummy2021-08-17, releaseName= dummy2021-08-17, releaseDate= 2021-08-17, numOfCommits= 81]
+
+Release[id= dummy2022-02-05, releaseName= dummy2022-02-05, releaseDate= 2022-02-05, numOfCommits= 123]
+
+Release[id= dummy2022-07-27, releaseName= dummy2022-07-27, releaseDate= 2022-07-27, numOfCommits= 246]
+
+Release[id= dummy2023-01-15, releaseName= dummy2023-01-15, releaseDate= 2023-01-15, numOfCommits= 172]
+
+Release[id= dummy2023-07-06, releaseName= dummy2023-07-06, releaseDate= 2023-07-06, numOfCommits= 162]
+
+Release[id= dummy2023-12-25, releaseName= dummy2023-12-25, releaseDate= 2023-12-25, numOfCommits= 57]
+

@@ -1,18 +1,15 @@
 package it.uniroma2.alessandro.controllers.scrapers;
 
 import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
-import it.uniroma2.alessandro.controllers.processors.TrainingTestSetsProcessor;
+import it.uniroma2.alessandro.controllers.processors.sets.TrainingTestSetsProcessor;
+import it.uniroma2.alessandro.controllers.processors.weka.WekaProcessor;
 import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
-import it.uniroma2.alessandro.models.Commit;
-import it.uniroma2.alessandro.models.ProjectClass;
-import it.uniroma2.alessandro.models.Release;
-import it.uniroma2.alessandro.models.Ticket;
+import it.uniroma2.alessandro.models.*;
 import it.uniroma2.alessandro.utilities.ReportUtility;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -69,21 +66,27 @@ public class MetricsScraper {
             logger.info(loggerString);
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
-            loggerString = "Building training and test sets from " + projString;
-            logger.info(loggerString);
-
             loggerString = "Starting walk forward to build training and testing sets for "+ projString;
             logger.info(loggerString);
             TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
-            setsProcessor.processWalkForward(gitScraper, jiraReleases, ticketList, classList, projName);
+            int walkForwardIterations = setsProcessor.processWalkForward(gitScraper, jiraReleases, ticketList, classList, projName);
 
-            loggerString = " Training WEKA classifiers for "+ projString;
+            loggerString = "Training WEKA classifiers for "+ projString;
             logger.info(loggerString);
+            WekaProcessor wekaProcessor = new WekaProcessor(projName, walkForwardIterations);
+            List<ClassifierResult> results = wekaProcessor.processClassifierResults();
 
-            logger.info("Finished\n");
+            loggerString = "Writing results for "+ projString;
+            logger.info(loggerString);
+            ReportUtility.writeCsvFinalResultsFile(projName, results);
+
+            loggerString = "Finished work for "+ projString;
+            logger.info(loggerString);
 
         } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException e) {
             logger.info(e.toString());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 }

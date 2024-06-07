@@ -11,14 +11,15 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+
 public class NewProportionProcessor extends ProportionProcessor{
 
-    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) {
+    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) throws Exception {
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> ticketToProportionList = new ArrayList<>(); // List of ticket without IV
         float proportion = 0;
-        try {
-            File file = new File("outputFiles/reportFiles/" + projName);
+            File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles");
             if (!file.exists() && !file.mkdirs()) throw new IOException();
 
             // Separate tickets with and without AV, and set IV for those ticket with AVs: IV = AV[0]
@@ -39,14 +40,11 @@ public class NewProportionProcessor extends ProportionProcessor{
 
             ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-            file = new File("outputFiles/reportFiles/" + projName + "/Proportion.txt");
+            file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/Proportion.txt");
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append(outputToFile.toString());
                 FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
-        } catch(IOException e){
-            logger.info("Error in ComputeProportion when trying to create directory");
-        }
     }
 
     private float getProportion(List<Ticket> ticketList) {

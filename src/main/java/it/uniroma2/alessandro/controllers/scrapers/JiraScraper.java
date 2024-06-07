@@ -51,7 +51,7 @@ public class JiraScraper {
     }
 
     public List<Ticket> scrapeTickets(List<Release> releasesList)
-            throws IOException, URISyntaxException, ReleaseNotFoundException {
+            throws Exception {
         int total;
         int j;
         int i = 0;
