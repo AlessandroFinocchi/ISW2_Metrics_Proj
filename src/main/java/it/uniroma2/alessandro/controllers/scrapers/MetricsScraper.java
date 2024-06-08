@@ -1,5 +1,6 @@
 package it.uniroma2.alessandro.controllers.scrapers;
 
+import it.uniroma2.alessandro.controllers.processors.ACUMEProcessor;
 import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
 import it.uniroma2.alessandro.controllers.processors.sets.TrainingTestSetsProcessor;
 import it.uniroma2.alessandro.controllers.processors.weka.WekaProcessor;
@@ -78,7 +79,12 @@ public class MetricsScraper {
 
             loggerString = "Writing results for "+ projString;
             logger.info(loggerString);
-            ReportUtility.writeCsvFinalResultsFile(projName, results);
+            ReportUtility.writeFinalResults(projName, results);
+
+            loggerString = "Writing ACUME files for "+ projString;
+            logger.info(loggerString);
+            ACUMEProcessor acumeProcessor = new ACUMEProcessor(projName);
+            acumeProcessor.processACUMEFiles(results);
 
             loggerString = "Finished work for "+ projString;
             logger.info(loggerString);

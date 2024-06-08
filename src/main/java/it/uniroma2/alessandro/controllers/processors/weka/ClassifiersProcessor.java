@@ -152,7 +152,7 @@ public class ClassifiersProcessor {
                     filteredCostSensitiveClassifier.setFilter(featureSelectionFilter);
                     filteredCostSensitiveClassifier.setClassifier(costSensitiveClassifier);
 
-                    projectClassifiersList.add(new ProjectClassifier(filteredCostSensitiveClassifier, filteredCostSensitiveClassifier.getClass().getSimpleName(),
+                    projectClassifiersList.add(new ProjectClassifier(filteredCostSensitiveClassifier, classifier.getClass().getSimpleName(),
                             featureSelectionFilter.getSearch().getClass().getSimpleName(), NO_SAMPLING, true));
                 }
             }

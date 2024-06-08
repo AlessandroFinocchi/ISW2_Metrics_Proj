@@ -112,19 +112,15 @@ public class ReportUtility {
         }
     }
 
-
-    public static void writeCsvFinalResultsFile(String projName, List<ClassifierResult> finalResultsList){
+    public static void writeFinalResults(String projName, List<ClassifierResult> finalResultsList){
         try {
-            File file = new File("finalResults/" + projName );
-            if (!file.exists()) {
-                boolean success = file.mkdirs();
-                if (!success) {
-                    throw new IOException();
-                }
-            }
-            StringBuilder fileName = new StringBuilder();
-            fileName.append("/").append(projName).append("_finalReport").append(".csv");
-            file = new File("finalResults/" + projName + fileName);
+            // Create directory
+            String directoryName = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/finalResults/";
+            File file = new File(directoryName);
+            if (!file.exists() && !file.mkdirs()) throw new IOException();
+
+            String pathname = directoryName + projName.toLowerCase() + "_finalResults.csv";
+            file = new File(pathname);
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append("DATASET," +
                         "#TRAINING_RELEASES," +
