@@ -44,7 +44,6 @@ public class TrainingTestSetsProcessor {
 
             processTrainingSet(gitScraper, currentReleaseList, currentTicketList, classList, currentRelease, projName);
 
-            // todo: mettilo fuori dal for tanto il proportion lo deve calcolare una volta sola per il testing set
             processTestingSet(gitScraper, releaseList, ticketList, classList, currentRelease, projName);
         }
 

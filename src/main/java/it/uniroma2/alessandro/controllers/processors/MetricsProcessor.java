@@ -42,7 +42,6 @@ public class MetricsProcessor {
         }
     }
 
-    // todo: check if ok
     /**
      * For each class of the project in the classList computes the number of fixes as the number of commits that
      * touches the class

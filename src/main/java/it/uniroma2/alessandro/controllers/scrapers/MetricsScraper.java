@@ -22,6 +22,9 @@ public class MetricsScraper {
 
     public void scrapeData(String projName, String projRepoUrl){
         try {
+
+            setupSystem();
+
             String loggerString;
             String projString = projName + " project...\n";
             logger.info("Starting\n");
@@ -88,5 +91,16 @@ public class MetricsScraper {
         } catch (Exception e) {
             logger.info(e.toString());
         }
+    }
+
+    /**
+     * Setup properties
+     */
+    private void setupSystem() {
+        // Weka can use these libraries to ease computation when building machine learning models so that
+        // when runs on systems without the libraries it uses the pure java implementations.
+        System.setProperty("com.github.fommil.netlib.BLAS", "com.github.fommil.netlib.F2jBLAS");
+        System.setProperty("com.github.fommil.netlib.LAPACK", "com.github.fommil.netlib.F2jLAPACK");
+        System.setProperty("com.github.fommil.netlib.ARPACK", "com.github.fommil.netlib.F2jARPACK");
     }
 }
