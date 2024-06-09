@@ -15,7 +15,7 @@ import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcess
 
 public class NewProportionProcessor extends ProportionProcessor{
 
-    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) throws Exception {
+    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) throws IOException {
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> ticketToProportionList = new ArrayList<>(); // List of ticket without IV
         float proportion = 0;

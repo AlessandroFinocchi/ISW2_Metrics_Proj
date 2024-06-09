@@ -17,13 +17,14 @@ public class DatasetsProcessor {
 
     public static final String NAME_OF_THIS_CLASS = DatasetsProcessor.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
-    public final static String RESULT_DIRECTORY_NAME = "results/";
+    public static final String RESULT_DIRECTORY_NAME = "results/";
 
     private DatasetsProcessor() {}
     
     public static void writeDataset(String projName, List<Release> releaseList, List<ProjectClass> classList, int iterationNumber,
                                         DatasetType datasetType, OutputFileType extension) throws IOException {
-        String pathname = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" +
+        StringBuilder projSubDirectory = new StringBuilder(projName.toLowerCase()).append("/");
+        String pathname = RESULT_DIRECTORY_NAME + projSubDirectory +
                 extension.getId().toLowerCase() + "Files/" + datasetType.getId().toLowerCase();
         File file = new File(pathname);
         if (!file.exists() && !file.mkdirs())  throw new IOException();

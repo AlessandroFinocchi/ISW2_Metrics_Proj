@@ -67,26 +67,26 @@ public class MetricsScraper {
             logger.info(loggerString);
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
-            loggerString = "Starting walk forward to build training and testing sets for "+ projString;
+            loggerString = "Starting walk forward to build training and testing sets for " + projString;
             logger.info(loggerString);
             TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
             int walkForwardIterations = setsProcessor.processWalkForward(gitScraper, jiraReleases, ticketList, classList, projName);
 
-            loggerString = "Training WEKA classifiers for "+ projString;
+            loggerString = "Training WEKA classifiers for " + projString;
             logger.info(loggerString);
             WekaProcessor wekaProcessor = new WekaProcessor(projName, walkForwardIterations);
             List<ClassifierResult> results = wekaProcessor.processClassifierResults();
 
-            loggerString = "Writing results for "+ projString;
+            loggerString = "Writing results for " + projString;
             logger.info(loggerString);
             ReportUtility.writeFinalResults(projName, results);
 
-            loggerString = "Writing ACUME files for "+ projString;
+            loggerString = "Writing ACUME files for " + projString;
             logger.info(loggerString);
             ACUMEProcessor acumeProcessor = new ACUMEProcessor(projName);
             acumeProcessor.processACUMEFiles(results);
 
-            loggerString = "Finished work for "+ projString;
+            loggerString = "Finished work for " + projString;
             logger.info(loggerString);
 
         } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException e) {

@@ -96,7 +96,7 @@ public class Ticket {
     }
 
     public static List<Ticket> proportionTickets(List<Ticket> ticketsList, List<Release> releaseList, String projName)
-            throws Exception {
+            throws IOException {
         ProportionProcessFactory proportionProcessFactory = new ProportionProcessFactory();
         IProportionProcessor proportionProcessor = proportionProcessFactory.createProportionProcessor();
 

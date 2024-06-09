@@ -22,7 +22,7 @@ public class ACUMEProcessor {
     public ACUMEProcessor(String projName) throws IOException {
         // Create directory
         this.projName = projName;
-        this.directoryName = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" + "acumeFiles";
+        this.directoryName = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" + "acumeFiles/";
         File file = new File(directoryName);
         if (!file.exists() && !file.mkdirs())  throw new IOException();
     }
@@ -48,7 +48,7 @@ public class ACUMEProcessor {
             testingSetInstance.setClassIndex(numAttr - 1);
 
             result.getCustomClassifier().getClassifier().buildClassifier(trainingSetInstance);
-            Evaluation eval = new Evaluation(testingSetInstance);;
+            Evaluation eval = new Evaluation(testingSetInstance);
             eval.evaluateModel(result.getCustomClassifier().getClassifier(), testingSetInstance);
 
             int sizeIndex = testingSetInstance.attribute("SIZE").index();
@@ -90,7 +90,7 @@ public class ACUMEProcessor {
 
     private @NotNull File getFile(ClassifierResult classifierResult) {
         String costSensitive = classifierResult.getCustomClassifier().isCostSensitive() ? "yesCostSensitive" : "noCostSensitive";
-        String filename =  directoryName + "/" + projName.toLowerCase() +
+        String filename =  directoryName + projName.toLowerCase() +
                 "_" + classifierResult.getClassifierName() +
                 "_" + classifierResult.getCustomClassifier().getFeatureSelectionFilterName() +
                 "_" + classifierResult.getCustomClassifier().getSamplingFilterName() +

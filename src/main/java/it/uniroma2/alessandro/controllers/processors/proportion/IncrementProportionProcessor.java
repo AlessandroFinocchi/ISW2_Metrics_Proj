@@ -16,52 +16,49 @@ import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcess
 
 public class IncrementProportionProcessor extends ProportionProcessor {
 
-    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) {
+    public void processProportion(List<Ticket> ticketList, List<Release> releaseList, String projName) throws IOException {
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> finalTicketList = new ArrayList<>();
         float proportion = 0;
-        try {
-            File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
-            if (!file.exists() && !file.mkdirs()) throw new IOException();
 
-            // We can start proportion from the first ticket with an IV, the preceding ones cannot be proportioned
-            LocalDate firstTicketWithIVDate = ticketList
-                    .stream()
-                    .filter(Ticket::isCorrect)
-                    .toList()
-                    .getFirst().getResolutionDate();
-            ticketList.removeIf(t -> t.getResolutionDate().isBefore(firstTicketWithIVDate));
+        File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
+        if (!file.exists() && !file.mkdirs()) throw new IOException();
 
-            // For each ticket...
-            for(Ticket ticket : ticketList){
-                // If the ticket has a list of AVs
-                if(ticket.isCorrect()){
-                    getProportion(ticketForProportionList, ticket, false);
-                    ticket.setInjectedVersion(ticket.getAffectedVersions().getFirst());
+        // We can start proportion from the first ticket with an IV, the preceding ones cannot be proportioned
+        LocalDate firstTicketWithIVDate = ticketList
+                .stream()
+                .filter(Ticket::isCorrect)
+                .toList()
+                .getFirst().getResolutionDate();
+        ticketList.removeIf(t -> t.getResolutionDate().isBefore(firstTicketWithIVDate));
 
-                    // For proportion, we use only the tickets with injected version
-                    // already known, not the one processed through proportion
-                    ticketForProportionList.add(ticket);
-                }
-                // If the ticket doesn't have a list of AVs
-                else{
-                    proportion = getProportion(ticketForProportionList, ticket, true);
-                    computeInjectedVersion(ticket, releaseList, proportion);
-                    computeAffectedVersionsList(ticket, releaseList);
-                }
+        // For each ticket...
+        for(Ticket ticket : ticketList){
+            // If the ticket has a list of AVs
+            if(ticket.isCorrect()){
+                getProportion(ticketForProportionList, ticket, false);
+                ticket.setInjectedVersion(ticket.getAffectedVersions().getFirst());
 
-                finalTicketList.add(ticket);
+                // For proportion, we use only the tickets with injected version
+                // already known, not the one processed through proportion
+                ticketForProportionList.add(ticket);
+            }
+            // If the ticket doesn't have a list of AVs
+            else{
+                proportion = getProportion(ticketForProportionList, ticket, true);
+                computeInjectedVersion(ticket, releaseList, proportion);
+                computeAffectedVersionsList(ticket, releaseList);
             }
 
-            finalTicketList.sort(Comparator.comparing(Ticket::getResolutionDate));
+            finalTicketList.add(ticket);
+        }
 
-            file = new File(RESULT_DIRECTORY_NAME + projName + "/reportFiles/Proportion.txt");
-            try(FileWriter fileWriter = new FileWriter(file)) {
-                fileWriter.append(outputToFile.toString());
-                FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
-            }
-        } catch(IOException e){
-            logger.info("Error in ComputeProportion when trying to create directory");
+        finalTicketList.sort(Comparator.comparing(Ticket::getResolutionDate));
+
+        file = new File(RESULT_DIRECTORY_NAME + projName + "/reportFiles/Proportion.txt");
+        try(FileWriter fileWriter = new FileWriter(file)) {
+            fileWriter.append(outputToFile.toString());
+            FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
     }
 
