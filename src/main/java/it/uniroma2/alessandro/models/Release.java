@@ -89,13 +89,8 @@ public class Release {
             String affectedVersionName = affectedVersionsArray.getJSONObject(i).get("name").toString();
             Release release = getReleaseByName(releasesList, affectedVersionName);
 
-            // todo: check if ok
             // If release is null it means that is not in the list, and since releases are deleted only when they have
             // no commits, it means that the release had no commits and thus it's not interesting, so we can ignore it
-
-            /* risposta: in una release senza commit ci possono essere bugs ereditati dalle release precedenti
-               però possiamo mettere questa cosa nei threat to validities
-             */
             if(release != null)
                existingAffectedVersions.add(release);
         }

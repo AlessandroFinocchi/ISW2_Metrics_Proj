@@ -56,10 +56,9 @@ public class JiraScraper {
         int j;
         int i = 0;
         List<Ticket> ticketList = new ArrayList<>();
-        //List<Ticket> invalidTickets = new ArrayList<>();
 
         do {
-            // Get 1000 tickets per while cicle
+            // Get 1000 tickets per while cycle
             j = i + 1000;
             String url = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22"
                     + this.projName + "%22AND%22issueType%22=%22Bug%22AND" +
@@ -100,16 +99,12 @@ public class JiraScraper {
                     openingVersion.getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime()) ||
                     // If there are AVs specified, check their consistency too
                     (!affectedVersionsList.isEmpty() &&
-                        // Check that OV<=AV1: if the first AV is before the OV, ticket is inconsistent, and thus isn't needed
-                        (affectedVersionsList.getFirst().getReleaseDateTime().isBefore(openingVersion.getReleaseDateTime()) ||
+                        // Check that AV1<=OV: if the first OV is before the AV1, ticket is inconsistent, and thus isn't needed
+                        (openingVersion.getReleaseDateTime().isBefore(affectedVersionsList.getFirst().getReleaseDateTime()) ||
                         // Check that AVN<FV: if the last AV is after the FV, ticket is inconsistent, and thus isn't needed
-                        affectedVersionsList.getLast().getReleaseDateTime().isAfter(fixedVersion.getReleaseDateTime()))
+                        !fixedVersion.getReleaseDateTime().isAfter(affectedVersionsList.getLast().getReleaseDateTime()))
                     )
-                ) {
-//                    invalidTickets.add(new Ticket(key, creationDate, resolutionDate, openingVersion,
-//                            fixedVersion, affectedVersionsList));
-                    continue;
-                }
+                ) continue;
 
                 // Since the list of AVs is ordered, we already know that AV1 < AVN, thus at this point we got
                 // the whole inequality chain consistent, that's to say: OV < AV1 < AVN < FV

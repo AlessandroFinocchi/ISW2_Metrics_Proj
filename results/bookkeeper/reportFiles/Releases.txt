@@ -26,29 +26,29 @@ Release[id= 12341342, releaseName= 4.5.1, releaseDate= 2017-09-10, numOfCommits=
 
 Release[id= 12335749, releaseName= 4.6.0, releaseDate= 2017-11-10, numOfCommits= 72]
 
-Release[id= dummy2018-05-01, releaseName= dummy2018-05-01, releaseDate= 2018-05-01, numOfCommits= 545]
+Release[id= fake_release_2018-05-01, releaseName= fake_release_2018-05-01, releaseDate= 2018-05-01, numOfCommits= 545]
 
-Release[id= dummy2018-10-20, releaseName= dummy2018-10-20, releaseDate= 2018-10-20, numOfCommits= 254]
+Release[id= fake_release_2018-10-20, releaseName= fake_release_2018-10-20, releaseDate= 2018-10-20, numOfCommits= 254]
 
-Release[id= dummy2019-04-10, releaseName= dummy2019-04-10, releaseDate= 2019-04-10, numOfCommits= 185]
+Release[id= fake_release_2019-04-10, releaseName= fake_release_2019-04-10, releaseDate= 2019-04-10, numOfCommits= 185]
 
-Release[id= dummy2019-09-29, releaseName= dummy2019-09-29, releaseDate= 2019-09-29, numOfCommits= 67]
+Release[id= fake_release_2019-09-29, releaseName= fake_release_2019-09-29, releaseDate= 2019-09-29, numOfCommits= 67]
 
-Release[id= dummy2020-03-19, releaseName= dummy2020-03-19, releaseDate= 2020-03-19, numOfCommits= 61]
+Release[id= fake_release_2020-03-19, releaseName= fake_release_2020-03-19, releaseDate= 2020-03-19, numOfCommits= 61]
 
-Release[id= dummy2020-09-07, releaseName= dummy2020-09-07, releaseDate= 2020-09-07, numOfCommits= 69]
+Release[id= fake_release_2020-09-07, releaseName= fake_release_2020-09-07, releaseDate= 2020-09-07, numOfCommits= 69]
 
-Release[id= dummy2021-02-26, releaseName= dummy2021-02-26, releaseDate= 2021-02-26, numOfCommits= 113]
+Release[id= fake_release_2021-02-26, releaseName= fake_release_2021-02-26, releaseDate= 2021-02-26, numOfCommits= 113]
 
-Release[id= dummy2021-08-17, releaseName= dummy2021-08-17, releaseDate= 2021-08-17, numOfCommits= 81]
+Release[id= fake_release_2021-08-17, releaseName= fake_release_2021-08-17, releaseDate= 2021-08-17, numOfCommits= 81]
 
-Release[id= dummy2022-02-05, releaseName= dummy2022-02-05, releaseDate= 2022-02-05, numOfCommits= 123]
+Release[id= fake_release_2022-02-05, releaseName= fake_release_2022-02-05, releaseDate= 2022-02-05, numOfCommits= 123]
 
-Release[id= dummy2022-07-27, releaseName= dummy2022-07-27, releaseDate= 2022-07-27, numOfCommits= 246]
+Release[id= fake_release_2022-07-27, releaseName= fake_release_2022-07-27, releaseDate= 2022-07-27, numOfCommits= 246]
 
-Release[id= dummy2023-01-15, releaseName= dummy2023-01-15, releaseDate= 2023-01-15, numOfCommits= 172]
+Release[id= fake_release_2023-01-15, releaseName= fake_release_2023-01-15, releaseDate= 2023-01-15, numOfCommits= 172]
 
-Release[id= dummy2023-07-06, releaseName= dummy2023-07-06, releaseDate= 2023-07-06, numOfCommits= 162]
+Release[id= fake_release_2023-07-06, releaseName= fake_release_2023-07-06, releaseDate= 2023-07-06, numOfCommits= 162]
 
-Release[id= dummy2023-12-25, releaseName= dummy2023-12-25, releaseDate= 2023-12-25, numOfCommits= 57]
+Release[id= fake_release_2023-12-25, releaseName= fake_release_2023-12-25, releaseDate= 2023-12-25, numOfCommits= 57]
 

@@ -22,7 +22,6 @@ public class MetricsScraper {
 
     public void scrapeData(String projName, String projRepoUrl){
         try {
-
             setupSystem();
 
             String loggerString;

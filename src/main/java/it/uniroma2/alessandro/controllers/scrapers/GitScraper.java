@@ -33,26 +33,13 @@ import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class GitScraper {
-    private static final Logger logger = Logger.getLogger(GitScraper.class.getName());
     private static final String CLONE_DIR = "repos/";
 
-    private final String projName;
-    private final String projRepoUrl;
     protected final Git git;
     private final Repository repository;
 
-    public GitScraper(){
-        projName = "";
-        projRepoUrl = "";
-        git = null;
-        repository = null;
-    }
-
     public GitScraper(String projName, String projRepoUrl) throws IOException, GitAPIException {
         String filename = CLONE_DIR + projName.toLowerCase() + "Clone";
-        this.projName = projName;
-        this.projRepoUrl = projRepoUrl;
-
 
         // Cloning repo and setting up instance properties: git clone <projRepoUrl>
         File directory = new File(filename);
@@ -160,7 +147,6 @@ public class GitScraper {
         return filteredCommitList;
     }
 
-
     public List<ProjectClass> extractProjectClasses(List<Release> releaseList, List<Ticket> ticketList,
                                                     List<Commit> commitList) throws IOException {
         List<ProjectClass> classList = new ArrayList<>();
@@ -210,8 +196,8 @@ public class GitScraper {
         LocalDate currentDate = jiraReleases.getLast().getReleaseDateTime().plusDays(intervalInDays);
         while(currentDate.isBefore(lastCommitDate)){
             jiraReleases.add(new Release(
-                    "dummy" + currentDate.toString(),
-                    "dummy" + currentDate.toString(),
+                    "fake_release_" + currentDate.toString(),
+                    "fake_release_" + currentDate.toString(),
                     currentDate.toString()));
             currentDate = currentDate.plusDays(intervalInDays);
         }
