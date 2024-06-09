@@ -4,13 +4,9 @@ import it.uniroma2.alessandro.controllers.processors.ACUMEProcessor;
 import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
 import it.uniroma2.alessandro.controllers.processors.sets.TrainingTestSetsProcessor;
 import it.uniroma2.alessandro.controllers.processors.weka.WekaProcessor;
-import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
 import it.uniroma2.alessandro.models.*;
 import it.uniroma2.alessandro.utilities.ReportUtility;
-import org.eclipse.jgit.api.errors.GitAPIException;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.List;
 import java.util.logging.Logger;
 
