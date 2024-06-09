@@ -89,10 +89,8 @@ public class MetricsScraper {
             loggerString = "Finished work for " + projString;
             logger.info(loggerString);
 
-        } catch (IOException | URISyntaxException | GitAPIException | ReleaseNotFoundException e) {
-            logger.info(e.toString());
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            logger.info(e.toString());
         }
     }
 }

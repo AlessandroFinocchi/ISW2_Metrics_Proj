@@ -3,7 +3,6 @@ package it.uniroma2.alessandro.controllers.processors.weka;
 import it.uniroma2.alessandro.models.ProjectClassifier;
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.GreedyStepwise;
-import weka.attributeSelection.Ranker;
 import weka.classifiers.Classifier;
 import weka.classifiers.CostMatrix;
 import weka.classifiers.bayes.NaiveBayes;
@@ -27,19 +26,19 @@ import java.util.Properties;
 
 public class ClassifiersProcessor {
 
-    public final String NO_SELECTION = "NoSelection";
-    public final String NO_SAMPLING = "NoSampling";
-    public final double FALSE_POSITIVE_WEIGHT;
-    public final double FALSE_NEGATIVE_WEIGHT;
-    public final boolean USING_SAMPLING;
+    public static final String NO_SELECTION = "NoSelection";
+    public static final String NO_SAMPLING = "NoSampling";
+    public final double falsePositiveWeight;
+    public final double falseNegativeWeight;
+    public final boolean usingSampling;
 
     public ClassifiersProcessor() throws IOException {
         try(FileInputStream propFile = new FileInputStream("config.properties")) {
             Properties properties = new Properties();
             properties.load(propFile);
-            FALSE_POSITIVE_WEIGHT = Integer.parseInt(properties.getProperty("FALSE_POSITIVE_WEIGHT"));
-            FALSE_NEGATIVE_WEIGHT = Integer.parseInt(properties.getProperty("FALSE_NEGATIVE_WEIGHT"));
-            USING_SAMPLING = Boolean.parseBoolean(properties.getProperty("USING_SAMPLING"));
+            falsePositiveWeight = Integer.parseInt(properties.getProperty("FALSE_POSITIVE_WEIGHT"));
+            falseNegativeWeight = Integer.parseInt(properties.getProperty("FALSE_NEGATIVE_WEIGHT"));
+            usingSampling = Boolean.parseBoolean(properties.getProperty("USING_SAMPLING"));
         }
     }
 
@@ -63,7 +62,7 @@ public class ClassifiersProcessor {
         //YES FEATURE SELECTION NO SAMPLING YES COST SENSITIVE
         createFeatureSelectedAndCostSensitiveClassifiers(classifierList, featureSelectionFilters, projectClassifiersList);
 
-        if(USING_SAMPLING)
+        if(usingSampling)
             samplingClassifiers(isBuggyAttributeStats, classifierList, featureSelectionFilters, projectClassifiersList);
 
         return projectClassifiersList;
@@ -170,8 +169,8 @@ public class ClassifiersProcessor {
     private CostMatrix getCostMatrix() {
         CostMatrix costMatrix = new CostMatrix(2);
         costMatrix.setCell(0, 0, 0.0);
-        costMatrix.setCell(1, 0, FALSE_POSITIVE_WEIGHT);
-        costMatrix.setCell(0, 1, FALSE_NEGATIVE_WEIGHT);
+        costMatrix.setCell(1, 0, falsePositiveWeight);
+        costMatrix.setCell(0, 1, falseNegativeWeight);
         costMatrix.setCell(1, 1, 0.0);
         return costMatrix;
     }
