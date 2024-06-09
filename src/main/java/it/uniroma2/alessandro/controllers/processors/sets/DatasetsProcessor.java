@@ -23,18 +23,19 @@ public class DatasetsProcessor {
     
     public static void writeDataset(String projName, List<Release> releaseList, List<ProjectClass> classList, int iterationNumber,
                                         DatasetType datasetType, OutputFileType extension) throws IOException {
-        StringBuilder projSubDirectory = new StringBuilder(projName.toLowerCase()).append("/");
-        String pathname = RESULT_DIRECTORY_NAME + projSubDirectory +
-                extension.getId().toLowerCase() + "Files/" + datasetType.getId().toLowerCase();
-        File file = new File(pathname);
+        StringBuilder projNameDelimited = new StringBuilder(projName.toLowerCase()).append("/");
+        StringBuilder datasetTypeDelimited = new StringBuilder(datasetType.getId().toLowerCase()).append("/");
+        StringBuilder pathname = new StringBuilder(RESULT_DIRECTORY_NAME).append(projNameDelimited)
+                .append(extension.getId().toLowerCase()).append("Files/").append(datasetType.getId().toLowerCase());
+        File file = new File(pathname.toString());
         if (!file.exists() && !file.mkdirs())  throw new IOException();
 
         StringBuilder fileName = new StringBuilder();
         fileName.append(projName.toLowerCase()).append("_").append(datasetType.getId().toLowerCase()).append("Set").append(iterationNumber)
                 .append(".").append(extension.getId().toLowerCase());
-        pathname = RESULT_DIRECTORY_NAME + projName.toLowerCase()  + "/" + extension.getId().toLowerCase()
-                + "Files/" + datasetType.getId().toLowerCase() + "/" + fileName;
-        file = new File(pathname);
+        pathname = new StringBuilder(RESULT_DIRECTORY_NAME).append(projNameDelimited)
+                .append(extension.getId().toLowerCase()).append("Files/").append(datasetTypeDelimited).append(fileName);
+        file = new File(pathname.toString());
 
         try(FileWriter fileWriter = new FileWriter(file)) {
             appendOnFile(releaseList, classList, extension.equals(OutputFileType.ARFF), fileName.toString(), fileWriter);
