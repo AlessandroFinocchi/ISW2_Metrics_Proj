@@ -115,6 +115,8 @@ public class JiraScraper {
         // Sort tickets by resolution date
         ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
+        //todo: è giusto farlo qua???
+
         // Adjust the infos of the tickets setting their IVs with proportion
         List<Ticket> proportionedTicketsList = Ticket.proportionTickets(ticketList, releasesList, projName);
 

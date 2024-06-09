@@ -54,6 +54,7 @@ public class MetricsScraper {
 
             loggerString = "Extracting touched classes from " + projString;
             logger.info(loggerString);
+            //todo: giusto usare commitList e non ticketedCommitList?
             List<ProjectClass> classList = gitScraper.extractProjectClasses(jiraReleases, ticketList, commitList);
 
             loggerString = "Extracting metrics from " + projString;
@@ -63,6 +64,7 @@ public class MetricsScraper {
 
             loggerString = "Reporting results from " + projString;
             logger.info(loggerString);
+            //todo: giusto usare commitList e non ticketedCommitList?
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
             loggerString = "Starting walk forward to build training and testing sets for " + projString;

@@ -168,6 +168,8 @@ public class GitScraper {
             }
         }
 
+        //todo: necessario questo completeClassesInfo qui o basta dopo?
+
         // Complete the project classes infos
         completeClassesInfo(ticketList, classList);
 
@@ -230,7 +232,7 @@ public class GitScraper {
     }
 
     /**
-     * Initialize buggyness to false, get the commits that touch each class and set the buggy attribute
+     * Initialize buggyness to false, gets the commits that touch each class and with them sets the buggy attribute
      * @param ticketList the tickets where taking information
      * @param classList the classes to set information
      */
@@ -361,29 +363,29 @@ public class GitScraper {
 
     /**
      * Set for every class the added LOC and removed LOC
-     * @param classList the classes to set the LOCs metrics
+     * @param projectClass the classes to set the LOCs metrics
      * @throws IOException in case of failures by the diff formatter
      */
-    public void extractAddedAndRemovedLOC(ProjectClass classList) throws IOException {
-        for(Commit commit : classList.getTouchingClassCommitList()) {
+    public void extractAddedAndRemovedLOC(ProjectClass projectClass) throws IOException {
+        for(Commit commit : projectClass.getTouchingClassCommitList()) {
             RevCommit revCommit = commit.getRevCommit();
 
             // Get the diff formatter with the output stream disabled because they don't need to be printed anywhere
             try(DiffFormatter diffFormatter = new DiffFormatter(DisabledOutputStream.INSTANCE)) {
 
                 // Get the first parent
-                RevCommit parentComm = revCommit.getParent(0);
+                RevCommit parentCommit = revCommit.getParent(0);
                 diffFormatter.setRepository(repository);
 
                 // The default comparator compares the text without any special treatment
                 diffFormatter.setDiffComparator(RawTextComparator.DEFAULT);
 
                 // Get the differences between the files
-                List<DiffEntry> diffEntries = diffFormatter.scan(parentComm.getTree(), revCommit.getTree());
+                List<DiffEntry> diffEntries = diffFormatter.scan(parentCommit.getTree(), revCommit.getTree());
                 for(DiffEntry diffEntry : diffEntries) {
-                    if(diffEntry.getNewPath().equals(classList.getName())) {
-                        classList.addAddedLOC(getAddedLines(diffFormatter, diffEntry));
-                        classList.addRemovedLOC(getDeletedLines(diffFormatter, diffEntry));
+                    if(diffEntry.getNewPath().equals(projectClass.getName())) {
+                        projectClass.addAddedLOC(getAddedLines(diffFormatter, diffEntry));
+                        projectClass.addRemovedLOC(getDeletedLines(diffFormatter, diffEntry));
                     }
                 }
             } catch(ArrayIndexOutOfBoundsException ignored) {

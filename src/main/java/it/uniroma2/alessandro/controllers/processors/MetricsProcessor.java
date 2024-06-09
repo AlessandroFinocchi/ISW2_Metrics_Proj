@@ -4,12 +4,14 @@ import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
 import it.uniroma2.alessandro.models.Commit;
 import it.uniroma2.alessandro.models.LOCMetrics;
 import it.uniroma2.alessandro.models.ProjectClass;
+import it.uniroma2.alessandro.models.Ticket;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+//todo: classe rotta, somma le metriche guarda la colonna loc_added_max nei sets
 public class MetricsProcessor {
     List<Commit> ticketedCommitList;
     List<ProjectClass> classList;
@@ -43,19 +45,25 @@ public class MetricsProcessor {
     }
 
     /**
-     * For each class of the project in the classList computes the number of fixes as the number of commits that
+     * For each class of the project in the classList computes the number of defect fixes as the number of commits that
      * touches the class
      */
     private void processNumberOfDefectFixes() {
         int numberOfFixes;
+        // For each class
         for (ProjectClass projectClass : classList) {
-            numberOfFixes = 0;
+            // Initialize an empty list of tickets representing the bugs involved with the class
+            List<Ticket> classBugs = new ArrayList<>();
+            // For each commit of the class
             for (Commit touchingClassCommit : projectClass.getTouchingClassCommitList()) {
-                if (ticketedCommitList.contains(touchingClassCommit)) {
-                    numberOfFixes++;
+                // If the commit refers to a ticket not yet considered in the bugs count
+                if (!classBugs.contains(touchingClassCommit.getTicket()) && ticketedCommitList.contains(touchingClassCommit)) {
+                    // Add the ticket to the list of bugs for that class
+                    classBugs.add(touchingClassCommit.getTicket());
                 }
             }
-            projectClass.getMetrics().setNumberOfDefectFixes(numberOfFixes);
+            // The number of defect fixes for the class is the number of tickets that involved that class
+            projectClass.getMetrics().setNumberOfDefectFixes(classBugs.size());
         }
     }
 
@@ -74,12 +82,13 @@ public class MetricsProcessor {
 
     private void processLOCMetrics() throws IOException {
         // metrics max, avg and actual value are zero by default
-        LOCMetrics removedLOC = new LOCMetrics();
-        LOCMetrics churnLOC = new LOCMetrics();
-        LOCMetrics addedLOC = new LOCMetrics();
-        LOCMetrics touchedLOC = new LOCMetrics();
         int i;
         for (ProjectClass currentClass : classList) {
+            LOCMetrics removedLOC = new LOCMetrics();
+            LOCMetrics churnLOC = new LOCMetrics();
+            LOCMetrics addedLOC = new LOCMetrics();
+            LOCMetrics touchedLOC = new LOCMetrics();
+
             // Set the added and removed metric LOCs for every class
             gitScraper.extractAddedAndRemovedLOC(currentClass);
 

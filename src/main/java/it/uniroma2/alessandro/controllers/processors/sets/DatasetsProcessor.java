@@ -97,7 +97,7 @@ public class DatasetsProcessor {
 
     private static void appendEntriesLikeCSV(FileWriter fileWriter, Release release, ProjectClass projectClass, boolean isArff) throws IOException {
         String releaseID = Integer.toString(release.getNumericID());
-        String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
+        String className = projectClass.getName();
         String sizeOfClass = String.valueOf(projectClass.getMetrics().getSize());
         String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOCMetrics().getVal());
         String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAddedLOCMetrics().getAvgVal());
@@ -114,8 +114,8 @@ public class DatasetsProcessor {
         String nRevisions = String.valueOf(projectClass.getMetrics().getNumberOfRevisions());
         String nDefectFixes = String.valueOf(projectClass.getMetrics().getNumberOfDefectFixes());
         String nAuthors = String.valueOf(projectClass.getMetrics().getNumberOfAuthors());
+        String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
 
-        String className = projectClass.getName();
         if(!isArff){
             fileWriter.append(releaseID).append(",")
                     .append(className).append(",");
