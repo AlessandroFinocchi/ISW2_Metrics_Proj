@@ -150,8 +150,8 @@ public class GitScraper {
         return filteredCommitList;
     }
 
-    public List<ProjectClass> extractProjectClasses(List<Release> releaseList, List<Ticket> ticketList,
-                                                    List<Commit> commitList) throws IOException {
+    public List<ProjectClass> scrapeClasses(List<Release> releaseList, List<Ticket> ticketList,
+                                            List<Commit> commitList) throws IOException {
         List<ProjectClass> classList = new ArrayList<>();
         List<Commit> lastCommitsList = new ArrayList<>();
 

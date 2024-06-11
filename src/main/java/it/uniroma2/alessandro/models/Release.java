@@ -17,6 +17,18 @@ public class Release {
     private final List<Commit> commitList;
 
     public Release(String releaseID ,String releaseName, String releaseDateString) {
+        // These 3 releases in avro don't have a release date
+        switch(releaseID) {
+            case "12324942": // 1.7.6
+                releaseDateString = "2014-01-23";
+                break;
+            case "12353655": // 1.11.4
+                releaseDateString = "2014-01-23";
+                break;
+            case "12350865": // 1.12.0
+                releaseDateString = "2014-01-23";
+                break;
+        }
         if(releaseID == null || releaseName == null || releaseDateString == null){
             throw new IllegalArgumentException();
         }
