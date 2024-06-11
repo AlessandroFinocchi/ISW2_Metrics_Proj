@@ -47,10 +47,7 @@ public class MetricsScraper {
 
             loggerString = "Filtering commits of " + projString;
             logger.info(loggerString);
-            List<Commit> ticketedCommitList = gitScraper.filterCommits(commitList, ticketList);
-
-            // If a ticket has no commits it means it isn't solved, so we don't care about it
-            ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
+            List<Commit> ticketedCommitList = gitScraper.applyFilters(commitList, ticketList);
 
             loggerString = "Extracting touched classes from " + projString;
             logger.info(loggerString);

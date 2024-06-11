@@ -29,7 +29,6 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
-import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class GitScraper {
@@ -126,12 +125,12 @@ public class GitScraper {
 
     /**
      * Filter commits that have a ticket id inside their message, setting the ticket of a commit and the list of
-     * commits for each ticket
+     * commits for each ticket, and removes tickets without a commit
      * @param commitList commits to filter
      * @param ticketList tickets to take ids from
      * @return a list of commits that reference a ticket
      */
-    public List<Commit> filterCommits(List<Commit> commitList, List<Ticket> ticketList) {
+    public List<Commit> applyFilters(List<Commit> commitList, List<Ticket> ticketList) {
         List<Commit> filteredCommitList = new ArrayList<>();
         for (Commit commit : commitList) {
             String commitFullMessage = commit.getRevCommit().getFullMessage();
@@ -144,6 +143,10 @@ public class GitScraper {
                 }
             }
         }
+
+        // If a ticket has no commits it means it isn't solved, so we don't care about it
+        ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
+
         return filteredCommitList;
     }
 
