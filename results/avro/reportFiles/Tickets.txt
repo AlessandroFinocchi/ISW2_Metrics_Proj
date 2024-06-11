@@ -1,0 +1,1708 @@
+---------- TICKETS List/ ---------
+
+Ticket[key= AVRO-22, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-04-25, resolutionDate= 2009-06-05]
+
+Ticket[key= AVRO-31, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-05-13, resolutionDate= 2009-05-13]
+
+Ticket[key= AVRO-36, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-05-22, resolutionDate= 2009-06-23]
+
+Ticket[key= AVRO-39, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-05-27, resolutionDate= 2009-05-27]
+
+Ticket[key= AVRO-40, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-05-31, resolutionDate= 2009-06-01]
+
+Ticket[key= AVRO-44, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-02, resolutionDate= 2009-06-03]
+
+Ticket[key= AVRO-45, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-03, resolutionDate= 2009-06-03]
+
+Ticket[key= AVRO-46, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-03, resolutionDate= 2009-06-25]
+
+Ticket[key= AVRO-47, injectedVersion= 1.1.0, openingVersion= 1.0.0, fixedVersion= 1.3.0, affectedVersions= [], numOfCommits= 1, creationDate= 2009-06-05, resolutionDate= 2010-01-22]
+
+Ticket[key= AVRO-51, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-13, resolutionDate= 2009-06-15]
+
+Ticket[key= AVRO-61, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-24, resolutionDate= 2009-08-18]
+
+Ticket[key= AVRO-64, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-06-29, resolutionDate= 2009-07-07]
+
+Ticket[key= AVRO-74, injectedVersion= 1.0.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-07-04, resolutionDate= 2009-07-04]
+
+Ticket[key= AVRO-75, injectedVersion= 1.1.0, openingVersion= 1.0.0, fixedVersion= 1.3.0, affectedVersions= [], numOfCommits= 1, creationDate= 2009-07-06, resolutionDate= 2010-01-08]
+
+Ticket[key= AVRO-78, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-07-15, resolutionDate= 2009-07-16]
+
+Ticket[key= AVRO-79, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-07-18, resolutionDate= 2009-07-20]
+
+Ticket[key= AVRO-80, injectedVersion= 1.1.0, openingVersion= 1.1.0, fixedVersion= 1.3.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-07-20, resolutionDate= 2009-11-20]
+
+Ticket[key= AVRO-85, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-07-28, resolutionDate= 2009-07-31]
+
+Ticket[key= AVRO-84, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-07-28, resolutionDate= 2009-07-31]
+
+Ticket[key= AVRO-87, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-07-31, resolutionDate= 2009-08-12]
+
+Ticket[key= AVRO-86, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.4.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-07-31, resolutionDate= 2010-08-25]
+
+Ticket[key= AVRO-88, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-08-11, resolutionDate= 2009-08-18]
+
+Ticket[key= AVRO-95, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0], numOfCommits= 2, creationDate= 2009-08-16, resolutionDate= 2009-08-18]
+
+Ticket[key= AVRO-97, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-08-18, resolutionDate= 2009-08-18]
+
+Ticket[key= AVRO-101, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.2.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-08-19, resolutionDate= 2009-09-25]
+
+Ticket[key= AVRO-107, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2009-08-27, resolutionDate= 2009-08-27]
+
+Ticket[key= AVRO-113, injectedVersion= 1.1.0, openingVersion= 1.1.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-08, resolutionDate= 2009-09-22]
+
+Ticket[key= AVRO-114, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.1.0], numOfCommits= 1, creationDate= 2009-09-11, resolutionDate= 2009-09-11]
+
+Ticket[key= AVRO-117, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-09-21, resolutionDate= 2009-09-23]
+
+Ticket[key= AVRO-119, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-22, resolutionDate= 2009-09-23]
+
+Ticket[key= AVRO-118, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-22, resolutionDate= 2009-09-24]
+
+Ticket[key= AVRO-122, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-24, resolutionDate= 2009-09-24]
+
+Ticket[key= AVRO-125, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-25, resolutionDate= 2009-09-25]
+
+Ticket[key= AVRO-124, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-25, resolutionDate= 2009-09-25]
+
+Ticket[key= AVRO-123, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2009-09-25, resolutionDate= 2009-09-25]
+
+Ticket[key= AVRO-132, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-10-02, resolutionDate= 2009-10-08]
+
+Ticket[key= AVRO-133, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-10-05, resolutionDate= 2009-10-06]
+
+Ticket[key= AVRO-134, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-10-05, resolutionDate= 2009-10-07]
+
+Ticket[key= AVRO-138, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-10-07, resolutionDate= 2009-10-07]
+
+Ticket[key= AVRO-137, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.2.0], numOfCommits= 1, creationDate= 2009-10-07, resolutionDate= 2009-10-09]
+
+Ticket[key= AVRO-156, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-10-20, resolutionDate= 2009-10-20]
+
+Ticket[key= AVRO-162, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-10-20, resolutionDate= 2009-10-22]
+
+Ticket[key= AVRO-165, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-10-21, resolutionDate= 2009-10-21]
+
+Ticket[key= AVRO-169, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-10-23, resolutionDate= 2009-11-05]
+
+Ticket[key= AVRO-171, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-10-24, resolutionDate= 2009-11-13]
+
+Ticket[key= AVRO-176, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-10-29, resolutionDate= 2009-10-30]
+
+Ticket[key= AVRO-182, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-05, resolutionDate= 2009-11-11]
+
+Ticket[key= AVRO-184, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-06, resolutionDate= 2009-12-04]
+
+Ticket[key= AVRO-189, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-10, resolutionDate= 2009-11-10]
+
+Ticket[key= AVRO-188, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 2, creationDate= 2009-11-10, resolutionDate= 2009-11-10]
+
+Ticket[key= AVRO-191, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-11, resolutionDate= 2009-11-12]
+
+Ticket[key= AVRO-194, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-12, resolutionDate= 2009-11-12]
+
+Ticket[key= AVRO-193, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 2, creationDate= 2009-11-12, resolutionDate= 2009-11-12]
+
+Ticket[key= AVRO-198, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-11-15, resolutionDate= 2010-01-18]
+
+Ticket[key= AVRO-211, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-18, resolutionDate= 2009-11-19]
+
+Ticket[key= AVRO-210, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-18, resolutionDate= 2009-11-19]
+
+Ticket[key= AVRO-207, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-11-18, resolutionDate= 2010-01-10]
+
+Ticket[key= AVRO-208, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-11-18, resolutionDate= 2010-02-04]
+
+Ticket[key= AVRO-227, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-11-20, resolutionDate= 2009-11-20]
+
+Ticket[key= AVRO-225, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-20, resolutionDate= 2009-11-20]
+
+Ticket[key= AVRO-223, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-20, resolutionDate= 2009-11-20]
+
+Ticket[key= AVRO-222, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-20, resolutionDate= 2009-11-20]
+
+Ticket[key= AVRO-232, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-21, resolutionDate= 2009-11-21]
+
+Ticket[key= AVRO-238, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-11-24, resolutionDate= 2009-12-01]
+
+Ticket[key= AVRO-247, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-01, resolutionDate= 2009-12-08]
+
+Ticket[key= AVRO-256, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-14, resolutionDate= 2009-12-15]
+
+Ticket[key= AVRO-255, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-14, resolutionDate= 2009-12-15]
+
+Ticket[key= AVRO-257, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-15, resolutionDate= 2009-12-15]
+
+Ticket[key= AVRO-259, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-18, resolutionDate= 2010-01-09]
+
+Ticket[key= AVRO-265, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.11.1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-12-23, resolutionDate= 2022-04-13]
+
+Ticket[key= AVRO-276, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2009-12-31, resolutionDate= 2009-12-31]
+
+Ticket[key= AVRO-280, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-04, resolutionDate= 2010-01-07]
+
+Ticket[key= AVRO-281, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-04, resolutionDate= 2010-01-10]
+
+Ticket[key= AVRO-282, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-04, resolutionDate= 2010-01-12]
+
+Ticket[key= AVRO-309, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-12, resolutionDate= 2010-01-12]
+
+Ticket[key= AVRO-308, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-12, resolutionDate= 2010-01-14]
+
+Ticket[key= AVRO-313, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 3, creationDate= 2010-01-13, resolutionDate= 2010-01-15]
+
+Ticket[key= AVRO-318, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-13, resolutionDate= 2010-02-16]
+
+Ticket[key= AVRO-329, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-14, resolutionDate= 2010-01-14]
+
+Ticket[key= AVRO-335, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-14, resolutionDate= 2010-01-15]
+
+Ticket[key= AVRO-337, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-15, resolutionDate= 2010-01-16]
+
+Ticket[key= AVRO-347, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-18, resolutionDate= 2010-01-18]
+
+Ticket[key= AVRO-352, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-19, resolutionDate= 2010-01-19]
+
+Ticket[key= AVRO-356, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-20, resolutionDate= 2010-01-20]
+
+Ticket[key= AVRO-361, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-21, resolutionDate= 2010-02-02]
+
+Ticket[key= AVRO-373, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-23, resolutionDate= 2010-01-26]
+
+Ticket[key= AVRO-374, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-24, resolutionDate= 2010-02-16]
+
+Ticket[key= AVRO-375, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 2, creationDate= 2010-01-25, resolutionDate= 2010-01-26]
+
+Ticket[key= AVRO-382, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2010-01-27, resolutionDate= 2010-01-27]
+
+Ticket[key= AVRO-385, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-28, resolutionDate= 2010-01-29]
+
+Ticket[key= AVRO-387, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2010-01-29, resolutionDate= 2010-02-02]
+
+Ticket[key= AVRO-390, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-31, resolutionDate= 2010-02-02]
+
+Ticket[key= AVRO-389, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-01-31, resolutionDate= 2010-02-02]
+
+Ticket[key= AVRO-398, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-04, resolutionDate= 2010-02-05]
+
+Ticket[key= AVRO-407, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-05, resolutionDate= 2010-02-08]
+
+Ticket[key= AVRO-408, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-06, resolutionDate= 2010-02-06]
+
+Ticket[key= AVRO-413, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-09, resolutionDate= 2010-02-09]
+
+Ticket[key= AVRO-411, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-09, resolutionDate= 2010-02-09]
+
+Ticket[key= AVRO-416, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0], numOfCommits= 2, creationDate= 2010-02-15, resolutionDate= 2010-02-16]
+
+Ticket[key= AVRO-418, injectedVersion= 1.3.0, openingVersion= 1.3.0, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-02-17, resolutionDate= 2010-03-15]
+
+Ticket[key= AVRO-422, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-19, resolutionDate= 2010-02-19]
+
+Ticket[key= AVRO-421, injectedVersion= 1.2.0, openingVersion= 1.3.0, fixedVersion= 1.3.0, affectedVersions= [1.2.0, 1.3.0], numOfCommits= 1, creationDate= 2010-02-19, resolutionDate= 2010-02-19]
+
+Ticket[key= AVRO-431, injectedVersion= 1.3.0, openingVersion= 1.3.0, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-02-25, resolutionDate= 2010-03-02]
+
+Ticket[key= AVRO-433, injectedVersion= 1.3.0, openingVersion= 1.3.0, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-02-26, resolutionDate= 2010-03-03]
+
+Ticket[key= AVRO-437, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-02, resolutionDate= 2010-03-03]
+
+Ticket[key= AVRO-440, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-02, resolutionDate= 2010-03-05]
+
+Ticket[key= AVRO-441, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.6.2, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-02, resolutionDate= 2012-01-24]
+
+Ticket[key= AVRO-448, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.3.1, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-03, resolutionDate= 2010-03-04]
+
+Ticket[key= AVRO-447, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.4.0, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-03, resolutionDate= 2010-06-10]
+
+Ticket[key= AVRO-461, injectedVersion= 1.3.0, openingVersion= 1.3.1, fixedVersion= 1.3.3, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-14, resolutionDate= 2010-04-03]
+
+Ticket[key= AVRO-480, injectedVersion= 1.3.1, openingVersion= 1.3.2, fixedVersion= 1.3.2, affectedVersions= [1.3.1, 1.3.2], numOfCommits= 1, creationDate= 2010-03-17, resolutionDate= 2010-03-17]
+
+Ticket[key= AVRO-479, injectedVersion= 1.3.0, openingVersion= 1.3.2, fixedVersion= 1.3.2, affectedVersions= [1.3.0], numOfCommits= 1, creationDate= 2010-03-17, resolutionDate= 2010-03-17]
+
+Ticket[key= AVRO-487, injectedVersion= 1.3.1, openingVersion= 1.3.2, fixedVersion= 1.3.2, affectedVersions= [1.3.1], numOfCommits= 1, creationDate= 2010-03-22, resolutionDate= 2010-03-24]
+
+Ticket[key= AVRO-489, injectedVersion= 1.3.1, openingVersion= 1.3.2, fixedVersion= 1.3.3, affectedVersions= [1.3.1], numOfCommits= 1, creationDate= 2010-03-24, resolutionDate= 2010-04-03]
+
+Ticket[key= AVRO-496, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-04-02, resolutionDate= 2010-04-05]
+
+Ticket[key= AVRO-499, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2], numOfCommits= 3, creationDate= 2010-04-02, resolutionDate= 2010-05-13]
+
+Ticket[key= AVRO-500, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-04-03, resolutionDate= 2010-04-06]
+
+Ticket[key= AVRO-501, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.4.0, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-04-03, resolutionDate= 2010-08-25]
+
+Ticket[key= AVRO-502, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-04-04, resolutionDate= 2010-04-04]
+
+Ticket[key= AVRO-510, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.4.0, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-04-06, resolutionDate= 2010-08-25]
+
+Ticket[key= AVRO-515, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-04-11, resolutionDate= 2010-04-11]
+
+Ticket[key= AVRO-516, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 4, creationDate= 2010-04-11, resolutionDate= 2010-04-12]
+
+Ticket[key= AVRO-518, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-04-15, resolutionDate= 2010-04-17]
+
+Ticket[key= AVRO-517, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2], numOfCommits= 2, creationDate= 2010-04-15, resolutionDate= 2010-04-19]
+
+Ticket[key= AVRO-524, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 2, creationDate= 2010-04-24, resolutionDate= 2010-04-27]
+
+Ticket[key= AVRO-527, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-04-25, resolutionDate= 2010-05-07]
+
+Ticket[key= AVRO-537, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.4.1, affectedVersions= [1.3.2], numOfCommits= 2, creationDate= 2010-05-05, resolutionDate= 2010-10-08]
+
+Ticket[key= AVRO-541, injectedVersion= 1.3.3, openingVersion= 1.3.3, fixedVersion= 1.4.0, affectedVersions= [1.3.3], numOfCommits= 1, creationDate= 2010-05-13, resolutionDate= 2010-08-24]
+
+Ticket[key= AVRO-548, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-05-22, resolutionDate= 2010-05-24]
+
+Ticket[key= AVRO-562, injectedVersion= 1.3.2, openingVersion= 1.3.3, fixedVersion= 1.3.3, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-06-04, resolutionDate= 2010-06-04]
+
+Ticket[key= AVRO-571, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-06-09, resolutionDate= 2010-06-09]
+
+Ticket[key= AVRO-573, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-06-11, resolutionDate= 2010-07-28]
+
+Ticket[key= AVRO-583, injectedVersion= 1.3.2, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.2], numOfCommits= 1, creationDate= 2010-06-22, resolutionDate= 2010-08-03]
+
+Ticket[key= AVRO-589, injectedVersion= 1.2.0, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.2.0, 1.3.0, 1.3.1, 1.3.2, 1.3.3], numOfCommits= 1, creationDate= 2010-07-01, resolutionDate= 2010-07-05]
+
+Ticket[key= AVRO-590, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-07-01, resolutionDate= 2010-08-23]
+
+Ticket[key= AVRO-596, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3], numOfCommits= 1, creationDate= 2010-07-14, resolutionDate= 2010-07-20]
+
+Ticket[key= AVRO-604, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-03, resolutionDate= 2010-08-03]
+
+Ticket[key= AVRO-607, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.8.2, affectedVersions= [1.3.3, 1.8.1], numOfCommits= 1, creationDate= 2010-08-05, resolutionDate= 2016-09-04]
+
+Ticket[key= AVRO-609, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-06, resolutionDate= 2010-08-10]
+
+Ticket[key= AVRO-612, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3], numOfCommits= 1, creationDate= 2010-08-13, resolutionDate= 2010-08-18]
+
+Ticket[key= AVRO-620, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-20, resolutionDate= 2010-08-24]
+
+Ticket[key= AVRO-622, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-24, resolutionDate= 2010-08-24]
+
+Ticket[key= AVRO-631, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-25, resolutionDate= 2010-08-26]
+
+Ticket[key= AVRO-633, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3], numOfCommits= 1, creationDate= 2010-08-26, resolutionDate= 2010-08-26]
+
+Ticket[key= AVRO-632, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-26, resolutionDate= 2010-08-26]
+
+Ticket[key= AVRO-640, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-08-27, resolutionDate= 2010-08-27]
+
+Ticket[key= AVRO-643, injectedVersion= 1.4.0, openingVersion= 1.4.0, fixedVersion= 1.5.0, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-08-30, resolutionDate= 2011-01-07]
+
+Ticket[key= AVRO-650, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-09-01, resolutionDate= 2010-09-03]
+
+Ticket[key= AVRO-652, injectedVersion= 1.3.3, openingVersion= 1.4.0, fixedVersion= 1.4.0, affectedVersions= [1.3.3, 1.4.0], numOfCommits= 1, creationDate= 2010-09-02, resolutionDate= 2010-09-02]
+
+Ticket[key= AVRO-656, injectedVersion= 1.4.0, openingVersion= 1.4.0, fixedVersion= 1.5.0, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-09-03, resolutionDate= 2011-02-24]
+
+Ticket[key= AVRO-657, injectedVersion= 1.4.0, openingVersion= 1.4.0, fixedVersion= 1.4.1, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-09-07, resolutionDate= 2010-09-13]
+
+Ticket[key= AVRO-663, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.5.0, affectedVersions= [1.4.0], numOfCommits= 2, creationDate= 2010-09-09, resolutionDate= 2011-01-14]
+
+Ticket[key= AVRO-664, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.4.1, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-09-10, resolutionDate= 2010-09-14]
+
+Ticket[key= AVRO-666, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.4.1, affectedVersions= [1.4.0, 1.4.1], numOfCommits= 1, creationDate= 2010-09-12, resolutionDate= 2010-09-12]
+
+Ticket[key= AVRO-667, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.4.1, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-09-16, resolutionDate= 2010-09-17]
+
+Ticket[key= AVRO-669, injectedVersion= 1.4.1, openingVersion= 1.4.1, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-09-17, resolutionDate= 2010-12-29]
+
+Ticket[key= AVRO-671, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.4.1, affectedVersions= [1.4.0, 1.4.1], numOfCommits= 1, creationDate= 2010-09-19, resolutionDate= 2010-10-07]
+
+Ticket[key= AVRO-675, injectedVersion= 1.4.0, openingVersion= 1.4.1, fixedVersion= 1.4.1, affectedVersions= [1.4.0], numOfCommits= 3, creationDate= 2010-09-30, resolutionDate= 2010-10-05]
+
+Ticket[key= AVRO-681, injectedVersion= 1.4.0, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.0], numOfCommits= 1, creationDate= 2010-10-14, resolutionDate= 2010-10-14]
+
+Ticket[key= AVRO-685, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-10-27, resolutionDate= 2010-10-28]
+
+Ticket[key= AVRO-688, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-11-01, resolutionDate= 2011-01-17]
+
+Ticket[key= AVRO-693, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2010-11-04, resolutionDate= 2010-11-05]
+
+Ticket[key= AVRO-694, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-11-08, resolutionDate= 2011-01-07]
+
+Ticket[key= AVRO-696, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2010-11-17, resolutionDate= 2010-11-17]
+
+Ticket[key= AVRO-701, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-11-23, resolutionDate= 2011-02-24]
+
+Ticket[key= AVRO-702, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-11-24, resolutionDate= 2010-11-29]
+
+Ticket[key= AVRO-704, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-11-30, resolutionDate= 2010-12-10]
+
+Ticket[key= AVRO-705, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-12-01, resolutionDate= 2010-12-10]
+
+Ticket[key= AVRO-706, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-12-02, resolutionDate= 2010-12-03]
+
+Ticket[key= AVRO-713, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-12-15, resolutionDate= 2010-12-16]
+
+Ticket[key= AVRO-717, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2010-12-21, resolutionDate= 2011-01-04]
+
+Ticket[key= AVRO-732, injectedVersion= 1.7.0, openingVersion= 1.5.0, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2011-01-13, resolutionDate= 2019-04-05]
+
+Ticket[key= AVRO-736, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 2, creationDate= 2011-01-18, resolutionDate= 2011-01-24]
+
+Ticket[key= AVRO-740, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-01-20, resolutionDate= 2011-01-20]
+
+Ticket[key= AVRO-741, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-01-20, resolutionDate= 2011-01-26]
+
+Ticket[key= AVRO-742, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-01-22, resolutionDate= 2011-01-24]
+
+Ticket[key= AVRO-745, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-01-24, resolutionDate= 2011-01-24]
+
+Ticket[key= AVRO-746, injectedVersion= 1.5.0, openingVersion= 1.5.0, fixedVersion= 1.5.2, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-01-24, resolutionDate= 2011-07-12]
+
+Ticket[key= AVRO-748, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.9.2, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2011-01-27, resolutionDate= 2019-11-28]
+
+Ticket[key= AVRO-749, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-01-28, resolutionDate= 2011-01-31]
+
+Ticket[key= AVRO-755, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2011-02-01, resolutionDate= 2011-02-21]
+
+Ticket[key= AVRO-759, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2011-02-08, resolutionDate= 2011-02-15]
+
+Ticket[key= AVRO-761, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2011-02-09, resolutionDate= 2011-03-08]
+
+Ticket[key= AVRO-764, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 2, creationDate= 2011-02-13, resolutionDate= 2011-02-16]
+
+Ticket[key= AVRO-772, injectedVersion= 1.4.1, openingVersion= 1.5.0, fixedVersion= 1.5.0, affectedVersions= [1.4.1], numOfCommits= 1, creationDate= 2011-02-21, resolutionDate= 2011-02-24]
+
+Ticket[key= AVRO-776, injectedVersion= 1.5.0, openingVersion= 1.5.0, fixedVersion= 1.5.2, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-03-09, resolutionDate= 2011-06-30]
+
+Ticket[key= AVRO-780, injectedVersion= 1.5.0, openingVersion= 1.5.0, fixedVersion= 1.5.1, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-03-11, resolutionDate= 2011-03-30]
+
+Ticket[key= AVRO-786, injectedVersion= 1.5.0, openingVersion= 1.5.1, fixedVersion= 1.5.1, affectedVersions= [1.5.0, 1.5.1], numOfCommits= 1, creationDate= 2011-03-22, resolutionDate= 2011-03-29]
+
+Ticket[key= AVRO-790, injectedVersion= 1.5.0, openingVersion= 1.5.1, fixedVersion= 1.5.1, affectedVersions= [1.5.0, 1.5.1], numOfCommits= 1, creationDate= 2011-03-29, resolutionDate= 2011-04-18]
+
+Ticket[key= AVRO-793, injectedVersion= 1.5.0, openingVersion= 1.5.1, fixedVersion= 1.5.1, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-03-31, resolutionDate= 2011-04-29]
+
+Ticket[key= AVRO-801, injectedVersion= 1.4.1, openingVersion= 1.5.1, fixedVersion= 1.5.1, affectedVersions= [1.4.1, 1.5.0], numOfCommits= 1, creationDate= 2011-04-08, resolutionDate= 2011-04-20]
+
+Ticket[key= AVRO-809, injectedVersion= 1.5.0, openingVersion= 1.5.1, fixedVersion= 1.5.2, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-04-22, resolutionDate= 2011-05-18]
+
+Ticket[key= AVRO-813, injectedVersion= 1.5.0, openingVersion= 1.5.1, fixedVersion= 1.9.0, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2011-04-27, resolutionDate= 2019-04-01]
+
+Ticket[key= AVRO-819, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2011-05-12, resolutionDate= 2011-05-12]
+
+Ticket[key= AVRO-818, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2011-05-12, resolutionDate= 2011-05-12]
+
+Ticket[key= AVRO-820, injectedVersion= 1.4.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.4.1, 1.5.0, 1.5.1], numOfCommits= 1, creationDate= 2011-05-13, resolutionDate= 2011-05-19]
+
+Ticket[key= AVRO-824, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1, 1.5.2], numOfCommits= 1, creationDate= 2011-05-18, resolutionDate= 2011-06-29]
+
+Ticket[key= AVRO-825, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2011-05-19, resolutionDate= 2011-07-01]
+
+Ticket[key= AVRO-833, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1, 1.5.2], numOfCommits= 2, creationDate= 2011-05-31, resolutionDate= 2011-05-31]
+
+Ticket[key= AVRO-832, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1, 1.5.2], numOfCommits= 1, creationDate= 2011-05-31, resolutionDate= 2011-06-02]
+
+Ticket[key= AVRO-835, injectedVersion= 1.5.4, openingVersion= 1.5.2, fixedVersion= 1.6.2, affectedVersions= [], numOfCommits= 1, creationDate= 2011-06-04, resolutionDate= 2011-12-07]
+
+Ticket[key= AVRO-842, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2011-06-24, resolutionDate= 2011-07-01]
+
+Ticket[key= AVRO-845, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1], numOfCommits= 2, creationDate= 2011-06-29, resolutionDate= 2011-06-30]
+
+Ticket[key= AVRO-851, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.7.2, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2011-07-06, resolutionDate= 2012-09-13]
+
+Ticket[key= AVRO-864, injectedVersion= 1.5.1, openingVersion= 1.5.2, fixedVersion= 1.5.2, affectedVersions= [1.5.1, 1.5.2], numOfCommits= 2, creationDate= 2011-07-24, resolutionDate= 2011-07-27]
+
+Ticket[key= AVRO-869, injectedVersion= 1.5.3, openingVersion= 1.5.2, fixedVersion= 1.6.0, affectedVersions= [], numOfCommits= 1, creationDate= 2011-08-03, resolutionDate= 2011-10-12]
+
+Ticket[key= AVRO-871, injectedVersion= 1.5.3, openingVersion= 1.5.2, fixedVersion= 1.6.0, affectedVersions= [], numOfCommits= 1, creationDate= 2011-08-09, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-879, injectedVersion= 1.5.2, openingVersion= 1.5.3, fixedVersion= 1.5.3, affectedVersions= [1.5.2, 1.5.3], numOfCommits= 2, creationDate= 2011-08-22, resolutionDate= 2011-08-25]
+
+Ticket[key= AVRO-884, injectedVersion= 1.5.2, openingVersion= 1.5.4, fixedVersion= 1.5.4, affectedVersions= [1.5.2, 1.5.3], numOfCommits= 1, creationDate= 2011-09-06, resolutionDate= 2011-09-07]
+
+Ticket[key= AVRO-892, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-09-21, resolutionDate= 2011-09-22]
+
+Ticket[key= AVRO-895, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-09-26, resolutionDate= 2011-10-01]
+
+Ticket[key= AVRO-898, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-09-27, resolutionDate= 2011-10-03]
+
+Ticket[key= AVRO-901, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 3, creationDate= 2011-10-02, resolutionDate= 2011-10-05]
+
+Ticket[key= AVRO-906, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-04, resolutionDate= 2011-10-05]
+
+Ticket[key= AVRO-904, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-04, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-903, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-04, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-902, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-04, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-912, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-06, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-913, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-06, resolutionDate= 2011-10-12]
+
+Ticket[key= AVRO-914, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-07, resolutionDate= 2011-10-07]
+
+Ticket[key= AVRO-917, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-08, resolutionDate= 2011-10-12]
+
+Ticket[key= AVRO-916, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-08, resolutionDate= 2011-10-12]
+
+Ticket[key= AVRO-925, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-12, resolutionDate= 2011-10-14]
+
+Ticket[key= AVRO-927, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4], numOfCommits= 1, creationDate= 2011-10-14, resolutionDate= 2011-10-17]
+
+Ticket[key= AVRO-931, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-16, resolutionDate= 2011-10-17]
+
+Ticket[key= AVRO-942, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-23, resolutionDate= 2011-10-24]
+
+Ticket[key= AVRO-943, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-25, resolutionDate= 2011-11-01]
+
+Ticket[key= AVRO-945, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-27, resolutionDate= 2011-10-28]
+
+Ticket[key= AVRO-948, injectedVersion= 1.5.4, openingVersion= 1.6.0, fixedVersion= 1.6.0, affectedVersions= [1.5.4, 1.6.0], numOfCommits= 1, creationDate= 2011-10-28, resolutionDate= 2011-10-28]
+
+Ticket[key= AVRO-951, injectedVersion= 1.6.0, openingVersion= 1.6.1, fixedVersion= 1.6.1, affectedVersions= [1.6.0], numOfCommits= 1, creationDate= 2011-11-03, resolutionDate= 2011-11-04]
+
+Ticket[key= AVRO-950, injectedVersion= 1.6.0, openingVersion= 1.6.1, fixedVersion= 1.6.1, affectedVersions= [1.6.0], numOfCommits= 1, creationDate= 2011-11-03, resolutionDate= 2011-11-04]
+
+Ticket[key= AVRO-954, injectedVersion= 1.6.0, openingVersion= 1.6.1, fixedVersion= 1.7.0, affectedVersions= [1.6.0], numOfCommits= 1, creationDate= 2011-11-07, resolutionDate= 2012-04-22]
+
+Ticket[key= AVRO-962, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2011-11-28, resolutionDate= 2011-12-05]
+
+Ticket[key= AVRO-966, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2011-11-30, resolutionDate= 2011-12-07]
+
+Ticket[key= AVRO-972, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2011-12-08, resolutionDate= 2011-12-09]
+
+Ticket[key= AVRO-978, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2011-12-12, resolutionDate= 2011-12-13]
+
+Ticket[key= AVRO-980, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2011-12-13, resolutionDate= 2012-02-09]
+
+Ticket[key= AVRO-981, injectedVersion= 1.5.4, openingVersion= 1.6.2, fixedVersion= 1.7.3, affectedVersions= [1.5.4, 1.6.1], numOfCommits= 1, creationDate= 2011-12-15, resolutionDate= 2012-10-06]
+
+Ticket[key= AVRO-986, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2011-12-22, resolutionDate= 2012-01-26]
+
+Ticket[key= AVRO-994, injectedVersion= 1.6.0, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.0, 1.6.1], numOfCommits= 2, creationDate= 2012-01-16, resolutionDate= 2012-01-17]
+
+Ticket[key= AVRO-993, injectedVersion= 1.6.0, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.0, 1.6.1], numOfCommits= 1, creationDate= 2012-01-16, resolutionDate= 2012-01-17]
+
+Ticket[key= AVRO-996, injectedVersion= 1.6.0, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.0, 1.6.1], numOfCommits= 1, creationDate= 2012-01-17, resolutionDate= 2012-02-07]
+
+Ticket[key= AVRO-997, injectedVersion= 1.5.1, openingVersion= 1.6.2, fixedVersion= 1.8.0, affectedVersions= [1.5.1], numOfCommits= 1, creationDate= 2012-01-18, resolutionDate= 2014-10-03]
+
+Ticket[key= AVRO-1000, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2012-01-20, resolutionDate= 2012-01-23]
+
+Ticket[key= AVRO-1002, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2012-01-24, resolutionDate= 2012-01-24]
+
+Ticket[key= AVRO-1004, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-01-24, resolutionDate= 2012-01-26]
+
+Ticket[key= AVRO-1003, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-01-24, resolutionDate= 2012-01-26]
+
+Ticket[key= AVRO-1007, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-01-25, resolutionDate= 2012-02-09]
+
+Ticket[key= AVRO-1013, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-01-30, resolutionDate= 2012-02-08]
+
+Ticket[key= AVRO-1014, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2012-01-31, resolutionDate= 2012-02-01]
+
+Ticket[key= AVRO-1016, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-02-04, resolutionDate= 2012-02-07]
+
+Ticket[key= AVRO-1020, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1], numOfCommits= 1, creationDate= 2012-02-07, resolutionDate= 2012-02-07]
+
+Ticket[key= AVRO-1021, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.2, affectedVersions= [1.6.1, 1.6.2], numOfCommits= 1, creationDate= 2012-02-08, resolutionDate= 2012-02-09]
+
+Ticket[key= AVRO-1027, injectedVersion= 1.6.1, openingVersion= 1.6.2, fixedVersion= 1.6.3, affectedVersions= [1.6.1], numOfCommits= 2, creationDate= 2012-02-10, resolutionDate= 2012-03-02]
+
+Ticket[key= AVRO-1030, injectedVersion= 1.6.2, openingVersion= 1.6.2, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-14, resolutionDate= 2012-02-22]
+
+Ticket[key= AVRO-1031, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-15, resolutionDate= 2012-02-29]
+
+Ticket[key= AVRO-1033, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-19, resolutionDate= 2012-02-29]
+
+Ticket[key= AVRO-1034, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-22, resolutionDate= 2012-03-01]
+
+Ticket[key= AVRO-1037, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-23, resolutionDate= 2012-02-24]
+
+Ticket[key= AVRO-1036, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-23, resolutionDate= 2012-02-24]
+
+Ticket[key= AVRO-1039, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-29, resolutionDate= 2012-03-01]
+
+Ticket[key= AVRO-1038, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-02-29, resolutionDate= 2012-03-01]
+
+Ticket[key= AVRO-1041, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-03-01, resolutionDate= 2012-03-02]
+
+Ticket[key= AVRO-1045, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.6.3, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-03-14, resolutionDate= 2012-03-16]
+
+Ticket[key= AVRO-1046, injectedVersion= 1.6.2, openingVersion= 1.6.3, fixedVersion= 1.7.0, affectedVersions= [1.6.2], numOfCommits= 1, creationDate= 2012-03-16, resolutionDate= 2012-05-17]
+
+Ticket[key= AVRO-1047, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.9.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-03-20, resolutionDate= 2017-12-13]
+
+Ticket[key= AVRO-1048, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-03-22, resolutionDate= 2012-04-28]
+
+Ticket[key= AVRO-1049, injectedVersion= 1.6.0, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.0], numOfCommits= 1, creationDate= 2012-03-23, resolutionDate= 2012-05-16]
+
+Ticket[key= AVRO-1050, injectedVersion= 1.6.0, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.0, 1.6.1, 1.6.2, 1.6.3], numOfCommits= 1, creationDate= 2012-03-23, resolutionDate= 2012-05-18]
+
+Ticket[key= AVRO-1051, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-03-27, resolutionDate= 2012-05-16]
+
+Ticket[key= AVRO-1056, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-04-13, resolutionDate= 2012-05-17]
+
+Ticket[key= AVRO-1065, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-04-18, resolutionDate= 2012-05-13]
+
+Ticket[key= AVRO-1066, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-04-19, resolutionDate= 2012-05-11]
+
+Ticket[key= AVRO-1069, injectedVersion= 1.7.0, openingVersion= 1.7.0, fixedVersion= 1.7.1, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-04-20, resolutionDate= 2012-06-12]
+
+Ticket[key= AVRO-1070, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-04-22, resolutionDate= 2012-05-09]
+
+Ticket[key= AVRO-1071, injectedVersion= 1.5.0, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.5.0], numOfCommits= 1, creationDate= 2012-04-23, resolutionDate= 2012-05-08]
+
+Ticket[key= AVRO-1076, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-04-29, resolutionDate= 2012-05-17]
+
+Ticket[key= AVRO-1078, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-05-04, resolutionDate= 2012-05-16]
+
+Ticket[key= AVRO-1080, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-05-06, resolutionDate= 2012-05-09]
+
+Ticket[key= AVRO-1081, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-05-10, resolutionDate= 2012-05-17]
+
+Ticket[key= AVRO-1090, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-05-14, resolutionDate= 2012-05-17]
+
+Ticket[key= AVRO-1089, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.3, affectedVersions= [1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-05-14, resolutionDate= 2012-12-01]
+
+Ticket[key= AVRO-1094, injectedVersion= 1.6.2, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.2, 1.6.3], numOfCommits= 1, creationDate= 2012-05-17, resolutionDate= 2012-05-18]
+
+Ticket[key= AVRO-1096, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 2, creationDate= 2012-05-20, resolutionDate= 2012-05-20]
+
+Ticket[key= AVRO-1098, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-05-21, resolutionDate= 2012-05-23]
+
+Ticket[key= AVRO-1097, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-05-21, resolutionDate= 2012-05-23]
+
+Ticket[key= AVRO-1099, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.0, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-05-21, resolutionDate= 2012-06-07]
+
+Ticket[key= AVRO-1109, injectedVersion= 1.5.1, openingVersion= 1.7.0, fixedVersion= 1.7.1, affectedVersions= [1.5.1, 1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-06-07, resolutionDate= 2012-07-12]
+
+Ticket[key= AVRO-1111, injectedVersion= 1.6.3, openingVersion= 1.7.0, fixedVersion= 1.7.2, affectedVersions= [1.6.3], numOfCommits= 1, creationDate= 2012-06-08, resolutionDate= 2012-09-11]
+
+Ticket[key= AVRO-1115, injectedVersion= 1.7.0, openingVersion= 1.7.1, fixedVersion= 1.7.1, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-06-13, resolutionDate= 2012-06-22]
+
+Ticket[key= AVRO-1116, injectedVersion= 1.5.0, openingVersion= 1.7.1, fixedVersion= 1.7.1, affectedVersions= [1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-06-15, resolutionDate= 2012-07-04]
+
+Ticket[key= AVRO-1119, injectedVersion= 1.6.3, openingVersion= 1.7.1, fixedVersion= 1.7.1, affectedVersions= [1.6.3, 1.7.0], numOfCommits= 1, creationDate= 2012-06-20, resolutionDate= 2012-07-05]
+
+Ticket[key= AVRO-1128, injectedVersion= 1.7.0, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.0, 1.7.1], numOfCommits= 1, creationDate= 2012-07-17, resolutionDate= 2012-07-19]
+
+Ticket[key= AVRO-1135, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-08-05, resolutionDate= 2012-08-20]
+
+Ticket[key= AVRO-1138, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-08-13, resolutionDate= 2012-09-13]
+
+Ticket[key= AVRO-1141, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-08-21, resolutionDate= 2012-08-27]
+
+Ticket[key= AVRO-1142, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1, 1.7.2], numOfCommits= 1, creationDate= 2012-08-21, resolutionDate= 2012-09-14]
+
+Ticket[key= AVRO-1143, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-08-28, resolutionDate= 2012-09-09]
+
+Ticket[key= AVRO-1144, injectedVersion= 1.7.0, openingVersion= 1.7.2, fixedVersion= 1.7.5, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-08-28, resolutionDate= 2013-07-31]
+
+Ticket[key= AVRO-1146, injectedVersion= 1.7.0, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-08-31, resolutionDate= 2012-09-10]
+
+Ticket[key= AVRO-1150, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1, 1.7.2], numOfCommits= 1, creationDate= 2012-09-07, resolutionDate= 2012-09-17]
+
+Ticket[key= AVRO-1152, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 2, creationDate= 2012-09-10, resolutionDate= 2012-09-10]
+
+Ticket[key= AVRO-1155, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1, 1.7.2], numOfCommits= 2, creationDate= 2012-09-11, resolutionDate= 2012-09-12]
+
+Ticket[key= AVRO-1154, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1, 1.7.2], numOfCommits= 2, creationDate= 2012-09-11, resolutionDate= 2012-09-13]
+
+Ticket[key= AVRO-1159, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-13, resolutionDate= 2012-09-13]
+
+Ticket[key= AVRO-1158, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-13, resolutionDate= 2012-09-13]
+
+Ticket[key= AVRO-1161, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-13, resolutionDate= 2012-09-17]
+
+Ticket[key= AVRO-1166, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-14, resolutionDate= 2012-09-17]
+
+Ticket[key= AVRO-1165, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-14, resolutionDate= 2012-09-17]
+
+Ticket[key= AVRO-1164, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-14, resolutionDate= 2012-09-17]
+
+Ticket[key= AVRO-1163, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.3, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-14, resolutionDate= 2012-11-30]
+
+Ticket[key= AVRO-1170, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.3, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-19, resolutionDate= 2012-09-27]
+
+Ticket[key= AVRO-1171, injectedVersion= 1.7.1, openingVersion= 1.7.2, fixedVersion= 1.7.2, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-22, resolutionDate= 2012-09-24]
+
+Ticket[key= AVRO-1172, injectedVersion= 1.7.1, openingVersion= 1.7.3, fixedVersion= 1.7.5, affectedVersions= [1.7.1], numOfCommits= 1, creationDate= 2012-09-25, resolutionDate= 2013-06-24]
+
+Ticket[key= AVRO-1175, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-09-27, resolutionDate= 2012-11-28]
+
+Ticket[key= AVRO-1174, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-09-27, resolutionDate= 2012-11-30]
+
+Ticket[key= AVRO-1176, injectedVersion= 1.7.0, openingVersion= 1.7.3, fixedVersion= 1.9.0, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-09-29, resolutionDate= 2019-01-03]
+
+Ticket[key= AVRO-1177, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-10-01, resolutionDate= 2012-11-28]
+
+Ticket[key= AVRO-1178, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-10-17, resolutionDate= 2012-11-28]
+
+Ticket[key= AVRO-1181, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.5, affectedVersions= [1.7.2, 1.7.3, 1.7.4], numOfCommits= 1, creationDate= 2012-10-23, resolutionDate= 2013-06-13]
+
+Ticket[key= AVRO-1183, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-10-24, resolutionDate= 2012-11-14]
+
+Ticket[key= AVRO-1190, injectedVersion= 1.7.0, openingVersion= 1.7.3, fixedVersion= 1.9.0, affectedVersions= [1.7.0], numOfCommits= 1, creationDate= 2012-11-05, resolutionDate= 2018-12-30]
+
+Ticket[key= AVRO-1197, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2, 1.7.3], numOfCommits= 1, creationDate= 2012-11-08, resolutionDate= 2012-11-08]
+
+Ticket[key= AVRO-1200, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-11-08, resolutionDate= 2012-11-09]
+
+Ticket[key= AVRO-1198, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.4, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-11-08, resolutionDate= 2013-02-12]
+
+Ticket[key= AVRO-1201, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-11-09, resolutionDate= 2012-11-21]
+
+Ticket[key= AVRO-1206, injectedVersion= 1.7.2, openingVersion= 1.7.3, fixedVersion= 1.7.3, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-11-16, resolutionDate= 2012-11-28]
+
+Ticket[key= AVRO-1217, injectedVersion= 1.7.2, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-12-07, resolutionDate= 2012-12-08]
+
+Ticket[key= AVRO-1215, injectedVersion= 1.7.2, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-12-07, resolutionDate= 2013-02-18]
+
+Ticket[key= AVRO-1216, injectedVersion= 1.7.2, openingVersion= 1.7.4, fixedVersion= 1.8.2, affectedVersions= [1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.8.0, 1.8.1], numOfCommits= 1, creationDate= 2012-12-07, resolutionDate= 2017-01-31]
+
+Ticket[key= AVRO-1220, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2012-12-13, resolutionDate= 2013-02-09]
+
+Ticket[key= AVRO-1221, injectedVersion= 1.7.2, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.2], numOfCommits= 1, creationDate= 2012-12-19, resolutionDate= 2012-12-19]
+
+Ticket[key= AVRO-1227, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-01-09, resolutionDate= 2013-01-24]
+
+Ticket[key= AVRO-1228, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-01-10, resolutionDate= 2013-02-04]
+
+Ticket[key= AVRO-1231, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3, 1.7.4], numOfCommits= 1, creationDate= 2013-01-11, resolutionDate= 2013-01-14]
+
+Ticket[key= AVRO-1230, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3, 1.7.4], numOfCommits= 1, creationDate= 2013-01-11, resolutionDate= 2013-01-16]
+
+Ticket[key= AVRO-1233, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3, 1.7.4], numOfCommits= 1, creationDate= 2013-01-15, resolutionDate= 2013-01-17]
+
+Ticket[key= AVRO-1234, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.6, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-01-17, resolutionDate= 2013-12-13]
+
+Ticket[key= AVRO-1240, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-02-01, resolutionDate= 2013-02-05]
+
+Ticket[key= AVRO-1237, injectedVersion= 1.7.4, openingVersion= 1.7.4, fixedVersion= 1.7.6, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-02-01, resolutionDate= 2013-12-18]
+
+Ticket[key= AVRO-1247, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-02-10, resolutionDate= 2013-02-14]
+
+Ticket[key= AVRO-1249, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-02-11, resolutionDate= 2013-02-12]
+
+Ticket[key= AVRO-1258, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-02-19, resolutionDate= 2013-02-19]
+
+Ticket[key= AVRO-1257, injectedVersion= 1.7.3, openingVersion= 1.7.4, fixedVersion= 1.7.4, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-02-19, resolutionDate= 2013-02-19]
+
+Ticket[key= AVRO-1261, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 3, creationDate= 2013-02-27, resolutionDate= 2013-07-09]
+
+Ticket[key= AVRO-1266, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 1, creationDate= 2013-02-28, resolutionDate= 2013-04-13]
+
+Ticket[key= AVRO-1272, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-03-10, resolutionDate= 2013-03-19]
+
+Ticket[key= AVRO-1275, injectedVersion= 1.7.7, openingVersion= 1.7.5, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2013-03-18, resolutionDate= 2019-04-05]
+
+Ticket[key= AVRO-1279, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-03-21, resolutionDate= 2013-07-26]
+
+Ticket[key= AVRO-1290, injectedVersion= 1.7.3, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.3], numOfCommits= 1, creationDate= 2013-04-04, resolutionDate= 2013-06-13]
+
+Ticket[key= AVRO-1292, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-04-09, resolutionDate= 2013-07-02]
+
+Ticket[key= AVRO-1295, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 2, creationDate= 2013-04-10, resolutionDate= 2013-04-16]
+
+Ticket[key= AVRO-1296, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 2, creationDate= 2013-04-10, resolutionDate= 2013-04-24]
+
+Ticket[key= AVRO-1293, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-04-10, resolutionDate= 2013-07-02]
+
+Ticket[key= AVRO-1297, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-04-11, resolutionDate= 2013-07-15]
+
+Ticket[key= AVRO-1302, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.8.0, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-04-18, resolutionDate= 2014-11-06]
+
+Ticket[key= AVRO-1309, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-04-22, resolutionDate= 2013-04-23]
+
+Ticket[key= AVRO-1308, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 1, creationDate= 2013-04-22, resolutionDate= 2013-04-23]
+
+Ticket[key= AVRO-1316, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 1, creationDate= 2013-05-01, resolutionDate= 2013-05-09]
+
+Ticket[key= AVRO-1322, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-05-06, resolutionDate= 2013-05-09]
+
+Ticket[key= AVRO-1326, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-05-08, resolutionDate= 2013-05-09]
+
+Ticket[key= AVRO-1331, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 1, creationDate= 2013-05-15, resolutionDate= 2013-05-16]
+
+Ticket[key= AVRO-1334, injectedVersion= 1.7.6, openingVersion= 1.7.5, fixedVersion= 1.8.0, affectedVersions= [], numOfCommits= 2, creationDate= 2013-05-21, resolutionDate= 2014-09-22]
+
+Ticket[key= AVRO-1346, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-06-06, resolutionDate= 2013-06-20]
+
+Ticket[key= AVRO-1348, injectedVersion= 1.7.5, openingVersion= 1.7.5, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-06-19, resolutionDate= 2013-12-19]
+
+Ticket[key= AVRO-1352, injectedVersion= 1.7.0, openingVersion= 1.7.5, fixedVersion= 1.7.7, affectedVersions= [1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.4], numOfCommits= 1, creationDate= 2013-07-08, resolutionDate= 2014-06-29]
+
+Ticket[key= AVRO-1356, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.5, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-07-21, resolutionDate= 2013-08-07]
+
+Ticket[key= AVRO-1355, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.6, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-07-21, resolutionDate= 2013-08-20]
+
+Ticket[key= AVRO-1358, injectedVersion= 1.7.4, openingVersion= 1.7.5, fixedVersion= 1.7.6, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-07-24, resolutionDate= 2013-12-18]
+
+Ticket[key= AVRO-1363, injectedVersion= 1.7.4, openingVersion= 1.7.6, fixedVersion= 1.9.0, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-08-20, resolutionDate= 2018-12-05]
+
+Ticket[key= AVRO-1366, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-08-26, resolutionDate= 2013-09-12]
+
+Ticket[key= AVRO-1368, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-08-27, resolutionDate= 2013-09-04]
+
+Ticket[key= AVRO-1369, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-08-28, resolutionDate= 2013-12-18]
+
+Ticket[key= AVRO-1374, injectedVersion= 1.7.4, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.4, 1.7.5], numOfCommits= 1, creationDate= 2013-09-10, resolutionDate= 2013-09-11]
+
+Ticket[key= AVRO-1377, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-09-17, resolutionDate= 2013-09-27]
+
+Ticket[key= AVRO-1382, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 3, creationDate= 2013-10-04, resolutionDate= 2014-01-10]
+
+Ticket[key= AVRO-1387, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5, 1.7.6], numOfCommits= 1, creationDate= 2013-10-17, resolutionDate= 2013-10-25]
+
+Ticket[key= AVRO-1401, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.9.0, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-11-12, resolutionDate= 2017-06-14]
+
+Ticket[key= AVRO-1405, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-11-22, resolutionDate= 2013-12-19]
+
+Ticket[key= AVRO-1406, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2013-11-25, resolutionDate= 2013-12-15]
+
+Ticket[key= AVRO-1407, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.8.0, affectedVersions= [1.7.5, 1.7.6], numOfCommits= 1, creationDate= 2013-11-29, resolutionDate= 2014-11-26]
+
+Ticket[key= AVRO-1410, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 2, creationDate= 2013-12-08, resolutionDate= 2013-12-16]
+
+Ticket[key= AVRO-1415, injectedVersion= 1.7.4, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2013-12-17, resolutionDate= 2014-01-10]
+
+Ticket[key= AVRO-1424, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-01-02, resolutionDate= 2014-01-07]
+
+Ticket[key= AVRO-1427, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-01-05, resolutionDate= 2014-01-09]
+
+Ticket[key= AVRO-1433, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-01-08, resolutionDate= 2014-01-09]
+
+Ticket[key= AVRO-1434, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.6, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-01-10, resolutionDate= 2014-01-10]
+
+Ticket[key= AVRO-1436, injectedVersion= 1.7.5, openingVersion= 1.7.6, fixedVersion= 1.7.7, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-01-13, resolutionDate= 2014-01-28]
+
+Ticket[key= AVRO-1441, injectedVersion= 1.7.6, openingVersion= 1.7.6, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-01-16, resolutionDate= 2014-01-28]
+
+Ticket[key= AVRO-1442, injectedVersion= 1.7.6, openingVersion= 1.7.6, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-01-21, resolutionDate= 2014-05-28]
+
+Ticket[key= AVRO-1444, injectedVersion= 1.8.0, openingVersion= 1.7.6, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2014-01-22, resolutionDate= 2018-12-31]
+
+Ticket[key= AVRO-1445, injectedVersion= 1.7.6, openingVersion= 1.7.6, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-01-23, resolutionDate= 2014-01-27]
+
+Ticket[key= AVRO-1446, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-01-24, resolutionDate= 2014-01-27]
+
+Ticket[key= AVRO-1447, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-01-27, resolutionDate= 2014-01-28]
+
+Ticket[key= AVRO-1448, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 2, creationDate= 2014-01-28, resolutionDate= 2014-07-05]
+
+Ticket[key= AVRO-1454, injectedVersion= 1.7.5, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-02-07, resolutionDate= 2014-03-03]
+
+Ticket[key= AVRO-1455, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-02-12, resolutionDate= 2014-03-03]
+
+Ticket[key= AVRO-1457, injectedVersion= 1.7.4, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2014-02-12, resolutionDate= 2014-05-28]
+
+Ticket[key= AVRO-1458, injectedVersion= 1.7.5, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-02-15, resolutionDate= 2014-02-28]
+
+Ticket[key= AVRO-1459, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-02-15, resolutionDate= 2014-03-13]
+
+Ticket[key= AVRO-1462, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2014-02-20, resolutionDate= 2014-06-11]
+
+Ticket[key= AVRO-1465, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2014-02-24, resolutionDate= 2014-03-13]
+
+Ticket[key= AVRO-1470, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2014-02-27, resolutionDate= 2014-06-11]
+
+Ticket[key= AVRO-1473, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2014-03-02, resolutionDate= 2014-03-13]
+
+Ticket[key= AVRO-1474, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-03-03, resolutionDate= 2014-06-29]
+
+Ticket[key= AVRO-1478, injectedVersion= 1.8.0, openingVersion= 1.7.7, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2014-03-07, resolutionDate= 2019-01-03]
+
+Ticket[key= AVRO-1485, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.9.0, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-03-19, resolutionDate= 2017-07-20]
+
+Ticket[key= AVRO-1489, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.8.0, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-03-30, resolutionDate= 2014-10-27]
+
+Ticket[key= AVRO-1491, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.8.0, affectedVersions= [1.7.6], numOfCommits= 2, creationDate= 2014-04-01, resolutionDate= 2015-07-15]
+
+Ticket[key= AVRO-1493, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.8.1, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-04-06, resolutionDate= 2016-02-22]
+
+Ticket[key= AVRO-1498, injectedVersion= 1.7.5, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.5, 1.7.6], numOfCommits= 1, creationDate= 2014-04-22, resolutionDate= 2014-07-15]
+
+Ticket[key= AVRO-1499, injectedVersion= 1.7.5, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.5], numOfCommits= 1, creationDate= 2014-04-24, resolutionDate= 2014-07-03]
+
+Ticket[key= AVRO-1500, injectedVersion= 1.7.4, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.4, 1.7.5, 1.7.6], numOfCommits= 1, creationDate= 2014-04-30, resolutionDate= 2014-06-06]
+
+Ticket[key= AVRO-1512, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-05-20, resolutionDate= 2014-05-28]
+
+Ticket[key= AVRO-1520, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.9.0, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2014-05-29, resolutionDate= 2019-01-07]
+
+Ticket[key= AVRO-1522, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-05-30, resolutionDate= 2014-06-06]
+
+Ticket[key= AVRO-1525, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-06-11, resolutionDate= 2014-06-12]
+
+Ticket[key= AVRO-1528, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.9.0, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-06-16, resolutionDate= 2018-11-29]
+
+Ticket[key= AVRO-1544, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.8.0, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-07-12, resolutionDate= 2014-08-04]
+
+Ticket[key= AVRO-1545, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.8.0, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-07-15, resolutionDate= 2014-12-17]
+
+Ticket[key= AVRO-1546, injectedVersion= 1.7.6, openingVersion= 1.7.7, fixedVersion= 1.7.7, affectedVersions= [1.7.6], numOfCommits= 1, creationDate= 2014-07-17, resolutionDate= 2014-07-18]
+
+Ticket[key= AVRO-1553, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-07-28, resolutionDate= 2014-07-29]
+
+Ticket[key= AVRO-1560, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-08-06, resolutionDate= 2015-12-30]
+
+Ticket[key= AVRO-1564, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-08-08, resolutionDate= 2014-11-26]
+
+Ticket[key= AVRO-1572, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2014-08-25, resolutionDate= 2015-12-30]
+
+Ticket[key= AVRO-1573, injectedVersion= 1.7.4, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.4], numOfCommits= 1, creationDate= 2014-08-28, resolutionDate= 2015-01-07]
+
+Ticket[key= AVRO-1576, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-09-03, resolutionDate= 2015-07-07]
+
+Ticket[key= AVRO-1577, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.9.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-09-03, resolutionDate= 2019-01-17]
+
+Ticket[key= AVRO-1589, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-09-19, resolutionDate= 2014-09-22]
+
+Ticket[key= AVRO-1590, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-09-20, resolutionDate= 2014-09-29]
+
+Ticket[key= AVRO-1591, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2014-10-02, resolutionDate= 2014-10-04]
+
+Ticket[key= AVRO-1592, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-10-08, resolutionDate= 2014-11-08]
+
+Ticket[key= AVRO-1593, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-10-10, resolutionDate= 2015-08-26]
+
+Ticket[key= AVRO-1596, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-10-22, resolutionDate= 2014-11-17]
+
+Ticket[key= AVRO-1597, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2014-10-24, resolutionDate= 2014-11-08]
+
+Ticket[key= AVRO-1598, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-11-01, resolutionDate= 2014-11-06]
+
+Ticket[key= AVRO-1602, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 2, creationDate= 2014-11-09, resolutionDate= 2014-11-13]
+
+Ticket[key= AVRO-1604, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2014-11-14, resolutionDate= 2014-11-26]
+
+Ticket[key= AVRO-1617, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-12-04, resolutionDate= 2015-12-30]
+
+Ticket[key= AVRO-1622, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-12-11, resolutionDate= 2014-12-11]
+
+Ticket[key= AVRO-1621, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-12-11, resolutionDate= 2014-12-18]
+
+Ticket[key= AVRO-1623, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2014-12-16, resolutionDate= 2014-12-17]
+
+Ticket[key= AVRO-1624, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2014-12-19, resolutionDate= 2015-01-12]
+
+Ticket[key= AVRO-1626, injectedVersion= 1.8.1, openingVersion= 1.8.0, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2015-01-09, resolutionDate= 2019-04-01]
+
+Ticket[key= AVRO-1635, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.9.0, affectedVersions= [1.7.7], numOfCommits= 2, creationDate= 2015-01-22, resolutionDate= 2018-10-02]
+
+Ticket[key= AVRO-1642, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.1, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-02-24, resolutionDate= 2016-04-09]
+
+Ticket[key= AVRO-1646, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.11.1, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-03-05, resolutionDate= 2022-03-03]
+
+Ticket[key= AVRO-1652, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-03-28, resolutionDate= 2015-11-25]
+
+Ticket[key= AVRO-1653, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-03-29, resolutionDate= 2015-03-30]
+
+Ticket[key= AVRO-1655, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-03-31, resolutionDate= 2015-04-17]
+
+Ticket[key= AVRO-1663, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-04-23, resolutionDate= 2016-01-19]
+
+Ticket[key= AVRO-1664, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.10.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-04-24, resolutionDate= 2020-06-08]
+
+Ticket[key= AVRO-1667, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.1, affectedVersions= [1.7.7], numOfCommits= 4, creationDate= 2015-05-05, resolutionDate= 2016-03-15]
+
+Ticket[key= AVRO-1673, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 2, creationDate= 2015-05-29, resolutionDate= 2015-07-15]
+
+Ticket[key= AVRO-1676, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-06-03, resolutionDate= 2015-08-25]
+
+Ticket[key= AVRO-1689, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-06-25, resolutionDate= 2015-06-25]
+
+Ticket[key= AVRO-1688, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-06-25, resolutionDate= 2015-07-13]
+
+Ticket[key= AVRO-1691, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-06-30, resolutionDate= 2016-01-19]
+
+Ticket[key= AVRO-1700, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-07-11, resolutionDate= 2015-08-26]
+
+Ticket[key= AVRO-1701, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.1, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-07-11, resolutionDate= 2016-04-13]
+
+Ticket[key= AVRO-1711, injectedVersion= 1.8.0, openingVersion= 1.8.0, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2015-08-04, resolutionDate= 2016-05-08]
+
+Ticket[key= AVRO-1713, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-08-06, resolutionDate= 2015-08-07]
+
+Ticket[key= AVRO-1719, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.2, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-08-19, resolutionDate= 2016-09-04]
+
+Ticket[key= AVRO-1725, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-09-01, resolutionDate= 2016-01-11]
+
+Ticket[key= AVRO-1737, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.11.3, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-09-11, resolutionDate= 2023-07-20]
+
+Ticket[key= AVRO-1739, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-09-13, resolutionDate= 2015-10-07]
+
+Ticket[key= AVRO-1741, injectedVersion= 1.8.1, openingVersion= 1.8.0, fixedVersion= 1.9.0, affectedVersions= [], numOfCommits= 1, creationDate= 2015-09-15, resolutionDate= 2018-12-20]
+
+Ticket[key= AVRO-1743, injectedVersion= 1.7.6, openingVersion= 1.8.0, fixedVersion= 1.9.0, affectedVersions= [1.7.6, 1.7.7], numOfCommits= 1, creationDate= 2015-10-04, resolutionDate= 2018-11-29]
+
+Ticket[key= AVRO-1750, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.2, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-10-15, resolutionDate= 2017-01-29]
+
+Ticket[key= AVRO-1754, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-11-04, resolutionDate= 2015-11-26]
+
+Ticket[key= AVRO-1755, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2015-11-08, resolutionDate= 2015-11-25]
+
+Ticket[key= AVRO-1775, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 1, creationDate= 2015-12-30, resolutionDate= 2016-01-19]
+
+Ticket[key= AVRO-1782, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2016-01-11, resolutionDate= 2016-01-13]
+
+Ticket[key= AVRO-1783, injectedVersion= 1.7.7, openingVersion= 1.8.0, fixedVersion= 1.8.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2016-01-11, resolutionDate= 2016-01-21]
+
+Ticket[key= AVRO-1799, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-02-10, resolutionDate= 2016-02-29]
+
+Ticket[key= AVRO-1807, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-03-08, resolutionDate= 2016-05-14]
+
+Ticket[key= AVRO-1810, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.9.0, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-03-10, resolutionDate= 2019-03-04]
+
+Ticket[key= AVRO-1814, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-03-17, resolutionDate= 2016-04-28]
+
+Ticket[key= AVRO-1813, injectedVersion= 1.8.1, openingVersion= 1.8.1, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-03-17, resolutionDate= 2017-02-10]
+
+Ticket[key= AVRO-1820, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-04-02, resolutionDate= 2016-04-20]
+
+Ticket[key= AVRO-1821, injectedVersion= 1.8.1, openingVersion= 1.8.1, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 3, creationDate= 2016-04-04, resolutionDate= 2017-06-20]
+
+Ticket[key= AVRO-1824, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-04-08, resolutionDate= 2016-04-09]
+
+Ticket[key= AVRO-1826, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.1, affectedVersions= [1.8.0, 1.8.1], numOfCommits= 1, creationDate= 2016-04-09, resolutionDate= 2016-04-17]
+
+Ticket[key= AVRO-1844, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.9.0, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-05-12, resolutionDate= 2018-12-10]
+
+Ticket[key= AVRO-1848, injectedVersion= 1.8.0, openingVersion= 1.8.1, fixedVersion= 1.8.2, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2016-05-19, resolutionDate= 2016-09-04]
+
+Ticket[key= AVRO-1849, injectedVersion= 1.7.7, openingVersion= 1.8.1, fixedVersion= 1.8.2, affectedVersions= [1.7.7, 1.8.0], numOfCommits= 2, creationDate= 2016-05-20, resolutionDate= 2016-09-27]
+
+Ticket[key= AVRO-1851, injectedVersion= 1.7.7, openingVersion= 1.8.2, fixedVersion= 1.11.1, affectedVersions= [1.7.7, 1.11.0], numOfCommits= 1, creationDate= 2016-05-23, resolutionDate= 2022-02-10]
+
+Ticket[key= AVRO-1853, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-05-25, resolutionDate= 2016-09-27]
+
+Ticket[key= AVRO-1857, injectedVersion= 1.7.7, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.7.7], numOfCommits= 1, creationDate= 2016-06-02, resolutionDate= 2017-05-25]
+
+Ticket[key= AVRO-1860, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-06-06, resolutionDate= 2016-10-06]
+
+Ticket[key= AVRO-1866, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-06-22, resolutionDate= 2017-01-29]
+
+Ticket[key= AVRO-1869, injectedVersion= 1.8.0, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.0, 1.8.1], numOfCommits= 1, creationDate= 2016-06-28, resolutionDate= 2016-06-28]
+
+Ticket[key= AVRO-1873, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-06-30, resolutionDate= 2016-09-12]
+
+Ticket[key= AVRO-1874, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-07-04, resolutionDate= 2016-09-04]
+
+Ticket[key= AVRO-1882, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-07-11, resolutionDate= 2016-10-30]
+
+Ticket[key= AVRO-1881, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-07-11, resolutionDate= 2017-01-10]
+
+Ticket[key= AVRO-1883, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-07-17, resolutionDate= 2017-10-27]
+
+Ticket[key= AVRO-1888, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-07-24, resolutionDate= 2016-09-04]
+
+Ticket[key= AVRO-1889, injectedVersion= 1.8.2, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 2, creationDate= 2016-07-25, resolutionDate= 2018-05-09]
+
+Ticket[key= AVRO-1891, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-08-02, resolutionDate= 2019-12-01]
+
+Ticket[key= AVRO-1897, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 2, creationDate= 2016-08-08, resolutionDate= 2016-11-05]
+
+Ticket[key= AVRO-1898, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-08-16, resolutionDate= 2017-02-18]
+
+Ticket[key= AVRO-1908, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-09-04, resolutionDate= 2016-09-08]
+
+Ticket[key= AVRO-1912, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-09-09, resolutionDate= 2017-01-29]
+
+Ticket[key= AVRO-1914, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-09-14, resolutionDate= 2016-09-15]
+
+Ticket[key= AVRO-1921, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-09-19, resolutionDate= 2016-09-19]
+
+Ticket[key= AVRO-1923, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-09-22, resolutionDate= 2016-10-04]
+
+Ticket[key= AVRO-1930, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-10-05, resolutionDate= 2017-01-29]
+
+Ticket[key= AVRO-1931, injectedVersion= 1.7.7, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.7.7, 1.8.1], numOfCommits= 1, creationDate= 2016-10-07, resolutionDate= 2017-08-18]
+
+Ticket[key= AVRO-1937, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-10-21, resolutionDate= 2017-02-18]
+
+Ticket[key= AVRO-1943, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-10-26, resolutionDate= 2016-10-31]
+
+Ticket[key= AVRO-1944, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-10-26, resolutionDate= 2016-11-01]
+
+Ticket[key= AVRO-1947, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-11-03, resolutionDate= 2016-11-04]
+
+Ticket[key= AVRO-1957, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-11-10, resolutionDate= 2018-01-29]
+
+Ticket[key= AVRO-1966, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-11-30, resolutionDate= 2016-12-01]
+
+Ticket[key= AVRO-1965, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.11.1, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-11-30, resolutionDate= 2022-03-03]
+
+Ticket[key= AVRO-1967, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2016-12-01, resolutionDate= 2016-12-17]
+
+Ticket[key= AVRO-1970, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-12-19, resolutionDate= 2017-01-10]
+
+Ticket[key= AVRO-1972, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2016-12-22, resolutionDate= 2017-02-07]
+
+Ticket[key= AVRO-1981, injectedVersion= 1.8.2, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-01-11, resolutionDate= 2019-03-01]
+
+Ticket[key= AVRO-1985, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2017-01-18, resolutionDate= 2017-06-16]
+
+Ticket[key= AVRO-1995, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2017-01-30, resolutionDate= 2017-01-31]
+
+Ticket[key= AVRO-1996, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2017-01-30, resolutionDate= 2017-02-14]
+
+Ticket[key= AVRO-1994, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.8.2, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2017-01-30, resolutionDate= 2017-02-19]
+
+Ticket[key= AVRO-2004, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 2, creationDate= 2017-03-03, resolutionDate= 2018-12-10]
+
+Ticket[key= AVRO-2034, injectedVersion= 1.8.1, openingVersion= 1.8.2, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 2, creationDate= 2017-05-11, resolutionDate= 2018-12-11]
+
+Ticket[key= AVRO-2035, injectedVersion= 1.8.1, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 4, creationDate= 2017-05-17, resolutionDate= 2018-02-27]
+
+Ticket[key= AVRO-2051, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-07-17, resolutionDate= 2018-11-07]
+
+Ticket[key= AVRO-2058, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-07-27, resolutionDate= 2018-12-10]
+
+Ticket[key= AVRO-2063, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 2, creationDate= 2017-08-04, resolutionDate= 2018-12-10]
+
+Ticket[key= AVRO-2066, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2017-08-14, resolutionDate= 2017-09-01]
+
+Ticket[key= AVRO-2065, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-08-14, resolutionDate= 2018-12-11]
+
+Ticket[key= AVRO-2072, injectedVersion= 1.7.7, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.7.7, 1.8.1], numOfCommits= 1, creationDate= 2017-08-30, resolutionDate= 2017-09-12]
+
+Ticket[key= AVRO-2080, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-09-20, resolutionDate= 2017-12-13]
+
+Ticket[key= AVRO-2081, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-09-25, resolutionDate= 2018-04-01]
+
+Ticket[key= AVRO-2096, injectedVersion= 1.8.0, openingVersion= 1.9.0, fixedVersion= 1.10.1, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2017-10-16, resolutionDate= 2020-09-25]
+
+Ticket[key= AVRO-2118, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 5, creationDate= 2017-12-13, resolutionDate= 2017-12-22]
+
+Ticket[key= AVRO-2120, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2017-12-18, resolutionDate= 2018-01-02]
+
+Ticket[key= AVRO-2122, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-01-03, resolutionDate= 2018-01-23]
+
+Ticket[key= AVRO-2131, injectedVersion= 1.8.1, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.1], numOfCommits= 1, creationDate= 2018-01-17, resolutionDate= 2018-11-29]
+
+Ticket[key= AVRO-2144, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-02-13, resolutionDate= 2019-03-28]
+
+Ticket[key= AVRO-2157, injectedVersion= 1.8.1, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.1, 1.8.2], numOfCommits= 1, creationDate= 2018-03-09, resolutionDate= 2018-03-14]
+
+Ticket[key= AVRO-2174, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.10.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-05-04, resolutionDate= 2020-02-23]
+
+Ticket[key= AVRO-2181, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-05-28, resolutionDate= 2018-11-27]
+
+Ticket[key= AVRO-2183, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2018-05-30, resolutionDate= 2018-11-10]
+
+Ticket[key= AVRO-2184, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2018-06-01, resolutionDate= 2018-12-11]
+
+Ticket[key= AVRO-2186, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-06-05, resolutionDate= 2018-10-05]
+
+Ticket[key= AVRO-2189, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2018-06-13, resolutionDate= 2018-06-15]
+
+Ticket[key= AVRO-2202, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-07-26, resolutionDate= 2019-04-05]
+
+Ticket[key= AVRO-2207, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-08-06, resolutionDate= 2018-11-01]
+
+Ticket[key= AVRO-2220, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2018-09-11, resolutionDate= 2018-10-02]
+
+Ticket[key= AVRO-2226, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.2, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-09-14, resolutionDate= 2019-11-03]
+
+Ticket[key= AVRO-2236, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.11.3, affectedVersions= [1.8.2], numOfCommits= 3, creationDate= 2018-10-04, resolutionDate= 2023-08-01]
+
+Ticket[key= AVRO-2240, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-10-08, resolutionDate= 2018-11-07]
+
+Ticket[key= AVRO-2244, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2018-10-17, resolutionDate= 2018-11-20]
+
+Ticket[key= AVRO-2254, injectedVersion= 1.9.0, openingVersion= 1.9.0, fixedVersion= 1.11.3, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2018-11-08, resolutionDate= 2023-09-19]
+
+Ticket[key= AVRO-2278, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.10.0, affectedVersions= [1.8.2, 1.9.2], numOfCommits= 1, creationDate= 2018-11-27, resolutionDate= 2020-05-22]
+
+Ticket[key= AVRO-2284, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.11.3, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2018-12-13, resolutionDate= 2023-07-24]
+
+Ticket[key= AVRO-2286, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 2, creationDate= 2018-12-19, resolutionDate= 2018-12-20]
+
+Ticket[key= AVRO-2298, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.1, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2019-01-07, resolutionDate= 2019-06-25]
+
+Ticket[key= AVRO-2302, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2019-01-18, resolutionDate= 2019-02-07]
+
+Ticket[key= AVRO-2306, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.9.0, affectedVersions= [1.8.2], numOfCommits= 1, creationDate= 2019-01-23, resolutionDate= 2019-01-23]
+
+Ticket[key= AVRO-2382, injectedVersion= 1.8.2, openingVersion= 1.9.0, fixedVersion= 1.10.1, affectedVersions= [1.8.2, 1.9.1, 1.10.0], numOfCommits= 1, creationDate= 2019-04-27, resolutionDate= 2020-07-09]
+
+Ticket[key= AVRO-2394, injectedVersion= 1.9.0, openingVersion= 1.9.0, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-05-11, resolutionDate= 2019-05-17]
+
+Ticket[key= AVRO-2396, injectedVersion= 1.9.0, openingVersion= 1.9.0, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-05-13, resolutionDate= 2019-06-10]
+
+Ticket[key= AVRO-2400, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-05-17, resolutionDate= 2019-06-14]
+
+Ticket[key= AVRO-2408, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-05-27, resolutionDate= 2019-05-28]
+
+Ticket[key= AVRO-2415, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-06-06, resolutionDate= 2019-06-17]
+
+Ticket[key= AVRO-2432, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.2, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-06-19, resolutionDate= 2019-10-28]
+
+Ticket[key= AVRO-2431, injectedVersion= 1.9.1, openingVersion= 1.9.1, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-06-19, resolutionDate= 2019-10-28]
+
+Ticket[key= AVRO-2429, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.2, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-06-19, resolutionDate= 2019-11-06]
+
+Ticket[key= AVRO-2433, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-06-20, resolutionDate= 2019-06-22]
+
+Ticket[key= AVRO-2438, injectedVersion= 1.8.2, openingVersion= 1.9.1, fixedVersion= 1.10.0, affectedVersions= [1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2019-06-21, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2443, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-06-22, resolutionDate= 2019-06-24]
+
+Ticket[key= AVRO-2442, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-06-22, resolutionDate= 2019-06-28]
+
+Ticket[key= AVRO-2444, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-06-23, resolutionDate= 2019-06-24]
+
+Ticket[key= AVRO-2448, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-06-25, resolutionDate= 2019-06-26]
+
+Ticket[key= AVRO-2450, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-06-25, resolutionDate= 2019-07-01]
+
+Ticket[key= AVRO-2465, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-07-05, resolutionDate= 2019-08-19]
+
+Ticket[key= AVRO-2466, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-07-06, resolutionDate= 2019-07-23]
+
+Ticket[key= AVRO-2468, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-07-07, resolutionDate= 2019-08-20]
+
+Ticket[key= AVRO-2471, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.10.2, affectedVersions= [1.9.0], numOfCommits= 2, creationDate= 2019-07-12, resolutionDate= 2021-03-04]
+
+Ticket[key= AVRO-2483, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-07-25, resolutionDate= 2019-07-25]
+
+Ticket[key= AVRO-2486, injectedVersion= 1.8.0, openingVersion= 1.9.1, fixedVersion= 1.10.0, affectedVersions= [1.8.0, 1.8.1, 1.8.2, 1.9.0], numOfCommits= 1, creationDate= 2019-07-26, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2489, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-07-30, resolutionDate= 2019-07-30]
+
+Ticket[key= AVRO-2491, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-07-30, resolutionDate= 2019-08-20]
+
+Ticket[key= AVRO-2493, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.10.0, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-07-31, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2499, injectedVersion= 1.9.1, openingVersion= 1.9.1, fixedVersion= 1.10.0, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-08-05, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2498, injectedVersion= 1.10.0, openingVersion= 1.9.1, fixedVersion= 1.11.1, affectedVersions= [], numOfCommits= 1, creationDate= 2019-08-05, resolutionDate= 2021-11-16]
+
+Ticket[key= AVRO-2500, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-08-06, resolutionDate= 2019-08-08]
+
+Ticket[key= AVRO-2503, injectedVersion= 1.9.1, openingVersion= 1.9.1, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-08-11, resolutionDate= 2019-10-23]
+
+Ticket[key= AVRO-2517, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-08-21, resolutionDate= 2019-08-23]
+
+Ticket[key= AVRO-2516, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.1, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-08-21, resolutionDate= 2019-08-23]
+
+Ticket[key= AVRO-2522, injectedVersion= 1.9.0, openingVersion= 1.9.1, fixedVersion= 1.9.2, affectedVersions= [1.9.0], numOfCommits= 2, creationDate= 2019-08-24, resolutionDate= 2019-10-06]
+
+Ticket[key= AVRO-2523, injectedVersion= 1.9.1, openingVersion= 1.9.1, fixedVersion= 1.10.0, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-08-25, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2548, injectedVersion= 1.9.0, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-09-05, resolutionDate= 2019-12-01]
+
+Ticket[key= AVRO-2554, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2019-09-09, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2557, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-12, resolutionDate= 2019-09-29]
+
+Ticket[key= AVRO-2559, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-12, resolutionDate= 2019-09-30]
+
+Ticket[key= AVRO-2558, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2019-09-12, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2561, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-14, resolutionDate= 2019-12-03]
+
+Ticket[key= AVRO-2564, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-17, resolutionDate= 2019-09-21]
+
+Ticket[key= AVRO-2566, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-19, resolutionDate= 2019-09-22]
+
+Ticket[key= AVRO-2571, injectedVersion= 1.9.0, openingVersion= 1.9.2, fixedVersion= 1.10.1, affectedVersions= [1.9.0], numOfCommits= 1, creationDate= 2019-09-25, resolutionDate= 2020-07-23]
+
+Ticket[key= AVRO-2576, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-29, resolutionDate= 2019-10-09]
+
+Ticket[key= AVRO-2577, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-29, resolutionDate= 2019-10-25]
+
+Ticket[key= AVRO-2578, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-09-30, resolutionDate= 2019-10-27]
+
+Ticket[key= AVRO-2580, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 2, creationDate= 2019-10-06, resolutionDate= 2019-10-25]
+
+Ticket[key= AVRO-2579, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2019-10-06, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2590, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-10-10, resolutionDate= 2019-10-18]
+
+Ticket[key= AVRO-2593, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-10-12, resolutionDate= 2019-10-22]
+
+Ticket[key= AVRO-2592, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-10-12, resolutionDate= 2020-01-31]
+
+Ticket[key= AVRO-2595, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-10-14, resolutionDate= 2019-12-01]
+
+Ticket[key= AVRO-2600, injectedVersion= 1.9.0, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.0, 1.9.1], numOfCommits= 1, creationDate= 2019-10-18, resolutionDate= 2019-11-04]
+
+Ticket[key= AVRO-2606, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-10-27, resolutionDate= 2019-11-05]
+
+Ticket[key= AVRO-2608, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 2, creationDate= 2019-10-28, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2617, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-11-05, resolutionDate= 2019-11-17]
+
+Ticket[key= AVRO-2618, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-11-05, resolutionDate= 2019-11-19]
+
+Ticket[key= AVRO-2620, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 3, creationDate= 2019-11-06, resolutionDate= 2019-11-09]
+
+Ticket[key= AVRO-2624, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 2, creationDate= 2019-11-13, resolutionDate= 2020-05-22]
+
+Ticket[key= AVRO-2631, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-11-16, resolutionDate= 2019-11-16]
+
+Ticket[key= AVRO-2633, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.11.0, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-11-18, resolutionDate= 2021-10-06]
+
+Ticket[key= AVRO-2641, injectedVersion= 1.8.0, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.8.0], numOfCommits= 1, creationDate= 2019-11-27, resolutionDate= 2020-02-04]
+
+Ticket[key= AVRO-2644, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-11-30, resolutionDate= 2019-12-18]
+
+Ticket[key= AVRO-2645, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-12-02, resolutionDate= 2020-01-02]
+
+Ticket[key= AVRO-2648, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 2, creationDate= 2019-12-06, resolutionDate= 2020-05-21]
+
+Ticket[key= AVRO-2657, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-12-16, resolutionDate= 2019-12-19]
+
+Ticket[key= AVRO-2663, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-12-23, resolutionDate= 2020-01-13]
+
+Ticket[key= AVRO-2664, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2019-12-26, resolutionDate= 2019-12-27]
+
+Ticket[key= AVRO-2666, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.11.0, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2019-12-27, resolutionDate= 2021-10-14]
+
+Ticket[key= AVRO-2668, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2019-12-30, resolutionDate= 2020-05-29]
+
+Ticket[key= AVRO-2675, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2020-01-07, resolutionDate= 2020-01-14]
+
+Ticket[key= AVRO-2677, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2020-01-08, resolutionDate= 2020-01-11]
+
+Ticket[key= AVRO-2702, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.10.1, affectedVersions= [1.9.1], numOfCommits= 2, creationDate= 2020-01-19, resolutionDate= 2020-11-24]
+
+Ticket[key= AVRO-2716, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2020-01-23, resolutionDate= 2020-02-11]
+
+Ticket[key= AVRO-2714, injectedVersion= 1.9.2, openingVersion= 1.9.2, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-01-23, resolutionDate= 2020-05-22]
+
+Ticket[key= AVRO-2720, injectedVersion= 1.10.0, openingVersion= 1.9.2, fixedVersion= 1.11.0, affectedVersions= [], numOfCommits= 1, creationDate= 2020-01-27, resolutionDate= 2021-07-15]
+
+Ticket[key= AVRO-2722, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.11.1, affectedVersions= [1.9.1], numOfCommits= 1, creationDate= 2020-01-29, resolutionDate= 2022-01-05]
+
+Ticket[key= AVRO-2725, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2020-02-04, resolutionDate= 2020-02-04]
+
+Ticket[key= AVRO-2726, injectedVersion= 1.9.1, openingVersion= 1.9.2, fixedVersion= 1.9.2, affectedVersions= [1.9.1, 1.9.2], numOfCommits= 2, creationDate= 2020-02-06, resolutionDate= 2020-02-06]
+
+Ticket[key= AVRO-2747, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-02-17, resolutionDate= 2020-02-19]
+
+Ticket[key= AVRO-2757, injectedVersion= 1.10.0, openingVersion= 1.10.0, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-02-21, resolutionDate= 2020-07-02]
+
+Ticket[key= AVRO-2761, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-02-24, resolutionDate= 2020-02-26]
+
+Ticket[key= AVRO-2765, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-03-01, resolutionDate= 2020-04-22]
+
+Ticket[key= AVRO-2766, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-03-02, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2771, injectedVersion= 1.9.0, openingVersion= 1.10.0, fixedVersion= 1.11.3, affectedVersions= [1.9.0, 1.9.1, 1.9.2], numOfCommits= 1, creationDate= 2020-03-05, resolutionDate= 2023-08-16]
+
+Ticket[key= AVRO-2780, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-03-24, resolutionDate= 2020-06-08]
+
+Ticket[key= AVRO-2791, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-04-07, resolutionDate= 2020-04-11]
+
+Ticket[key= AVRO-2792, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-04-08, resolutionDate= 2020-05-22]
+
+Ticket[key= AVRO-2800, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-04-13, resolutionDate= 2020-05-09]
+
+Ticket[key= AVRO-2807, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-04-17, resolutionDate= 2020-04-20]
+
+Ticket[key= AVRO-2817, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.1, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-04-24, resolutionDate= 2020-10-14]
+
+Ticket[key= AVRO-2827, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-05-09, resolutionDate= 2020-05-11]
+
+Ticket[key= AVRO-2828, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-05-09, resolutionDate= 2020-05-13]
+
+Ticket[key= AVRO-2833, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-05-13, resolutionDate= 2020-05-13]
+
+Ticket[key= AVRO-2836, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-05-15, resolutionDate= 2020-05-26]
+
+Ticket[key= AVRO-2837, injectedVersion= 1.8.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.8.2, 1.9.2], numOfCommits= 1, creationDate= 2020-05-15, resolutionDate= 2020-06-01]
+
+Ticket[key= AVRO-2844, injectedVersion= 1.8.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.8.2, 1.9.2], numOfCommits= 1, creationDate= 2020-05-23, resolutionDate= 2020-05-27]
+
+Ticket[key= AVRO-2845, injectedVersion= 1.9.2, openingVersion= 1.10.0, fixedVersion= 1.10.0, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-05-24, resolutionDate= 2020-05-24]
+
+Ticket[key= AVRO-2867, injectedVersion= 1.10.1, openingVersion= 1.10.0, fixedVersion= 1.11.1, affectedVersions= [], numOfCommits= 1, creationDate= 2020-06-19, resolutionDate= 2021-12-22]
+
+Ticket[key= AVRO-2870, injectedVersion= 1.10.1, openingVersion= 1.10.0, fixedVersion= 1.11.1, affectedVersions= [], numOfCommits= 2, creationDate= 2020-06-24, resolutionDate= 2022-04-30]
+
+Ticket[key= AVRO-2875, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-06-30, resolutionDate= 2020-11-12]
+
+Ticket[key= AVRO-2881, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0, 1.10.1], numOfCommits= 1, creationDate= 2020-07-04, resolutionDate= 2020-08-19]
+
+Ticket[key= AVRO-2883, injectedVersion= 1.10.2, openingVersion= 1.10.1, fixedVersion= 1.11.1, affectedVersions= [], numOfCommits= 2, creationDate= 2020-07-07, resolutionDate= 2022-04-19]
+
+Ticket[key= AVRO-2885, injectedVersion= 1.8.2, openingVersion= 1.10.1, fixedVersion= 1.11.3, affectedVersions= [1.8.2, 1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-07-09, resolutionDate= 2023-08-17]
+
+Ticket[key= AVRO-2898, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.2, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-07-19, resolutionDate= 2021-01-20]
+
+Ticket[key= AVRO-2903, injectedVersion= 1.9.2, openingVersion= 1.10.1, fixedVersion= 1.11.0, affectedVersions= [1.9.2], numOfCommits= 1, creationDate= 2020-07-22, resolutionDate= 2021-10-12]
+
+Ticket[key= AVRO-2905, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-07-29, resolutionDate= 2020-09-30]
+
+Ticket[key= AVRO-2907, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-07-30, resolutionDate= 2020-09-14]
+
+Ticket[key= AVRO-2908, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0, 1.10.1], numOfCommits= 1, creationDate= 2020-08-06, resolutionDate= 2020-08-13]
+
+Ticket[key= AVRO-2924, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-08-20, resolutionDate= 2020-11-12]
+
+Ticket[key= AVRO-2923, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.11.0, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-08-20, resolutionDate= 2021-08-26]
+
+Ticket[key= AVRO-2925, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.1, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-08-21, resolutionDate= 2020-09-11]
+
+Ticket[key= AVRO-2933, injectedVersion= 1.9.2, openingVersion= 1.10.1, fixedVersion= 1.10.2, affectedVersions= [1.9.2, 1.10.0], numOfCommits= 1, creationDate= 2020-09-29, resolutionDate= 2021-03-07]
+
+Ticket[key= AVRO-2943, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.11.2, affectedVersions= [1.10.0], numOfCommits= 2, creationDate= 2020-10-23, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-2944, injectedVersion= 1.9.2, openingVersion= 1.10.1, fixedVersion= 1.10.2, affectedVersions= [1.9.2], numOfCommits= 2, creationDate= 2020-10-24, resolutionDate= 2021-02-03]
+
+Ticket[key= AVRO-2983, injectedVersion= 1.10.0, openingVersion= 1.10.1, fixedVersion= 1.10.2, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-11-20, resolutionDate= 2021-01-14]
+
+Ticket[key= AVRO-2998, injectedVersion= 1.10.0, openingVersion= 1.10.2, fixedVersion= 1.10.2, affectedVersions= [1.10.0], numOfCommits= 1, creationDate= 2020-12-07, resolutionDate= 2021-03-05]
+
+Ticket[key= AVRO-3003, injectedVersion= 1.10.1, openingVersion= 1.10.2, fixedVersion= 1.11.1, affectedVersions= [1.10.1], numOfCommits= 2, creationDate= 2020-12-18, resolutionDate= 2022-04-19]
+
+Ticket[key= AVRO-3014, injectedVersion= 1.9.0, openingVersion= 1.10.2, fixedVersion= 1.10.2, affectedVersions= [1.9.0, 1.10.0], numOfCommits= 1, creationDate= 2020-12-30, resolutionDate= 2021-03-04]
+
+Ticket[key= AVRO-3044, injectedVersion= 1.10.1, openingVersion= 1.10.2, fixedVersion= 1.10.2, affectedVersions= [1.10.1], numOfCommits= 1, creationDate= 2021-02-12, resolutionDate= 2021-03-05]
+
+Ticket[key= AVRO-3048, injectedVersion= 1.9.2, openingVersion= 1.10.2, fixedVersion= 1.11.0, affectedVersions= [1.9.2, 1.10.1], numOfCommits= 1, creationDate= 2021-02-17, resolutionDate= 2021-05-04]
+
+Ticket[key= AVRO-3049, injectedVersion= 1.10.1, openingVersion= 1.10.2, fixedVersion= 1.10.2, affectedVersions= [1.10.1, 1.10.2], numOfCommits= 1, creationDate= 2021-02-20, resolutionDate= 2021-02-24]
+
+Ticket[key= AVRO-3054, injectedVersion= 1.10.2, openingVersion= 1.10.2, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-02-23, resolutionDate= 2021-05-15]
+
+Ticket[key= AVRO-3075, injectedVersion= 1.10.1, openingVersion= 1.10.2, fixedVersion= 1.11.0, affectedVersions= [1.10.1], numOfCommits= 2, creationDate= 2021-03-10, resolutionDate= 2021-09-13]
+
+Ticket[key= AVRO-3076, injectedVersion= 1.10.1, openingVersion= 1.10.2, fixedVersion= 1.11.1, affectedVersions= [1.10.1], numOfCommits= 1, creationDate= 2021-03-11, resolutionDate= 2022-06-17]
+
+Ticket[key= AVRO-3079, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-03-17, resolutionDate= 2021-03-17]
+
+Ticket[key= AVRO-3087, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-03-18, resolutionDate= 2021-03-22]
+
+Ticket[key= AVRO-3092, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-03-25, resolutionDate= 2021-04-01]
+
+Ticket[key= AVRO-3094, injectedVersion= 1.9.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.9.2, 1.10.2], numOfCommits= 1, creationDate= 2021-03-25, resolutionDate= 2021-04-06]
+
+Ticket[key= AVRO-3095, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 2, creationDate= 2021-03-25, resolutionDate= 2021-10-05]
+
+Ticket[key= AVRO-3104, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-04-06, resolutionDate= 2021-05-28]
+
+Ticket[key= AVRO-3111, injectedVersion= 1.10.1, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.1, 1.10.2], numOfCommits= 1, creationDate= 2021-04-15, resolutionDate= 2021-04-16]
+
+Ticket[key= AVRO-3118, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-04-23, resolutionDate= 2021-05-28]
+
+Ticket[key= AVRO-3124, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-04-29, resolutionDate= 2021-04-30]
+
+Ticket[key= AVRO-3129, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.2, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-04-29, resolutionDate= 2022-09-14]
+
+Ticket[key= AVRO-3133, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-05-07, resolutionDate= 2022-02-05]
+
+Ticket[key= AVRO-3134, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-05-08, resolutionDate= 2021-09-13]
+
+Ticket[key= AVRO-3159, injectedVersion= 1.11.0, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2021-06-17, resolutionDate= 2022-06-16]
+
+Ticket[key= AVRO-3165, injectedVersion= 1.10.0, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.0, 1.10.1, 1.10.2], numOfCommits= 1, creationDate= 2021-06-30, resolutionDate= 2021-06-30]
+
+Ticket[key= AVRO-3171, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 2, creationDate= 2021-07-06, resolutionDate= 2021-09-13]
+
+Ticket[key= AVRO-3180, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-07-29, resolutionDate= 2021-07-31]
+
+Ticket[key= AVRO-3182, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-08-04, resolutionDate= 2021-09-06]
+
+Ticket[key= AVRO-3186, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-08-13, resolutionDate= 2021-10-05]
+
+Ticket[key= AVRO-3201, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-09-11, resolutionDate= 2021-09-13]
+
+Ticket[key= AVRO-3203, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-09-12, resolutionDate= 2021-10-06]
+
+Ticket[key= AVRO-3212, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-09-20, resolutionDate= 2021-09-21]
+
+Ticket[key= AVRO-3216, injectedVersion= 1.11.0, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2021-09-22, resolutionDate= 2022-01-05]
+
+Ticket[key= AVRO-3217, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-09-24, resolutionDate= 2021-12-04]
+
+Ticket[key= AVRO-3218, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-09-27, resolutionDate= 2021-12-20]
+
+Ticket[key= AVRO-3226, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-10-07, resolutionDate= 2021-10-20]
+
+Ticket[key= AVRO-3225, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.0, affectedVersions= [1.10.2, 1.11.0], numOfCommits= 1, creationDate= 2021-10-07, resolutionDate= 2021-10-20]
+
+Ticket[key= AVRO-3229, injectedVersion= 1.10.2, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 2, creationDate= 2021-10-11, resolutionDate= 2021-12-21]
+
+Ticket[key= AVRO-3232, injectedVersion= 1.11.0, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 2, creationDate= 2021-10-13, resolutionDate= 2022-01-07]
+
+Ticket[key= AVRO-3234, injectedVersion= 1.11.0, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2021-10-15, resolutionDate= 2022-01-05]
+
+Ticket[key= AVRO-3240, injectedVersion= 1.11.0, openingVersion= 1.11.0, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 3, creationDate= 2021-10-21, resolutionDate= 2022-01-07]
+
+Ticket[key= AVRO-3251, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 2, creationDate= 2021-11-09, resolutionDate= 2021-12-22]
+
+Ticket[key= AVRO-3252, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2021-11-15, resolutionDate= 2021-12-20]
+
+Ticket[key= AVRO-3256, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 2, creationDate= 2021-11-18, resolutionDate= 2021-12-04]
+
+Ticket[key= AVRO-3258, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 2, creationDate= 2021-11-23, resolutionDate= 2021-12-09]
+
+Ticket[key= AVRO-3259, injectedVersion= 1.10.2, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2021-11-25, resolutionDate= 2022-02-10]
+
+Ticket[key= AVRO-3263, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2021-12-12, resolutionDate= 2021-12-15]
+
+Ticket[key= AVRO-3265, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2021-12-12, resolutionDate= 2021-12-22]
+
+Ticket[key= AVRO-3269, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2021-12-13, resolutionDate= 2021-12-14]
+
+Ticket[key= AVRO-3268, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2021-12-13, resolutionDate= 2021-12-14]
+
+Ticket[key= AVRO-3266, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2021-12-13, resolutionDate= 2022-07-01]
+
+Ticket[key= AVRO-3273, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2021-12-23, resolutionDate= 2022-01-20]
+
+Ticket[key= AVRO-3316, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-01-20, resolutionDate= 2022-01-20]
+
+Ticket[key= AVRO-3331, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-01-28, resolutionDate= 2022-02-02]
+
+Ticket[key= AVRO-3370, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 3, creationDate= 2022-02-04, resolutionDate= 2022-03-08]
+
+Ticket[key= AVRO-3371, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-02-05, resolutionDate= 2022-02-07]
+
+Ticket[key= AVRO-3375, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-02-07, resolutionDate= 2022-02-18]
+
+Ticket[key= AVRO-3374, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 2, creationDate= 2022-02-07, resolutionDate= 2022-06-24]
+
+Ticket[key= AVRO-3380, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-02-09, resolutionDate= 2022-02-11]
+
+Ticket[key= AVRO-3386, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-02-10, resolutionDate= 2022-02-11]
+
+Ticket[key= AVRO-3382, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-02-10, resolutionDate= 2022-02-18]
+
+Ticket[key= AVRO-3410, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-02-21, resolutionDate= 2022-02-21]
+
+Ticket[key= AVRO-3413, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-02-23, resolutionDate= 2022-03-17]
+
+Ticket[key= AVRO-3433, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 2, creationDate= 2022-03-06, resolutionDate= 2022-03-08]
+
+Ticket[key= AVRO-3440, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-03-08, resolutionDate= 2022-03-10]
+
+Ticket[key= AVRO-3442, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-03-09, resolutionDate= 2022-03-10]
+
+Ticket[key= AVRO-3448, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-03-12, resolutionDate= 2022-03-18]
+
+Ticket[key= AVRO-3452, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-03-17, resolutionDate= 2022-03-22]
+
+Ticket[key= AVRO-3460, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 2, creationDate= 2022-03-19, resolutionDate= 2022-03-24]
+
+Ticket[key= AVRO-3461, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-03-20, resolutionDate= 2022-03-20]
+
+Ticket[key= AVRO-3471, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-03-24, resolutionDate= 2022-03-29]
+
+Ticket[key= AVRO-3468, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-03-24, resolutionDate= 2022-03-29]
+
+Ticket[key= AVRO-3482, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 2, creationDate= 2022-04-08, resolutionDate= 2022-04-27]
+
+Ticket[key= AVRO-3486, injectedVersion= 1.11.1, openingVersion= 1.11.1, fixedVersion= 1.11.3, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-04-11, resolutionDate= 2023-08-16]
+
+Ticket[key= AVRO-3495, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 2, creationDate= 2022-04-18, resolutionDate= 2022-04-19]
+
+Ticket[key= AVRO-3511, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-05-05, resolutionDate= 2022-05-05]
+
+Ticket[key= AVRO-3516, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-05-11, resolutionDate= 2022-05-11]
+
+Ticket[key= AVRO-3521, injectedVersion= 1.10.2, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.10.2], numOfCommits= 1, creationDate= 2022-05-17, resolutionDate= 2022-06-17]
+
+Ticket[key= AVRO-3529, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-05, resolutionDate= 2022-06-07]
+
+Ticket[key= AVRO-3534, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-09, resolutionDate= 2022-06-09]
+
+Ticket[key= AVRO-3531, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-06-09, resolutionDate= 2022-07-04]
+
+Ticket[key= AVRO-3536, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.2, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-06-15, resolutionDate= 2022-11-16]
+
+Ticket[key= AVRO-3537, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-20, resolutionDate= 2022-06-21]
+
+Ticket[key= AVRO-3541, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-21, resolutionDate= 2022-06-21]
+
+Ticket[key= AVRO-3549, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-27, resolutionDate= 2022-06-28]
+
+Ticket[key= AVRO-3553, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-06-28, resolutionDate= 2022-06-29]
+
+Ticket[key= AVRO-3560, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.2, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-06-30, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-3564, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-07-01, resolutionDate= 2022-07-04]
+
+Ticket[key= AVRO-3568, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.2, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-07-03, resolutionDate= 2022-08-30]
+
+Ticket[key= AVRO-3581, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0], numOfCommits= 1, creationDate= 2022-07-18, resolutionDate= 2022-07-21]
+
+Ticket[key= AVRO-3585, injectedVersion= 1.11.0, openingVersion= 1.11.1, fixedVersion= 1.11.1, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2022-07-22, resolutionDate= 2022-07-25]
+
+Ticket[key= AVRO-3595, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-08-05, resolutionDate= 2022-08-09]
+
+Ticket[key= AVRO-3598, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-08-08, resolutionDate= 2022-08-08]
+
+Ticket[key= AVRO-3597, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-08-08, resolutionDate= 2022-09-01]
+
+Ticket[key= AVRO-3601, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 2, creationDate= 2022-08-10, resolutionDate= 2022-08-11]
+
+Ticket[key= AVRO-3613, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-08-22, resolutionDate= 2022-08-30]
+
+Ticket[key= AVRO-3612, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.3, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-08-22, resolutionDate= 2023-08-17]
+
+Ticket[key= AVRO-3618, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-08-24, resolutionDate= 2022-09-14]
+
+Ticket[key= AVRO-3622, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-08-29, resolutionDate= 2022-09-08]
+
+Ticket[key= AVRO-3625, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-09-07, resolutionDate= 2022-09-09]
+
+Ticket[key= AVRO-3628, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-09-13, resolutionDate= 2022-09-14]
+
+Ticket[key= AVRO-3632, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-10-07, resolutionDate= 2022-10-10]
+
+Ticket[key= AVRO-3642, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-10-17, resolutionDate= 2022-10-18]
+
+Ticket[key= AVRO-3645, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-10-19, resolutionDate= 2022-10-19]
+
+Ticket[key= AVRO-3650, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-10-19, resolutionDate= 2022-10-21]
+
+Ticket[key= AVRO-3657, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-10-28, resolutionDate= 2022-11-14]
+
+Ticket[key= AVRO-3659, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-10-30, resolutionDate= 2022-11-04]
+
+Ticket[key= AVRO-3663, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-11-07, resolutionDate= 2022-11-07]
+
+Ticket[key= AVRO-3662, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-11-07, resolutionDate= 2022-11-14]
+
+Ticket[key= AVRO-3667, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-11-09, resolutionDate= 2022-11-14]
+
+Ticket[key= AVRO-3669, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-11-10, resolutionDate= 2022-11-14]
+
+Ticket[key= AVRO-3674, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 2, creationDate= 2022-11-15, resolutionDate= 2022-11-18]
+
+Ticket[key= AVRO-3676, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-11-23, resolutionDate= 2022-11-23]
+
+Ticket[key= AVRO-3683, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2022-12-02, resolutionDate= 2023-03-13]
+
+Ticket[key= AVRO-3688, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2022-12-13, resolutionDate= 2022-12-13]
+
+Ticket[key= AVRO-3698, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-01-05, resolutionDate= 2023-01-10]
+
+Ticket[key= AVRO-3706, injectedVersion= 1.11.0, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.0, 1.11.1], numOfCommits= 1, creationDate= 2023-01-13, resolutionDate= 2023-02-08]
+
+Ticket[key= AVRO-3712, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-02-05, resolutionDate= 2023-02-07]
+
+Ticket[key= AVRO-3713, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-02-09, resolutionDate= 2023-02-17]
+
+Ticket[key= AVRO-3715, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 5, creationDate= 2023-02-16, resolutionDate= 2023-02-19]
+
+Ticket[key= AVRO-3717, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-02-18, resolutionDate= 2023-02-18]
+
+Ticket[key= AVRO-3718, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-02-19, resolutionDate= 2023-02-20]
+
+Ticket[key= AVRO-3737, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-04-19, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-3747, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-04-27, resolutionDate= 2023-05-11]
+
+Ticket[key= AVRO-3749, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.3, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-04-30, resolutionDate= 2023-08-18]
+
+Ticket[key= AVRO-3751, injectedVersion= 1.11.2, openingVersion= 1.11.2, fixedVersion= 1.11.3, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-05-04, resolutionDate= 2023-08-17]
+
+Ticket[key= AVRO-3755, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-05-05, resolutionDate= 2023-05-09]
+
+Ticket[key= AVRO-3756, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-05-07, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-3761, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-05-24, resolutionDate= 2023-06-16]
+
+Ticket[key= AVRO-3767, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-06-01, resolutionDate= 2023-06-08]
+
+Ticket[key= AVRO-3772, injectedVersion= 1.9.0, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.9.0, 1.9.1, 1.9.2, 1.10.0, 1.10.1, 1.10.2, 1.11.0, 1.11.1], numOfCommits= 2, creationDate= 2023-06-08, resolutionDate= 2023-06-16]
+
+Ticket[key= AVRO-3773, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-06-09, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-3775, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1], numOfCommits= 1, creationDate= 2023-06-10, resolutionDate= 2023-06-16]
+
+Ticket[key= AVRO-3780, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-06-13, resolutionDate= 2023-06-14]
+
+Ticket[key= AVRO-3782, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-06-14, resolutionDate= 2023-06-15]
+
+Ticket[key= AVRO-3783, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-06-16, resolutionDate= 2023-06-16]
+
+Ticket[key= AVRO-3785, injectedVersion= 1.11.1, openingVersion= 1.11.2, fixedVersion= 1.11.2, affectedVersions= [1.11.1, 1.11.2], numOfCommits= 1, creationDate= 2023-06-23, resolutionDate= 2023-06-26]
+
+Ticket[key= AVRO-3787, injectedVersion= 1.11.2, openingVersion= 1.11.2, fixedVersion= 1.11.3, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-06-26, resolutionDate= 2023-07-10]
+
+Ticket[key= AVRO-3786, injectedVersion= 1.11.2, openingVersion= 1.11.2, fixedVersion= 1.11.3, affectedVersions= [1.11.2], numOfCommits= 2, creationDate= 2023-06-26, resolutionDate= 2023-08-23]
+
+Ticket[key= AVRO-3788, injectedVersion= 1.11.2, openingVersion= 1.11.2, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-06-30, resolutionDate= 2023-10-19]
+
+Ticket[key= AVRO-3789, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-07-05, resolutionDate= 2023-07-12]
+
+Ticket[key= AVRO-3795, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-07-10, resolutionDate= 2023-07-14]
+
+Ticket[key= AVRO-3809, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-07-21, resolutionDate= 2023-07-21]
+
+Ticket[key= AVRO-3814, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-07-26, resolutionDate= 2023-08-15]
+
+Ticket[key= AVRO-3818, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-07-30, resolutionDate= 2023-07-31]
+
+Ticket[key= AVRO-3819, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-07-31, resolutionDate= 2023-08-19]
+
+Ticket[key= AVRO-3821, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-02, resolutionDate= 2023-08-04]
+
+Ticket[key= AVRO-3824, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-04, resolutionDate= 2023-08-07]
+
+Ticket[key= AVRO-3827, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-09, resolutionDate= 2023-08-10]
+
+Ticket[key= AVRO-3830, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-11, resolutionDate= 2023-08-15]
+
+Ticket[key= AVRO-3837, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-19, resolutionDate= 2023-08-21]
+
+Ticket[key= AVRO-3847, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-26, resolutionDate= 2023-08-31]
+
+Ticket[key= AVRO-3846, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-08-26, resolutionDate= 2023-08-31]
+
+Ticket[key= AVRO-3849, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-09-01, resolutionDate= 2023-09-04]
+
+Ticket[key= AVRO-3855, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 2, creationDate= 2023-09-13, resolutionDate= 2023-09-14]
+
+Ticket[key= AVRO-3858, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-09-17, resolutionDate= 2023-09-19]
+
+Ticket[key= AVRO-3860, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= fake_release_2024-06-04, affectedVersions= [1.11.2], numOfCommits= 1, creationDate= 2023-09-19, resolutionDate= 2024-04-06]
+
+Ticket[key= AVRO-3866, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-09-20, resolutionDate= 2023-09-22]
+
+Ticket[key= AVRO-3865, injectedVersion= 1.11.2, openingVersion= 1.11.3, fixedVersion= 1.11.3, affectedVersions= [1.11.2, 1.11.3], numOfCommits= 1, creationDate= 2023-09-20, resolutionDate= 2023-09-22]
+
+Ticket[key= AVRO-3861, injectedVersion= 1.11.3, openingVersion= 1.11.3, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2023-09-20, resolutionDate= 2023-11-01]
+
+Ticket[key= AVRO-3876, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2023-09-28, resolutionDate= 2023-10-05]
+
+Ticket[key= AVRO-3881, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 1, creationDate= 2023-10-10, resolutionDate= 2023-10-10]
+
+Ticket[key= AVRO-3889, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2023-10-22, resolutionDate= 2024-01-03]
+
+Ticket[key= AVRO-3894, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 1, creationDate= 2023-10-24, resolutionDate= 2023-10-25]
+
+Ticket[key= AVRO-3897, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 1, creationDate= 2023-10-29, resolutionDate= 2023-11-02]
+
+Ticket[key= AVRO-3898, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2023-11-01, resolutionDate= 2023-11-02]
+
+Ticket[key= AVRO-3899, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2023-11-07, resolutionDate= 2023-11-07]
+
+Ticket[key= AVRO-3912, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 1, creationDate= 2023-11-28, resolutionDate= 2023-12-04]
+
+Ticket[key= AVRO-3925, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 2, creationDate= 2024-01-04, resolutionDate= 2024-01-04]
+
+Ticket[key= AVRO-3928, injectedVersion= 1.11.3, openingVersion= fake_release_2024-01-28, fixedVersion= fake_release_2024-01-28, affectedVersions= [1.11.3, fake_release_2024-01-28], numOfCommits= 1, creationDate= 2024-01-10, resolutionDate= 2024-01-11]
+
+Ticket[key= AVRO-3932, injectedVersion= 1.11.3, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [1.11.3], numOfCommits= 2, creationDate= 2024-01-29, resolutionDate= 2024-01-29]
+
+Ticket[key= AVRO-3955, injectedVersion= 1.11.3, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2024-03-04, resolutionDate= 2024-03-04]
+
+Ticket[key= AVRO-3953, injectedVersion= 1.11.3, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [1.11.3], numOfCommits= 1, creationDate= 2024-03-04, resolutionDate= 2024-03-06]
+
+Ticket[key= AVRO-3956, injectedVersion= fake_release_2024-01-28, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [fake_release_2024-01-28, fake_release_2024-06-04], numOfCommits= 1, creationDate= 2024-03-07, resolutionDate= 2024-03-19]
+
+Ticket[key= AVRO-3957, injectedVersion= fake_release_2024-01-28, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [fake_release_2024-01-28, fake_release_2024-06-04], numOfCommits= 1, creationDate= 2024-03-10, resolutionDate= 2024-03-11]
+
+Ticket[key= AVRO-3964, injectedVersion= fake_release_2024-01-28, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [fake_release_2024-01-28, fake_release_2024-06-04], numOfCommits= 1, creationDate= 2024-03-25, resolutionDate= 2024-03-25]
+
+Ticket[key= AVRO-3970, injectedVersion= fake_release_2024-01-28, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [fake_release_2024-01-28, fake_release_2024-06-04], numOfCommits= 1, creationDate= 2024-04-04, resolutionDate= 2024-04-08]
+
+Ticket[key= AVRO-3974, injectedVersion= fake_release_2024-01-28, openingVersion= fake_release_2024-06-04, fixedVersion= fake_release_2024-06-04, affectedVersions= [fake_release_2024-01-28, fake_release_2024-06-04], numOfCommits= 1, creationDate= 2024-04-06, resolutionDate= 2024-04-11]
+
