@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-//todo: classe rotta, somma le metriche guarda la colonna loc_added_max nei sets
 public class MetricsProcessor {
     List<Commit> ticketedCommitList;
     List<ProjectClass> classList;
