@@ -1,7 +1,7 @@
 package it.uniroma2.alessandro.controllers.scrapers;
 
-import it.uniroma2.alessandro.controllers.processors.ACUMEProcessor;
-import it.uniroma2.alessandro.controllers.processors.MetricsProcessor;
+import it.uniroma2.alessandro.controllers.processors.acume.ACUMEProcessor;
+import it.uniroma2.alessandro.controllers.processors.metrics.MetricsProcessor;
 import it.uniroma2.alessandro.controllers.processors.sets.TrainingTestSetsProcessor;
 import it.uniroma2.alessandro.controllers.processors.weka.WekaProcessor;
 import it.uniroma2.alessandro.models.*;
@@ -28,14 +28,14 @@ public class MetricsScraper {
             String projString = projName + " project...\n";
             logger.info("Starting\n");
 
-            JiraScraper jiraScraper = new JiraScraper(projName);
-            loggerString = "Scraping releases of " + projString;
-            logger.info(loggerString);
-            List<Release> jiraReleases = jiraScraper.scrapeReleases();
-
             loggerString = "Cloning repository of " + projString;
             logger.info(loggerString);
             GitScraper gitScraper = new GitScraper(projName, projRepoUrl);
+
+            JiraScraper jiraScraper = new JiraScraper(projName);
+            loggerString = "Scraping releases of " + projString;
+            logger.info(loggerString);
+            List<Release> jiraReleases = jiraScraper.scrapeReleases(gitScraper);
 
             loggerString = "Scraping commits of " + projString;
             logger.info(loggerString);

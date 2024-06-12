@@ -1,5 +1,6 @@
 package it.uniroma2.alessandro.controllers.scrapers;
 
+import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
 import it.uniroma2.alessandro.models.Commit;
 import it.uniroma2.alessandro.models.ProjectClass;
 import it.uniroma2.alessandro.models.Release;
@@ -17,31 +18,41 @@ import org.eclipse.jgit.lib.Ref;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.revwalk.RevTree;
+import org.eclipse.jgit.revwalk.RevWalk;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.eclipse.jgit.treewalk.CanonicalTreeParser;
 import org.eclipse.jgit.treewalk.TreeWalk;
 import org.eclipse.jgit.util.io.DisabledOutputStream;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.regex.Pattern;
 
 public class GitScraper {
-    private static final String CLONE_DIR = "repos/";
+    public static final String CLONE_DIR = "repos/";
 
     protected final Git git;
     private final Repository repository;
 
+    private final String filename;
+    private Release lastRelease = null;
+
     public GitScraper(String projName, String projRepoUrl) throws IOException, GitAPIException {
-        String filename = CLONE_DIR + projName.toLowerCase() + "Clone";
+        this.filename = CLONE_DIR + projName.toLowerCase() + "Clone";
 
         // Cloning repo and setting up instance properties: git clone <projRepoUrl>
         File directory = new File(filename);
+        directory.setExecutable(true, false);
+        directory.setReadable(true, false);
+        directory.setReadable(true,false);
         if(directory.exists()){
             repository = new FileRepositoryBuilder()
                     .setGitDir(new File(filename, ".git"))
@@ -53,6 +64,19 @@ public class GitScraper {
                     .setDirectory(directory).call();
             repository = git.getRepository();
         }
+    }
+
+    public void checkoutSpecificRelease(Release release) throws GitAPIException {
+        checkoutSpecificTag("release-" + release.getReleaseName());
+    }
+
+    private void checkoutSpecificTag(String tagName) throws GitAPIException {
+        git.checkout().setName(tagName).call();
+    }
+
+    public void checkoutLastRelease() throws IOException, InterruptedException, GitAPIException {
+        if(lastRelease == null) throw new IllegalArgumentException("Last release not set");
+        checkoutSpecificTag("release-" + lastRelease.getReleaseName());
     }
 
     public List<Commit> scrapeCommits(List<Release> jiraReleases) throws GitAPIException, IOException {
@@ -411,5 +435,20 @@ public class GitScraper {
             deletedLines += edit.getEndA() - edit.getBeginA();
         }
         return deletedLines;
+    }
+
+    public LocalDate getReleaseDateFromGithub(String releaseName) throws GitAPIException, ReleaseNotFoundException, IOException {
+        RevWalk walk = new RevWalk(repository);
+        List<Ref> refs = git.tagList().call();
+        for(Ref ref: refs) {
+            if(ref.getName().equals("refs/tags/release-" + releaseName)){
+                return walk.parseTag(ref.getObjectId()).getTaggerIdent().getWhen().toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+            }
+        }
+        throw new ReleaseNotFoundException();
+    }
+
+    public void setLastRelease(Release lastRelease) {
+        this.lastRelease = lastRelease;
     }
 }

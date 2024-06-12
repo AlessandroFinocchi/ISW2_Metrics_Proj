@@ -44,6 +44,7 @@
             <version>1.0.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.mauricioaniche/ck -->
+        <!-- https://github.com/mauricioaniche/ck -->
         <dependency>
             <groupId>com.github.mauricioaniche</groupId>
             <artifactId>ck</artifactId>

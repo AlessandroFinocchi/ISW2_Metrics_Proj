@@ -4,6 +4,7 @@ import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
 import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
 import it.uniroma2.alessandro.utilities.JsonUtility;
+import org.eclipse.jgit.api.errors.GitAPIException;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -13,17 +14,19 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static it.uniroma2.alessandro.utilities.JsonUtility.readJsonFromUrl;
 
 public class JiraScraper {
+    private final Logger logger = Logger.getLogger(MetricsScraper.class.getName());
     private final String projName;
 
     public JiraScraper(String projName) {
         this.projName = projName.toUpperCase();
     }
 
-    public List<Release> scrapeReleases() throws IOException, URISyntaxException, IllegalArgumentException {
+    public List<Release> scrapeReleases(GitScraper gitScraper) throws IOException, URISyntaxException, IllegalArgumentException, GitAPIException {
         String url = "https://issues.apache.org/jira/rest/api/2/project/" + projName;
         int i;
 
@@ -41,11 +44,21 @@ public class JiraScraper {
             if(version.has("id")) releaseID = version.getString("id");
             if(version.has("name")) releaseName = version.getString("name");
             if(version.has("releaseDate")) releaseDateString = version.getString("releaseDate");
-            releases.add(new Release(releaseID, releaseName, releaseDateString));
+            try {
+                Release newRelease = new Release(gitScraper, releaseID, releaseName, releaseDateString);
+                releases.add(newRelease);
+            }
+            catch(ReleaseNotFoundException e){
+                String loggerString = "Date not found for release with tag: " + releaseName;
+                logger.info(loggerString);
+            }
         }
 
         // Order temporally the list of releases
         releases.sort(Comparator.comparing(Release::getReleaseDateTime));
+
+        // Set the last release
+        gitScraper.setLastRelease(releases.getLast());
 
         return releases;
     }

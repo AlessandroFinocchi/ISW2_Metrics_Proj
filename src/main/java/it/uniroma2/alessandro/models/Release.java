@@ -1,7 +1,11 @@
 package it.uniroma2.alessandro.models;
 
+import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
+import it.uniroma2.alessandro.exceptions.ReleaseNotFoundException;
+import org.eclipse.jgit.api.errors.GitAPIException;
 import org.json.JSONArray;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -17,20 +21,21 @@ public class Release {
     private final List<Commit> commitList;
 
     public Release(String releaseID ,String releaseName, String releaseDateString) {
-        // These 3 releases in avro don't have a release date
-        switch(releaseID) {
-            case "12324942": // 1.7.6
-                releaseDateString = "2014-01-23";
-                break;
-            case "12353655": // 1.11.4
-                releaseDateString = "2014-01-23";
-                break;
-            case "12350865": // 1.12.0
-                releaseDateString = "2014-01-23";
-                break;
-        }
+//        }
         if(releaseID == null || releaseName == null || releaseDateString == null){
             throw new IllegalArgumentException();
+        }
+        this.numericID = 0;
+        this.releaseID = releaseID;
+        this.releaseName = releaseName;
+        this.releaseDateString = releaseDateString;
+        this.releaseDateTime = LocalDate.parse(releaseDateString);
+        commitList = new ArrayList<>();
+    }
+
+    public Release(GitScraper gitScraper, String releaseID , String releaseName, String releaseDateString) throws GitAPIException, ReleaseNotFoundException, IOException {
+        if(releaseDateString == null){
+            releaseDateString = String.valueOf(gitScraper.getReleaseDateFromGithub(releaseName));
         }
         this.numericID = 0;
         this.releaseID = releaseID;
