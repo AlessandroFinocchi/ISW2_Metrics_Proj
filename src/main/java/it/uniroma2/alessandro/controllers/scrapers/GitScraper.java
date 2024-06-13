@@ -24,17 +24,15 @@ import org.eclipse.jgit.treewalk.CanonicalTreeParser;
 import org.eclipse.jgit.treewalk.TreeWalk;
 import org.eclipse.jgit.util.io.DisabledOutputStream;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class GitScraper {
     public static final String CLONE_DIR = "repos/";
@@ -42,17 +40,13 @@ public class GitScraper {
     protected final Git git;
     private final Repository repository;
 
-    private final String filename;
     private Release lastRelease = null;
 
     public GitScraper(String projName, String projRepoUrl) throws IOException, GitAPIException {
-        this.filename = CLONE_DIR + projName.toLowerCase() + "Clone";
+        String filename = CLONE_DIR + projName.toLowerCase() + "Clone";
 
         // Cloning repo and setting up instance properties: git clone <projRepoUrl>
         File directory = new File(filename);
-        directory.setExecutable(true, false);
-        directory.setReadable(true, false);
-        directory.setReadable(true,false);
         if(directory.exists()){
             repository = new FileRepositoryBuilder()
                     .setGitDir(new File(filename, ".git"))
@@ -108,9 +102,6 @@ public class GitScraper {
         // Take the date of the first and last commit
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
-        // Add releases until last commit
-        completeReleaseList(formatter, revCommitList, jiraReleases);
-
         // Set all the commits for a release and set the release of a commit
         for (RevCommit revCommit : revCommitList) {
             // Get the date of a commit
@@ -136,42 +127,11 @@ public class GitScraper {
         // Remove a release if it hasn't got any commit
         jiraReleases.removeIf(release -> release.getCommitList().isEmpty());
 
-        for (int i = 0; i < jiraReleases.size(); i++){
-            jiraReleases.get(i).setNumericID(i+1);
-        }
-
         // Order commits by date
         commitList.sort(Comparator.comparing(commit -> commit.getRevCommit().getCommitTime()));
 
         return commitList;
 
-    }
-
-    /**
-     * Filter commits that have a ticket id inside their message, setting the ticket of a commit and the list of
-     * commits for each ticket, and removes tickets without a commit
-     * @param commitList commits to filter
-     * @param ticketList tickets to take ids from
-     * @return a list of commits that reference a ticket
-     */
-    public List<Commit> applyFilters(List<Commit> commitList, List<Ticket> ticketList) {
-        List<Commit> filteredCommitList = new ArrayList<>();
-        for (Commit commit : commitList) {
-            String commitFullMessage = commit.getRevCommit().getFullMessage();
-            for (Ticket ticket : ticketList) {
-                String ticketKey = ticket.getTicketKey();
-                if (matchRegex(commitFullMessage, ticketKey)) {
-                    filteredCommitList.add(commit);
-                    ticket.addCommit(commit);
-                    commit.setTicket(ticket);
-                }
-            }
-        }
-
-        // If a ticket has no commits it means it isn't solved, so we don't care about it
-        ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
-
-        return filteredCommitList;
     }
 
     public List<ProjectClass> scrapeClasses(List<Release> releaseList, List<Ticket> ticketList,
@@ -207,34 +167,6 @@ public class GitScraper {
         classList.sort(Comparator.comparing(ProjectClass::getName));
 
         return classList;
-    }
-
-    private void completeReleaseList(SimpleDateFormat formatter, List<RevCommit> revCommitList, List<Release> jiraReleases){
-        // Get the dates
-        LocalDate firstCommitDate = LocalDate.parse(formatter.format(revCommitList.getFirst().getCommitterIdent().getWhen()));
-        LocalDate lastCommitDate = LocalDate.parse(formatter.format(revCommitList.getLast().getCommitterIdent().getWhen()));
-        LocalDate lastReleaseDate = jiraReleases.getLast().getReleaseDateTime();
-
-        // Get the time interval between the first commit and the last release
-        long interval = ChronoUnit.DAYS.between(firstCommitDate, lastReleaseDate);
-
-        // Get the average number of days between 2 releases
-        int intervalInDays = (int) interval / jiraReleases.size();
-
-        // Add a new dummy release, once every releaseIntervalInDays, in order to not discard commits after the last release
-        LocalDate currentDate = jiraReleases.getLast().getReleaseDateTime().plusDays(intervalInDays);
-        while(currentDate.isBefore(lastCommitDate)){
-            jiraReleases.add(new Release(
-                    "fake_release_" + currentDate.toString(),
-                    "fake_release_" + currentDate.toString(),
-                    currentDate.toString()));
-            currentDate = currentDate.plusDays(intervalInDays);
-        }
-    }
-
-    private boolean matchRegex(String s, String regex){
-        Pattern pattern = Pattern.compile(regex + "\\b");
-        return pattern.matcher(s).find();
     }
 
     /**
@@ -450,5 +382,24 @@ public class GitScraper {
 
     public void setLastRelease(Release lastRelease) {
         this.lastRelease = lastRelease;
+    }
+
+    /**
+     * Removes all the releases in the list that are not present on the relative GitHub repository, and set the
+     * numeric ID for the remaining ones
+     * @param releases list of jira release
+     * @throws GitAPIException in case the checkout command doesn't work
+     */
+    public void filterTaggedReleases(List<Release> releases) throws GitAPIException {
+        List<Ref> tags = git.tagList().call();
+        List<String> tagNames = tags.stream().map(Ref::getName).toList();
+        List<Release> releaseToRemove = new ArrayList<>();
+
+        for(Release release: releases) {
+            if(!tagNames.contains("refs/tags/release-" + release.getReleaseName()))
+                releaseToRemove.add(release);
+        }
+
+        releases.removeAll(releaseToRemove);
     }
 }

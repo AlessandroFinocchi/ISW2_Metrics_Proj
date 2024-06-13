@@ -1,6 +1,7 @@
 package it.uniroma2.alessandro.controllers.processors.weka;
 
 import it.uniroma2.alessandro.models.ProjectClassifier;
+import it.uniroma2.alessandro.utilities.PropertyUtility;
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.GreedyStepwise;
 import weka.classifiers.Classifier;
@@ -18,11 +19,9 @@ import weka.filters.supervised.instance.Resample;
 import weka.filters.supervised.instance.SMOTE;
 import weka.filters.supervised.instance.SpreadSubsample;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 public class ClassifiersProcessor {
 
@@ -33,13 +32,9 @@ public class ClassifiersProcessor {
     public final boolean usingSampling;
 
     public ClassifiersProcessor() throws IOException {
-        try(FileInputStream propFile = new FileInputStream("config.properties")) {
-            Properties properties = new Properties();
-            properties.load(propFile);
-            falsePositiveWeight = Integer.parseInt(properties.getProperty("FALSE_POSITIVE_WEIGHT"));
-            falseNegativeWeight = Integer.parseInt(properties.getProperty("FALSE_NEGATIVE_WEIGHT"));
-            usingSampling = Boolean.parseBoolean(properties.getProperty("USING_SAMPLING"));
-        }
+        falsePositiveWeight = PropertyUtility.readIntegerProperty("FALSE_NEGATIVE_WEIGHT");
+        falseNegativeWeight = PropertyUtility.readIntegerProperty("FALSE_NEGATIVE_WEIGHT");
+        usingSampling = PropertyUtility.readBooleanProperty("USING_SAMPLING");
     }
 
     public List<ProjectClassifier> getClassifiers(AttributeStats isBuggyAttributeStats) {

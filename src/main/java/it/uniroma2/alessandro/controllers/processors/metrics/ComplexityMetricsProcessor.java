@@ -5,6 +5,7 @@ import com.github.mauricioaniche.ck.CKClassResult;
 import com.github.mauricioaniche.ck.CKNotifier;
 import com.github.mauricioaniche.ck.ResultWriter;
 import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
+import it.uniroma2.alessandro.controllers.scrapers.MetricsScraper;
 import it.uniroma2.alessandro.models.Release;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
@@ -13,11 +14,15 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
 import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.CLONE_DIR;
+import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
 
+//todo: classe non usata ancora
 public class ComplexityMetricsProcessor {
+    private final Logger logger = Logger.getLogger(MetricsScraper.class.getName());
+
     private final String projName;
     private final String projDirectory;
     private final List<Release> releaseList;
@@ -30,14 +35,16 @@ public class ComplexityMetricsProcessor {
         this.gitScraper = gitScraper;
     }
 
-    public void extractComplexityMetrics() throws GitAPIException, IOException {
+    public void extractComplexityMetrics() throws GitAPIException, IOException, InterruptedException {
         for(Release release: releaseList){
             gitScraper.checkoutSpecificRelease(release);
-            computeComplexityMetrics();
+            computeComplexityMetrics(release.getNumericID());
         }
+
+        gitScraper.checkoutLastRelease();
     }
 
-    public void computeComplexityMetrics() throws IOException {
+    private void computeComplexityMetrics(int releaseNum) throws IOException {
         boolean variablesAndFields = false;
         boolean useJars = false;
         int maxAtOnce = 0;
@@ -47,10 +54,10 @@ public class ComplexityMetricsProcessor {
         if (!file.exists() && !file.mkdirs())  throw new IOException();
 
         ResultWriter writer = new ResultWriter(
-                outputDirectory + "Class.csv",
-                outputDirectory + "Method.csv",
-                outputDirectory + "Variable.csv",
-                outputDirectory + "Field.csv",
+                outputDirectory + "ClassMetrics" + releaseNum + ".csv",
+                outputDirectory + "MethodMetrics" + releaseNum + ".csv",
+                outputDirectory + "VariableMetrics" + releaseNum + ".csv",
+                outputDirectory + "FieldMetrics" + releaseNum + ".csv",
                 variablesAndFields);
 
         Map<String, CKClassResult> results = new HashMap<>();
@@ -61,13 +68,13 @@ public class ComplexityMetricsProcessor {
 
                 // Store the metrics values from each component of the project in a HashMap
                 results.put(result.getClassName(), result);
-
             }
 
             @Override
             public void notifyError(String sourceFilePath, Exception e) {
-                System.err.println("Error in " + sourceFilePath);
-                e.printStackTrace(System.err);
+                String loggerString = "Error in " + sourceFilePath;
+                logger.info(loggerString);
+                logger.info(e.getMessage());
             }
         });
 
@@ -77,6 +84,7 @@ public class ComplexityMetricsProcessor {
         }
 
         writer.flushAndClose();
-        System.out.println("Metrics extracted!!!");
+        String loggerString = "Metrics extracted for release number " + releaseNum;
+        System.out.println(loggerString);
     }
 }

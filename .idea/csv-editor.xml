@@ -3,6 +3,104 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet1.csv">
           <value>
             <Attribute>
@@ -10,42 +108,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet10.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet11.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet12.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet13.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -73,56 +136,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet7.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet8.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet9.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet1.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet10.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet11.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet12.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet13.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -158,27 +172,6 @@
           </value>
         </entry>
         <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet6.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet7.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet8.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/results/bookkeeper/csvFiles/training/bookkeeper_trainingSet9.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

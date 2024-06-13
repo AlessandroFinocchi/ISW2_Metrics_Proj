@@ -57,14 +57,16 @@ public class JiraScraper {
         // Order temporally the list of releases
         releases.sort(Comparator.comparing(Release::getReleaseDateTime));
 
+        // To extract complexity metrics the checkout of a tag is needed
+        gitScraper.filterTaggedReleases(releases);
+
         // Set the last release
         gitScraper.setLastRelease(releases.getLast());
 
         return releases;
     }
 
-    public List<Ticket> scrapeTickets(List<Release> releasesList)
-            throws Exception {
+    public List<Ticket> scrapeTickets(List<Release> releasesList) throws Exception {
         int total;
         int j;
         int i = 0;
@@ -128,13 +130,6 @@ public class JiraScraper {
         // Sort tickets by resolution date
         ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-        //todo: è giusto farlo qua???
-
-        // Adjust the infos of the tickets setting their IVs with proportion
-        List<Ticket> proportionedTicketsList = Ticket.proportionTickets(ticketList, releasesList, projName);
-
-        proportionedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
-
-        return proportionedTicketsList;
+        return ticketList;
     }
 }
