@@ -31,7 +31,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/complexityFiles/ClassMetrics2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -66,7 +80,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/ClassMetrics9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/complexityFiles/MethodMetrics1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics10.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -94,6 +129,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/bookkeeper/complexityFiles/MethodMetrics4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/complexityFiles/MethodMetrics5.csv">
           <value>
             <Attribute>
@@ -109,6 +151,13 @@
           </value>
         </entry>
         <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/csvFiles/testing/bookkeeper_testingSet3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

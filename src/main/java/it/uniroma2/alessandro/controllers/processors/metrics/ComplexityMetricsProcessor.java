@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 
 import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.CLONE_DIR;
 import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.FAKE_RELEASE_PREFIX;
 
 //todo: classe non usata ancora
 public class ComplexityMetricsProcessor {
@@ -35,9 +36,12 @@ public class ComplexityMetricsProcessor {
         this.gitScraper = gitScraper;
     }
 
-    public void extractComplexityMetrics() throws GitAPIException, IOException, InterruptedException {
+    public void extractComplexityMetrics() throws GitAPIException, IOException {
         for(Release release: releaseList){
-            gitScraper.checkoutSpecificRelease(release);
+            if(release.getReleaseName().contains(FAKE_RELEASE_PREFIX))
+                gitScraper.checkoutSpecificCommit(release.getCommitList().getLast());
+            else
+                gitScraper.checkoutSpecificRelease(release);
             computeComplexityMetrics(release.getNumericID());
         }
 

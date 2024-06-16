@@ -20,6 +20,8 @@ public class TrainingTestSetsProcessor {
     public int processWalkForward(GitScraper gitScraper, List<Release> releaseList, List<Ticket> ticketList,
                                    List<ProjectClass> classList, String projName) throws IOException {
 
+        //todo: anticipala così fai meno calcoli
+
         // Consider only the first half of releases
         LocalDate lastReleaseDate = releaseList.get(releaseList.size()/2).getReleaseDateTime();
         List<Release> firstHalfReleases = releaseList.stream()

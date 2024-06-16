@@ -64,6 +64,7 @@ public class MetricsScraper {
             Ticket.proportionTickets(ticketList, jiraReleases, projName);
             ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
+
             // Since it is time-consuming computing these files, and they are always th same, apart from the case where
             // new releases are published in Jira, compute them only if needed
             if(computeComplexityFiles){

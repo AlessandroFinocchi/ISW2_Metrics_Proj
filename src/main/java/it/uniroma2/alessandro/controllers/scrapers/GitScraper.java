@@ -30,12 +30,14 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class GitScraper {
     public static final String CLONE_DIR = "repos/";
+    public static final String FAKE_RELEASE_PREFIX = "fake_release_";
 
     protected final Git git;
     private final Repository repository;
@@ -68,7 +70,11 @@ public class GitScraper {
         git.checkout().setName(tagName).call();
     }
 
-    public void checkoutLastRelease() throws IOException, InterruptedException, GitAPIException {
+    public void checkoutSpecificCommit(Commit commit) throws GitAPIException {
+        git.checkout().setName(commit.getRevCommit().getName()).call();
+    }
+
+    public void checkoutLastRelease() throws GitAPIException {
         if(lastRelease == null) throw new IllegalArgumentException("Last release not set");
         checkoutSpecificTag("release-" + lastRelease.getReleaseName());
     }
@@ -102,6 +108,9 @@ public class GitScraper {
         // Take the date of the first and last commit
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
+        // Add releases until last commit
+        completeReleaseList(formatter, revCommitList, jiraReleases);
+
         // Set all the commits for a release and set the release of a commit
         for (RevCommit revCommit : revCommitList) {
             // Get the date of a commit
@@ -132,6 +141,29 @@ public class GitScraper {
 
         return commitList;
 
+    }
+
+    private void completeReleaseList(SimpleDateFormat formatter, List<RevCommit> revCommitList, List<Release> jiraReleases){
+        // Get the dates
+        LocalDate firstCommitDate = LocalDate.parse(formatter.format(revCommitList.getFirst().getCommitterIdent().getWhen()));
+        LocalDate lastCommitDate = LocalDate.parse(formatter.format(revCommitList.getLast().getCommitterIdent().getWhen()));
+        LocalDate lastReleaseDate = jiraReleases.getLast().getReleaseDateTime();
+
+        // Get the time interval between the first commit and the last release
+        long interval = ChronoUnit.DAYS.between(firstCommitDate, lastReleaseDate);
+
+        // Get the average number of days between 2 releases
+        int intervalInDays = (int) interval / jiraReleases.size();
+
+        // Add a new dummy release, once every releaseIntervalInDays, in order to not discard commits after the last release
+        LocalDate currentDate = jiraReleases.getLast().getReleaseDateTime().plusDays(intervalInDays);
+        while(currentDate.isBefore(lastCommitDate)){
+            jiraReleases.add(new Release(
+                    FAKE_RELEASE_PREFIX + currentDate.toString(),
+                    FAKE_RELEASE_PREFIX + currentDate.toString(),
+                    currentDate.toString()));
+            currentDate = currentDate.plusDays(intervalInDays);
+        }
     }
 
     public List<ProjectClass> scrapeClasses(List<Release> releaseList, List<Ticket> ticketList,
