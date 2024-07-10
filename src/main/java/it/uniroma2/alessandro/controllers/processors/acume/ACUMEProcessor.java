@@ -23,7 +23,7 @@ public class ACUMEProcessor {
     public ACUMEProcessor(String projName) throws IOException {
         // Create directory
         this.projName = projName;
-        this.directoryName = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" + "acumeFiles/";
+        this.directoryName = RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/" + projName.toLowerCase() + "AcumeFiles/";
         File file = new File(directoryName);
         if (!file.exists() && !file.mkdirs())  throw new IOException();
     }
@@ -96,7 +96,8 @@ public class ACUMEProcessor {
                 "_" + classifierResult.getCustomClassifier().getFeatureSelectionFilterName() +
                 "_" + classifierResult.getCustomClassifier().getSamplingFilterName() +
                 "_" + costSensitive +
-                "_" + classifierResult.getWalkForwardIteration();
+                "_" + classifierResult.getWalkForwardIteration() +
+                ".csv";
 
         return new File(filename);
     }
