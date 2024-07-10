@@ -10,6 +10,7 @@ import java.util.*;
 
 public class Ticket {
     private final String ticketKey;
+    private final Boolean isInjectedVersionAvailableAtTheBeginning;
 
     private final LocalDate creationDate;
     private final LocalDate resolutionDate;
@@ -28,16 +29,20 @@ public class Ticket {
      * @param fixedVersion the first release no more affected after the OV
      * @param affectedVersions the list of releases affected by the issue ticketed
      */
-    public Ticket(String ticketKey, LocalDate creationDate, LocalDate resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
+    public Ticket(String ticketKey, LocalDate creationDate, LocalDate resolutionDate, Release openingVersion,
+                  Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
         this.creationDate = creationDate;
         this.resolutionDate = resolutionDate;
         if(affectedVersions.isEmpty()){
             // The tickets with null IV will be the one to predict
             injectedVersion = null;
+            isInjectedVersionAvailableAtTheBeginning = false;
         }else{
             // IV = AV[0] by definition
             injectedVersion = affectedVersions.getFirst();
+            isInjectedVersionAvailableAtTheBeginning = true;
+
         }
         this.openingVersion = openingVersion;
         this.fixedVersion = fixedVersion;
@@ -47,6 +52,10 @@ public class Ticket {
 
     public Release getInjectedVersion() {
         return injectedVersion;
+    }
+
+    public Boolean getInjectedVersionAvailableAtTheBeginning() {
+        return isInjectedVersionAvailableAtTheBeginning;
     }
 
     public void setInjectedVersion(Release injectedVersion) {
@@ -104,4 +113,5 @@ public class Ticket {
 
         return ticketsList;
     }
+
 }

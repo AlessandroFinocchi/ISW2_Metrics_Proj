@@ -51,8 +51,6 @@
             <artifactId>ck</artifactId>
             <version>0.7.0</version>
         </dependency>
-
-
     </dependencies>
 
     <properties>

@@ -20,7 +20,8 @@ import org.eclipse.jgit.revwalk.RevCommit;
 
 import it.uniroma2.alessandro.enums.ReportType;
 
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
+
 
 public class ReportUtility {
 
@@ -31,7 +32,8 @@ public class ReportUtility {
     private ReportUtility() {
     }
 
-    public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
+    public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList,
+                                          List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
         try {
             File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
             if (!file.exists()) {

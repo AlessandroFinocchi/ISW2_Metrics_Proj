@@ -17,10 +17,9 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.CLONE_DIR;
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
 import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.FAKE_RELEASE_PREFIX;
+import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
 
-//todo: classe non usata ancora
 public class ComplexityMetricsProcessor {
     private final Logger logger = Logger.getLogger(MetricsScraper.class.getName());
 

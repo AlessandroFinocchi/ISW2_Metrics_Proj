@@ -86,7 +86,6 @@ public class MetricsProcessor {
             LOCMetrics removedLOC = new LOCMetrics();
             LOCMetrics churnLOC = new LOCMetrics();
             LOCMetrics addedLOC = new LOCMetrics();
-            LOCMetrics touchedLOC = new LOCMetrics();
 
             // Set the added and removed metric LOCs for every class
             gitScraper.extractAddedAndRemovedLOC(currentClass);
@@ -100,13 +99,11 @@ public class MetricsProcessor {
                 int addedLineOfCode = locAddedByClass.get(i);
                 int removedLineOfCode = locRemovedByClass.get(i);
                 int churningFactor = Math.abs(locAddedByClass.get(i) - locRemovedByClass.get(i));
-                int touchedLinesOfCode = locAddedByClass.get(i) + locRemovedByClass.get(i);
 
                 // Set the values
                 addedLOC.addToVal(addedLineOfCode);
                 removedLOC.addToVal(removedLineOfCode);
                 churnLOC.addToVal(churningFactor);
-                touchedLOC.addToVal(touchedLinesOfCode);
 
                 // Set the max values
                 if (addedLineOfCode > addedLOC.getMaxVal()) {
@@ -118,18 +115,15 @@ public class MetricsProcessor {
                 if (churningFactor > churnLOC.getMaxVal()) {
                     churnLOC.setMaxVal(churningFactor);
                 }
-                if (touchedLinesOfCode > touchedLOC.getMaxVal()) {
-                    touchedLOC.setMaxVal(touchedLinesOfCode);
-                }
             }
 
             processAverageLOCMetrics(currentClass, locAddedByClass, locRemovedByClass,
-                    addedLOC, removedLOC, churnLOC, touchedLOC);
+                    addedLOC, removedLOC, churnLOC);
         }
     }
 
     private void processAverageLOCMetrics(ProjectClass currentClass, List<Integer> locAddedByClass, List<Integer> locRemovedByClass,
-                                          LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC, LOCMetrics touchedLOC){
+                                          LOCMetrics addedLOC, LOCMetrics removedLOC, LOCMetrics churnLOC){
         // Set the average values
         int nRevisions = currentClass.getMetrics().getNumberOfRevisions();
         if(!locAddedByClass.isEmpty()) {
@@ -140,11 +134,9 @@ public class MetricsProcessor {
         }
         if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
             churnLOC.setAvgVal(1.0* churnLOC.getVal()/ nRevisions);
-            touchedLOC.setAvgVal(1.0* touchedLOC.getVal()/nRevisions);
         }
         currentClass.getMetrics().setAddedLOCMetrics(addedLOC.getVal(), addedLOC.getMaxVal(), addedLOC.getAvgVal());
         currentClass.getMetrics().setRemovedLOCMetrics(removedLOC.getVal(), removedLOC.getMaxVal(), removedLOC.getAvgVal());
         currentClass.getMetrics().setChurnMetrics(churnLOC.getVal(), churnLOC.getMaxVal(), churnLOC.getAvgVal());
-        currentClass.getMetrics().setTouchedLOCMetrics(touchedLOC.getVal(), touchedLOC.getMaxVal(), touchedLOC.getAvgVal());
     }
 }

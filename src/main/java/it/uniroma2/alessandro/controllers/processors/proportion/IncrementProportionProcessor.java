@@ -12,7 +12,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
+
 
 public class IncrementProportionProcessor extends ProportionProcessor {
 

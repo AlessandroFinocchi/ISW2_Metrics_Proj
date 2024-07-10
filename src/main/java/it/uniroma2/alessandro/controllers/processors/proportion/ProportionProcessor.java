@@ -15,8 +15,7 @@ public abstract class ProportionProcessor implements IProportionProcessor{
 
     protected static final String NAME_OF_THIS_CLASS = ProportionProcessor.class.getName();
     protected static final String STARTING_SEPARATOR = "----------------------\n[";
-    protected static final String ENDING_SEPARATOR = "]\n----------------------\n";
-    protected static final String NORMAL_SEPARATOR = "\n----------------------\n";
+    protected static final String ENDING_SEPARATOR = "]\n";
 
     protected static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
     protected static final StringBuilder outputToFile = new StringBuilder();

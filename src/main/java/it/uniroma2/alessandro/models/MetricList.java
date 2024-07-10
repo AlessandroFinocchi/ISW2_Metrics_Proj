@@ -4,7 +4,6 @@ public class MetricList {
     private final LOCMetrics removedLOCMetrics;
     private final LOCMetrics churnMetrics;
     private final LOCMetrics addedLOCMetrics;
-    private final LOCMetrics touchedLOCMetrics;
 
     private boolean bugged;
     private int size;
@@ -21,7 +20,6 @@ public class MetricList {
         removedLOCMetrics = new LOCMetrics();
         churnMetrics = new LOCMetrics();
         addedLOCMetrics = new LOCMetrics();
-        touchedLOCMetrics = new LOCMetrics();
     }
 
     public boolean getBuggyness() {
@@ -52,10 +50,6 @@ public class MetricList {
         return addedLOCMetrics;
     }
 
-    public LOCMetrics getTouchedLOCMetrics() {
-        return touchedLOCMetrics;
-    }
-
     public void setAddedLOCMetrics(int addedLOC, int maxAddedLOC, double avgAddedLOC) {
         this.addedLOCMetrics.setVal(addedLOC);
         this.addedLOCMetrics.setMaxVal(maxAddedLOC);
@@ -73,17 +67,9 @@ public class MetricList {
         this.churnMetrics.setMaxVal(maxChurningFactor);
         this.churnMetrics.setAvgVal(avgChurningFactor);
     }
-
-    public void setTouchedLOCMetrics(int touchedLOC, int maxTouchedLOC, double avgTouchedLOC) {
-        this.touchedLOCMetrics.setVal(touchedLOC);
-        this.touchedLOCMetrics.setMaxVal(maxTouchedLOC);
-        this.touchedLOCMetrics.setAvgVal(avgTouchedLOC);
-
-    }
     public void setNumberOfRevisions(int numberOfRevisions) {
         this.numberOfRevisions = numberOfRevisions;
     }
-
 
     public int getNumberOfRevisions() {
         return numberOfRevisions;

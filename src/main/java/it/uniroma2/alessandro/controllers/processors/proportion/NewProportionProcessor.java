@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
+import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
 
 public class NewProportionProcessor extends ProportionProcessor{
 
@@ -52,15 +52,16 @@ public class NewProportionProcessor extends ProportionProcessor{
         float denominator;
         float propForTicket;
 
+        outputToFile.append("TICKET WITH IV: ")
+                .append(ticketList.size())
+                .append("\n");
+
         // For each ticket...
         for (Ticket correctTicket : ticketList) {
-            outputToFile.append("\n[*]PROPORTION[*]-----------------------------------------------\n")
-                    .append(STARTING_SEPARATOR)
+                    outputToFile.append(STARTING_SEPARATOR)
                     .append(correctTicket.getTicketKey())
                     .append(ENDING_SEPARATOR);
             propForTicket = 0.0F;
-
-            outputToFile.append(NORMAL_SEPARATOR);
 
             // If the OV != FV the denominator can be computed, otherwise proportion is 0
             if (!correctTicket.getOpeningVersion().getReleaseID().equals(correctTicket.getFixedVersion().getReleaseID())) {
@@ -69,7 +70,7 @@ public class NewProportionProcessor extends ProportionProcessor{
                         / denominator;
             }
 
-            totalProportion+=propForTicket;
+            totalProportion += propForTicket;
         }
         return totalProportion / ticketList.size();
     }
@@ -83,8 +84,7 @@ public class NewProportionProcessor extends ProportionProcessor{
                 .append("\n")
                 .append("----------------------------------------------------------\n");
         for(Ticket ticket: ticketList){
-            outputToFile.append("\n[*]PROPORTION[*]-----------------------------------------------\n")
-                    .append(STARTING_SEPARATOR)
+            outputToFile.append(STARTING_SEPARATOR)
                     .append(ticket.getTicketKey())
                     .append(ENDING_SEPARATOR);
             computeInjectedVersion(ticket, releaseList, proportion);

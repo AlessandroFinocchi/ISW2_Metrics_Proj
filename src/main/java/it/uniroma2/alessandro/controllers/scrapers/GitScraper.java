@@ -187,11 +187,6 @@ public class GitScraper {
             }
         }
 
-        //todo: necessario questo completeClassesInfo qui o basta dopo?
-
-        // Complete the project classes infos
-        completeClassesInfo(ticketList, classList);
-
         // Set the commit list that touches the class for each class
         setTouchingClassesCommits(classList, commitList);
 

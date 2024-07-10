@@ -2,7 +2,6 @@ package it.uniroma2.alessandro;
 
 import it.uniroma2.alessandro.controllers.scrapers.MetricsScraper;
 
-import java.io.File;
 import java.util.List;
 import java.util.Map;
 

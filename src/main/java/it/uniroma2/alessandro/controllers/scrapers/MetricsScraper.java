@@ -11,19 +11,19 @@ import it.uniroma2.alessandro.utilities.ReportUtility;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
-import static it.uniroma2.alessandro.controllers.processors.sets.DatasetsProcessor.RESULT_DIRECTORY_NAME;
-
 /**
  * Retrieves the metric information online
  */
 public class MetricsScraper {
     private final Logger logger;
+    public static final String RESULT_DIRECTORY_NAME = "results/";
 
     public MetricsScraper(){
         logger = Logger.getLogger(MetricsScraper.class.getName());
@@ -54,16 +54,14 @@ public class MetricsScraper {
             logger.info(loggerString);
             List<Ticket> ticketList = jiraScraper.scrapeTickets(jiraReleases);
 
-            loggerString = "Filtering commits of " + projString;
+            loggerString = "Applying filters on " + projString;
             logger.info(loggerString);
             List<Commit> ticketedCommitList = applyFilters(jiraReleases, ticketList, commitList);
-
-            //todo: è giusto farlo qua???   no!
+            setReleasesNumericID(jiraReleases);
 
             // Adjust the infos of the tickets setting their IVs with proportion
             Ticket.proportionTickets(ticketList, jiraReleases, projName);
             ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
-
 
             // Since it is time-consuming computing these files, and they are always th same, apart from the case where
             // new releases are published in Jira, compute them only if needed
@@ -76,7 +74,7 @@ public class MetricsScraper {
 
             loggerString = "Extracting touched classes from " + projString;
             logger.info(loggerString);
-            //todo: giusto usare commitList e non ticketedCommitList?
+            // Use the whole commit list to don't lose the last commit of a release to read their classes
             List<ProjectClass> classList = gitScraper.scrapeClasses(jiraReleases, ticketList, commitList);
 
             loggerString = "Extracting metrics from " + projString;
@@ -86,7 +84,6 @@ public class MetricsScraper {
 
             loggerString = "Reporting results from " + projString;
             logger.info(loggerString);
-            //todo: giusto usare commitList e non ticketedCommitList?
             ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
             loggerString = "Starting walk forward to build training and testing sets for " + projString;
@@ -164,11 +161,13 @@ public class MetricsScraper {
         // If a ticket has no commits it means it isn't solved, so we don't care about it
         ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
 
+        return filteredCommitList;
+    }
+
+    private void setReleasesNumericID(List<Release> releaseList) {
         for (int i = 0; i < releaseList.size(); i++){
             releaseList.get(i).setNumericID(i + 1);
         }
-
-        return filteredCommitList;
     }
 
     private boolean matchRegex(String s, String regex){
