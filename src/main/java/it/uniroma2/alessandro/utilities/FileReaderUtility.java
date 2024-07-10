@@ -7,7 +7,6 @@ import it.uniroma2.alessandro.models.ProjectClass;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -52,9 +51,6 @@ public class FileReaderUtility {
                 if(currentProjectClassList.size() == 1){
                     ProjectClass currentProjectClass = currentProjectClassList.getFirst();
                     currentProjectClass.getMetrics().setComplexityMetrics(record);
-                }
-                else{
-                    System.out.println("The classes found were " + currentProjectClassList.size());
                 }
 
             }

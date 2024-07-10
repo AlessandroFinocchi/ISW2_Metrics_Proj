@@ -60,6 +60,10 @@ public class DatasetsProcessor {
                         @attribute NUMBER_OF_REVISIONS numeric
                         @attribute NUMBER_OF_DEFECT_FIXES numeric
                         @attribute NUMBER_OF_AUTHORS numeric
+                        @attribute CBO numeric
+                        @attribute FAN_IN numeric
+                        @attribute FAN_OUT numeric
+                        @attribute PUBLIC_METHODS_QTY numeric
                         @attribute IS_BUGGY {'YES', 'NO'}
                         
                         @data
@@ -76,6 +80,10 @@ public class DatasetsProcessor {
                     "NUMBER_OF_REVISIONS," +
                     "NUMBER_OF_DEFECT_FIXES," +
                     "NUMBER_OF_AUTHORS," +
+                    "CBO," +
+                    "FAN_IN," +
+                    "FAN_OUT," +
+                    "PUBLIC_METHODS_QTY,"+
                     "IS_BUGGY").append("\n");
             appendByRelease(releaseList, allProjectClasses, fileWriter, false);
         }
@@ -108,6 +116,10 @@ public class DatasetsProcessor {
         String nRevisions = String.valueOf(projectClass.getMetrics().getNumberOfRevisions());
         String nDefectFixes = String.valueOf(projectClass.getMetrics().getNumberOfDefectFixes());
         String nAuthors = String.valueOf(projectClass.getMetrics().getNumberOfAuthors());
+        String cbo = String.valueOf(projectClass.getMetrics().getComplexityMetrics().getCbo());
+        String fanIn = String.valueOf(projectClass.getMetrics().getComplexityMetrics().getFanIn());
+        String fanOut = String.valueOf(projectClass.getMetrics().getComplexityMetrics().getFanOut());
+        String publicMethodsQty = String.valueOf(projectClass.getMetrics().getComplexityMetrics().getPublicMethodsQty());
         String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
 
         if(!isArff){
@@ -127,6 +139,10 @@ public class DatasetsProcessor {
                 .append(nRevisions).append(",")
                 .append(nDefectFixes).append(",")
                 .append(nAuthors).append(",")
+                .append(cbo).append(",")
+                .append(fanIn).append(",")
+                .append(fanOut).append(",")
+                .append(publicMethodsQty).append(",")
                 .append(isClassBugged).append("\n");
     }
 }
