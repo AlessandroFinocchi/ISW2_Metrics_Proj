@@ -4,6 +4,7 @@ public class MetricList {
     private final LOCMetrics removedLOCMetrics;
     private final LOCMetrics churnMetrics;
     private final LOCMetrics addedLOCMetrics;
+    private ComplexityMetrics complexityMetrics;
 
     private boolean bugged;
     private int size;
@@ -20,6 +21,7 @@ public class MetricList {
         removedLOCMetrics = new LOCMetrics();
         churnMetrics = new LOCMetrics();
         addedLOCMetrics = new LOCMetrics();
+        complexityMetrics = new ComplexityMetrics(0, 0, 0, 0);
     }
 
     public boolean getBuggyness() {
@@ -67,6 +69,7 @@ public class MetricList {
         this.churnMetrics.setMaxVal(maxChurningFactor);
         this.churnMetrics.setAvgVal(avgChurningFactor);
     }
+
     public void setNumberOfRevisions(int numberOfRevisions) {
         this.numberOfRevisions = numberOfRevisions;
     }
@@ -91,4 +94,10 @@ public class MetricList {
         return numberOfAuthors;
     }
 
+    public void setComplexityMetrics(ComplexityMetrics complexityMetrics) {
+            this.complexityMetrics = complexityMetrics;
+    }
+    public ComplexityMetrics getComplexityMetrics() {
+        return complexityMetrics;
+    }
 }

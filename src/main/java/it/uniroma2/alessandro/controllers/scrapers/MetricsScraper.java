@@ -79,7 +79,7 @@ public class MetricsScraper {
 
             loggerString = "Extracting metrics from " + projString;
             logger.info(loggerString);
-            MetricsProcessor metricsProcessor = new MetricsProcessor(ticketedCommitList, classList, gitScraper);
+            MetricsProcessor metricsProcessor = new MetricsProcessor(jiraReleases, ticketedCommitList, classList, gitScraper, projName);
             metricsProcessor.processMetrics();
 
             loggerString = "Reporting results from " + projString;

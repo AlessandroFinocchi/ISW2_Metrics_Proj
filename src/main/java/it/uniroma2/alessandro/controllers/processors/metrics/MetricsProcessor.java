@@ -1,25 +1,30 @@
 package it.uniroma2.alessandro.controllers.processors.metrics;
 
 import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
-import it.uniroma2.alessandro.models.Commit;
-import it.uniroma2.alessandro.models.LOCMetrics;
-import it.uniroma2.alessandro.models.ProjectClass;
-import it.uniroma2.alessandro.models.Ticket;
+import it.uniroma2.alessandro.models.*;
+import it.uniroma2.alessandro.utilities.FileReaderUtility;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
+
 public class MetricsProcessor {
+    List<Release>releaseList;
     List<Commit> ticketedCommitList;
     List<ProjectClass> classList;
     GitScraper gitScraper;
+    String projName;
 
-    public MetricsProcessor(List<Commit> ticketedCommitList, List<ProjectClass> classList, GitScraper gitScraper) {
+    public MetricsProcessor(List<Release> releaseList, List<Commit> ticketedCommitList, List<ProjectClass> classList,
+                            GitScraper gitScraper, String projName) {
+        this.releaseList = releaseList;
         this.ticketedCommitList = ticketedCommitList;
         this.classList = classList;
         this.gitScraper = gitScraper;
+        this.projName = projName.toLowerCase();
     }
 
     public void processMetrics() throws IOException {
@@ -28,6 +33,7 @@ public class MetricsProcessor {
         processNumberOfDefectFixes();
         processNumberOfAuthors();
         processLOCMetrics();
+        processComplexityMetrics();
     }
 
     private void processSize() {
@@ -138,5 +144,16 @@ public class MetricsProcessor {
         currentClass.getMetrics().setAddedLOCMetrics(addedLOC.getVal(), addedLOC.getMaxVal(), addedLOC.getAvgVal());
         currentClass.getMetrics().setRemovedLOCMetrics(removedLOC.getVal(), removedLOC.getMaxVal(), removedLOC.getAvgVal());
         currentClass.getMetrics().setChurnMetrics(churnLOC.getVal(), churnLOC.getMaxVal(), churnLOC.getAvgVal());
+    }
+
+    private void processComplexityMetrics() {
+        String complexityFilesDirectory = RESULT_DIRECTORY_NAME + projName + "/complexityFiles/";
+        for(Release release: releaseList){
+            List<ProjectClass> currentReleaseClasses = classList.stream()
+                    .filter(classInstance -> classInstance.getRelease().getNumericID() == release.getNumericID())
+                    .toList();
+            String filePath = complexityFilesDirectory + "ClassMetrics" + release.getNumericID() + ".csv";
+            FileReaderUtility.readComplexityMetrics(filePath, currentReleaseClasses, projName);
+        }
     }
 }
