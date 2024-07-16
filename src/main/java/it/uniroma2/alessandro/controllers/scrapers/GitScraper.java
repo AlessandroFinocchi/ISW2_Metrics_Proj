@@ -5,6 +5,7 @@ import it.uniroma2.alessandro.models.Commit;
 import it.uniroma2.alessandro.models.ProjectClass;
 import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
+import it.uniroma2.alessandro.utilities.PropertyUtility;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.ListBranchCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;
@@ -109,7 +110,9 @@ public class GitScraper {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
         // Add releases until last commit
-        completeReleaseList(formatter, revCommitList, jiraReleases);
+        boolean useFakeReleases = PropertyUtility.readBooleanProperty("USING_FAKE_RELEASES");
+        if(useFakeReleases)
+            completeReleaseList(formatter, revCommitList, jiraReleases);
 
         // Set all the commits for a release and set the release of a commit
         for (RevCommit revCommit : revCommitList) {

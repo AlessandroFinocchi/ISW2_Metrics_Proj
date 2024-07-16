@@ -10,6 +10,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_14.csv">
           <value>
             <Attribute>
@@ -18,6 +46,97 @@
           </value>
         </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_noCostSensitive_9.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -45,7 +164,105 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_BestFirst_NoSampling_yesCostSensitive_7.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -66,7 +283,77 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_19.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -80,6 +367,209 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_GreedyStepwise_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_10.csv">
           <value>
             <Attribute>
@@ -87,7 +577,77 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_20.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -108,7 +668,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_10.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -129,7 +731,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_16.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -157,6 +780,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_20.csv">
           <value>
             <Attribute>
@@ -164,7 +794,63 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_IBk_NoSelection_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_10.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -179,6 +865,13 @@
           </value>
         </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_13.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -206,6 +899,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_18.csv">
           <value>
             <Attribute>
@@ -220,7 +920,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -235,6 +949,13 @@
           </value>
         </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_noCostSensitive_6.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -297,7 +1018,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_18.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -312,6 +1061,13 @@
           </value>
         </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_20.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -367,6 +1123,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
           <value>
             <Attribute>
@@ -395,7 +1158,77 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -479,6 +1312,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_17.csv">
           <value>
             <Attribute>
@@ -486,7 +1326,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_20.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -619,7 +1480,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_NaiveBayes_NoSelection_NoSampling_noCostSensitive_7.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1067,7 +1970,70 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_19.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1081,6 +2047,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
           <value>
             <Attribute>
@@ -1088,7 +2068,203 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_15.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_16.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_17.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_18.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_19.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_20.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_12.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1144,6 +2320,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_20.csv">
           <value>
             <Attribute>
@@ -1151,7 +2334,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/avro/avroAcumeFiles/avro_RandomForest_NoSelection_NoSampling_noCostSensitive_9.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1802,6 +3027,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/avro/csvFiles/training/avro_trainingSet1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/avro/csvFiles/training/avro_trainingSet10.csv">
           <value>
             <Attribute>
@@ -1914,6 +3146,671 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_BestFirst_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_GreedyStepwise_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_IBk_NoSelection_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_13.csv">
           <value>
             <Attribute>
@@ -1921,7 +3818,966 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_BestFirst_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_GreedyStepwise_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_NaiveBayes_NoSelection_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_BestFirst_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_GreedyStepwise_NoSampling_yesCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_noCostSensitive_9.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_11.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_12.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_8.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/bookkeeper/bookkeeperAcumeFiles/bookkeeper_RandomForest_NoSelection_NoSampling_yesCostSensitive_9.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

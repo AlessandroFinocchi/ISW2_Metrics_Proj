@@ -31,6 +31,8 @@ public class TrainingTestSetsProcessor {
                 .filter(r -> r.getNumericID() != firstHalfReleases.getLast().getNumericID())
                 .toList();
 
+
+
         for (Release currentRelease : trainingsetReleaseList) {
             // Take all the release until the current one
             List<Release> currentReleaseList = releaseList.stream()
