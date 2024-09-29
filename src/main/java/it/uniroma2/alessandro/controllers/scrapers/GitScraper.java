@@ -169,7 +169,7 @@ public class GitScraper {
         }
     }
 
-    public List<ProjectClass> scrapeClasses(List<Release> releaseList, List<Ticket> ticketList,
+    public List<ProjectClass> scrapeClasses(List<Release> releaseList,
                                             List<Commit> commitList) throws IOException {
         List<ProjectClass> classList = new ArrayList<>();
         List<Commit> lastCommitsList = new ArrayList<>();

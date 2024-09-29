@@ -53,23 +53,21 @@ public class MetricsScraper {
             logger.info(loggerString);
             List<Ticket> ticketList = jiraScraper.scrapeTickets(jiraReleases);
 
-            loggerString = "Applying filters on " + projString;
-            logger.info(loggerString);
-            List<Commit> ticketedCommitList = applyFilters(jiraReleases, ticketList, commitList);
+            // Wait for the fake releases to be added and then set the numeric ids
             setReleasesNumericID(jiraReleases);
+
+            // Take half release
+            List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2 + 1);
+            TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
 
             // Since it is time-consuming computing these files, and they are always th same, apart from the case where
             // new releases are published in Jira, compute them only if needed
             if(computeComplexityFiles){
                 loggerString = "Extracting complexity metrics from " + projString;
                 logger.info(loggerString);
-                ComplexityMetricsProcessor complexityMetricsProcessor = new ComplexityMetricsProcessor(projName, jiraReleases, gitScraper);
+                ComplexityMetricsProcessor complexityMetricsProcessor = new ComplexityMetricsProcessor(projName, datasetReleases, gitScraper);
                 complexityMetricsProcessor.extractComplexityMetrics();
             }
-
-            // Take half release
-            List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2 + 1);
-            TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
 
             for (Release currentRelease: datasetReleases){
 
@@ -80,7 +78,7 @@ public class MetricsScraper {
                 List<Release> consideringReleases = getConsideringReleases(datasetReleases, currentRelease);
                 List<Ticket> consideringTickets = getConsideringTickets(ticketList, currentRelease);
                 List<Commit> consideringCommits = getConsideringCommits(commitList, currentRelease);
-                List<Commit> consideringTicketedCommits = getConsideringCommits(ticketedCommitList, currentRelease);
+                List<Commit> consideringTicketedCommits = applyFilters(consideringReleases, consideringTickets, consideringCommits);
 
                 // Adjust the infos of the tickets setting their IVs with proportion
                 Ticket.proportionTickets(consideringTickets, consideringReleases, projName);
@@ -89,7 +87,7 @@ public class MetricsScraper {
                 loggerString = "Extracting touched classes from " + projString;
                 logger.info(loggerString);
                 // Use the whole commit list to don't lose the last commit of a release to read their classes
-                List<ProjectClass> classList = gitScraper.scrapeClasses(consideringReleases, consideringTickets, consideringCommits);
+                List<ProjectClass> classList = gitScraper.scrapeClasses(consideringReleases, consideringCommits);
 
                 loggerString = "Extracting metrics from " + projString;
                 logger.info(loggerString);
@@ -218,6 +216,7 @@ public class MetricsScraper {
     }
 
     private void setReleasesNumericID(List<Release> releaseList) {
+        releaseList.sort(Comparator.comparing(Release::getReleaseDateTime));
         for (int i = 0; i < releaseList.size(); i++){
             releaseList.get(i).setNumericID(i + 1);
         }
