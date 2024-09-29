@@ -11,7 +11,6 @@ import it.uniroma2.alessandro.utilities.ReportUtility;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -59,10 +58,6 @@ public class MetricsScraper {
             List<Commit> ticketedCommitList = applyFilters(jiraReleases, ticketList, commitList);
             setReleasesNumericID(jiraReleases);
 
-            // Adjust the infos of the tickets setting their IVs with proportion
-            Ticket.proportionTickets(ticketList, jiraReleases, projName);
-            ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
-
             // Since it is time-consuming computing these files, and they are always th same, apart from the case where
             // new releases are published in Jira, compute them only if needed
             if(computeComplexityFiles){
@@ -72,28 +67,47 @@ public class MetricsScraper {
                 complexityMetricsProcessor.extractComplexityMetrics();
             }
 
-            loggerString = "Extracting touched classes from " + projString;
-            logger.info(loggerString);
-            // Use the whole commit list to don't lose the last commit of a release to read their classes
-            List<ProjectClass> classList = gitScraper.scrapeClasses(jiraReleases, ticketList, commitList);
-
-            loggerString = "Extracting metrics from " + projString;
-            logger.info(loggerString);
-            MetricsProcessor metricsProcessor = new MetricsProcessor(jiraReleases, ticketedCommitList, classList, gitScraper, projName);
-            metricsProcessor.processMetrics();
-
-            loggerString = "Reporting results from " + projString;
-            logger.info(loggerString);
-            ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
-
-            loggerString = "Starting walk forward to build training and testing sets for " + projString;
-            logger.info(loggerString);
+            // Take half release
+            List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2 + 1);
             TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
-            int walkForwardIterations = setsProcessor.processWalkForward(gitScraper, jiraReleases, ticketList, classList, projName);
+
+            for (Release currentRelease: datasetReleases){
+
+                //Skip first release
+                if(currentRelease.getNumericID() == 1)
+                    continue;
+
+                List<Release> consideringReleases = getConsideringReleases(datasetReleases, currentRelease);
+                List<Ticket> consideringTickets = getConsideringTickets(ticketList, currentRelease);
+                List<Commit> consideringCommits = getConsideringCommits(commitList, currentRelease);
+                List<Commit> consideringTicketedCommits = getConsideringCommits(ticketedCommitList, currentRelease);
+
+                // Adjust the infos of the tickets setting their IVs with proportion
+                Ticket.proportionTickets(consideringTickets, consideringReleases, projName);
+                consideringTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
+
+                loggerString = "Extracting touched classes from " + projString;
+                logger.info(loggerString);
+                // Use the whole commit list to don't lose the last commit of a release to read their classes
+                List<ProjectClass> classList = gitScraper.scrapeClasses(consideringReleases, consideringTickets, consideringCommits);
+
+                loggerString = "Extracting metrics from " + projString;
+                logger.info(loggerString);
+                MetricsProcessor metricsProcessor = new MetricsProcessor(consideringReleases, consideringTicketedCommits, classList, gitScraper, projName);
+                metricsProcessor.processMetrics();
+
+                loggerString = "Starting walk forward to build training and testing sets for " + projString;
+                logger.info(loggerString);
+                setsProcessor.processWalkForward(gitScraper, consideringReleases, consideringTickets, classList, projName);
+            }
+
+//            loggerString = "Reporting results from " + projString;
+//            logger.info(loggerString);
+//            ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
 
             loggerString = "Training WEKA classifiers for " + projString;
             logger.info(loggerString);
-            WekaProcessor wekaProcessor = new WekaProcessor(projName, walkForwardIterations);
+            WekaProcessor wekaProcessor = new WekaProcessor(projName, setsProcessor.walkForwardIterations);
             List<ClassifierResult> results = wekaProcessor.processClassifierResults();
 
             loggerString = "Writing results for " + projString;
@@ -109,8 +123,47 @@ public class MetricsScraper {
             logger.info(loggerString);
 
         } catch (Exception e) {
-            logger.info(e.toString());
+            e.printStackTrace();
         }
+    }
+
+    private List<Release> getConsideringReleases(List<Release> jiraReleases, Release currentRelease) {
+        return jiraReleases
+                .stream()
+                .filter(r-> r.getNumericID() <= currentRelease.getNumericID())
+                .toList();
+    }
+
+    private List<Ticket> getConsideringTickets(List<Ticket> ticketList, Release currentRelease) {
+        List<Ticket> consideringTicketList = ticketList
+                .stream()
+                .filter(t -> t.getFixedVersion().getNumericID() <= currentRelease.getNumericID())
+                .toList();
+
+        List<Ticket> returningTicketList = new ArrayList<>();
+
+        for (Ticket ticket: consideringTicketList) {
+            Ticket newTicket = ticket.cloneTicketAtRelease(currentRelease);
+            returningTicketList.add(newTicket);
+        }
+
+        return returningTicketList;
+    }
+
+    private List<Commit> getConsideringCommits(List<Commit> commitList, Release currentRelease) {
+        List<Commit> consideringCommitList = commitList
+                .stream()
+                .filter(c -> c.getRelease().getNumericID() <= currentRelease.getNumericID())
+                .toList();
+
+        List<Commit> returningCommitList = new ArrayList<>();
+
+        for (Commit commit: consideringCommitList) {
+            Commit newCommit = commit.cloneCommitAtRelease(currentRelease);
+            returningCommitList.add(newCommit);
+        }
+
+        return returningCommitList;
     }
 
     /**

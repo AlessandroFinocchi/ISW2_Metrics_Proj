@@ -4,13 +4,11 @@ import it.uniroma2.alessandro.controllers.processors.proportion.IProportionProce
 import it.uniroma2.alessandro.factories.ProportionProcessFactory;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.time.LocalDate;
 import java.util.*;
 
 public class Ticket {
     private final String ticketKey;
-    private final Boolean isInjectedVersionAvailableAtTheBeginning;
 
     private final LocalDate creationDate;
     private final LocalDate resolutionDate;
@@ -37,11 +35,9 @@ public class Ticket {
         if(affectedVersions.isEmpty()){
             // The tickets with null IV will be the one to predict
             injectedVersion = null;
-            isInjectedVersionAvailableAtTheBeginning = false;
         }else{
             // IV = AV[0] by definition
             injectedVersion = affectedVersions.getFirst();
-            isInjectedVersionAvailableAtTheBeginning = true;
 
         }
         this.openingVersion = openingVersion;
@@ -52,10 +48,6 @@ public class Ticket {
 
     public Release getInjectedVersion() {
         return injectedVersion;
-    }
-
-    public Boolean getInjectedVersionAvailableAtTheBeginning() {
-        return isInjectedVersionAvailableAtTheBeginning;
     }
 
     public void setInjectedVersion(Release injectedVersion) {
@@ -104,14 +96,20 @@ public class Ticket {
         return !getAffectedVersions().isEmpty();
     }
 
-    public static List<Ticket> proportionTickets(List<Ticket> ticketsList, List<Release> releaseList, String projName)
-            throws IOException {
+    public static void proportionTickets(List<Ticket> ticketsList, List<Release> releaseList, String projName) throws IOException {
         ProportionProcessFactory proportionProcessFactory = new ProportionProcessFactory();
         IProportionProcessor proportionProcessor = proportionProcessFactory.createProportionProcessor();
 
         proportionProcessor.processProportion(ticketsList, releaseList, projName);
+    }
 
-        return ticketsList;
+    public Ticket cloneTicketAtRelease(Release release) {
+        List<Release> newAffectedVersions = affectedVersions
+                .stream()
+                .filter(av -> av.getNumericID() <= release.getNumericID())
+                .toList();
+
+        return new Ticket(ticketKey, creationDate, resolutionDate, openingVersion, fixedVersion, newAffectedVersions);
     }
 
 }

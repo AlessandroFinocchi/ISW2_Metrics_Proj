@@ -19,32 +19,32 @@ public class NewProportionProcessor extends ProportionProcessor{
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> ticketToProportionList = new ArrayList<>(); // List of ticket without IV
         float proportion = 0;
-            File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles");
-            if (!file.exists() && !file.mkdirs()) throw new IOException();
+        File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles");
+        if (!file.exists() && !file.mkdirs()) throw new IOException();
 
-            // Separate tickets with and without AV, and set IV for those ticket with AVs: IV = AV[0]
-            for(Ticket ticket: ticketList){
-                if(ticket.isCorrect()){
-                    ticketForProportionList.add(ticket);
-                    ticket.setInjectedVersion(ticket.getAffectedVersions().getFirst());
-                    }
-                else
-                    ticketToProportionList.add(ticket);
-            }
+        // Separate tickets with and without AV, and set IV for those ticket with AVs: IV = AV[0]
+        for(Ticket ticket: ticketList){
+            if(ticket.isCorrect()){
+                ticketForProportionList.add(ticket);
+                ticket.setInjectedVersion(ticket.getAffectedVersions().getFirst());
+                }
+            else
+                ticketToProportionList.add(ticket);
+        }
 
-            // Process proportion from the tickets with IV
-            proportion = getProportion(ticketForProportionList);
+        // Process proportion from the tickets with IV
+        proportion = getProportion(ticketForProportionList);
 
-            // Process IV for tickets without IV with the proportion processes
-            processProportion(ticketToProportionList, releaseList, proportion);
+        // Process IV for tickets without IV with the proportion processes
+        processProportion(ticketToProportionList, releaseList, proportion);
 
-            ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
+        ticketList.sort(Comparator.comparing(Ticket::getResolutionDate));
 
-            file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/Proportion.txt");
-            try(FileWriter fileWriter = new FileWriter(file)) {
-                fileWriter.append(outputToFile.toString());
-                FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
-            }
+        file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/Proportion.txt");
+        try(FileWriter fileWriter = new FileWriter(file)) {
+            fileWriter.append(outputToFile.toString());
+            FileWriterUtility.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
+        }
     }
 
     private float getProportion(List<Ticket> ticketList) {

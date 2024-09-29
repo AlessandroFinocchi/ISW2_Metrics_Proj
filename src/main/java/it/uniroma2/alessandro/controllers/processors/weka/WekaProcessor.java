@@ -30,7 +30,7 @@ public class WekaProcessor {
 
     public List<ClassifierResult> processClassifierResults() throws Exception {
         List<ClassifierResult> classifierResultList = new ArrayList<>();
-        for(int i = 1; i <= walkForwardIterations; i++){
+        for(int i = 1; i < walkForwardIterations; i++){
 
             // Get the instances of training and testing sets
             String trainingSetLocation = RESULT_DIRECTORY_NAME + projName.toLowerCase()

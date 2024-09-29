@@ -35,4 +35,11 @@ public class Commit {
     public Release getRelease() {
         return release;
     }
+
+    public Commit cloneCommitAtRelease(Release release) {
+        Commit commit = new Commit(revCommit, release);
+        commit.setTicket(ticket);
+
+        return commit;
+    }
 }

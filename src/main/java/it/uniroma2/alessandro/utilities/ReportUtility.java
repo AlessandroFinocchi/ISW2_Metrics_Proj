@@ -95,7 +95,6 @@ public class ReportUtility {
                 releaseNames.add(release.getReleaseName());
             }
             fileWriter.append("Ticket[key= ").append(ticket.getTicketKey())
-                    .append(", injectedVersion= ") .append(ticket.getInjectedVersion().getReleaseName())
                     .append(", openingVersion= ").append(ticket.getOpeningVersion().getReleaseName())
                     .append(", fixedVersion= ") .append(ticket.getFixedVersion().getReleaseName())
                     .append(", affectedVersions= ").append(String.valueOf(releaseNames))
