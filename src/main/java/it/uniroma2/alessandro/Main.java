@@ -9,7 +9,7 @@ public class Main {
 
     public static final List<Map.Entry<String, String>> projects = List.of(
             Map.entry("BOOKKEEPER", "https://github.com/apache/bookkeeper.git")
-//            Map.entry("AVRO", "https://github.com/apache/avro.git")
+            Map.entry("AVRO", "https://github.com/apache/avro.git")
     );
 
     public static void main(String[] args) {
