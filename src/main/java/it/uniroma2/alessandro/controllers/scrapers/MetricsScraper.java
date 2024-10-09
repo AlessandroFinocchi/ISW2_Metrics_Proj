@@ -117,7 +117,7 @@ public class MetricsScraper {
             logger.info(loggerString);
 
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.info(e.getMessage());
         }
     }
 
