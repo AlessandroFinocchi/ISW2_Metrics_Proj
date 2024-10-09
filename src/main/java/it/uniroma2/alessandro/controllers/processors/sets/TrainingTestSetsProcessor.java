@@ -8,7 +8,6 @@ import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -17,7 +16,7 @@ public class TrainingTestSetsProcessor {
     public static final String NAME_OF_THIS_CLASS = TrainingTestSetsProcessor.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
 
-    public int walkForwardIterations = 0;
+    private int walkForwardIterations = 0;
 
     public void processWalkForward(GitScraper gitScraper, List<Release> releaseList, List<Ticket> ticketList,
                                    List<ProjectClass> classList, String projName) throws IOException {
@@ -30,10 +29,6 @@ public class TrainingTestSetsProcessor {
 
         List<Ticket> trainingSetTicketList = ticketList.stream()
                 .filter(t -> t.getFixedVersion().getNumericID() < releaseList.getLast().getNumericID())
-                .toList();
-
-        List<ProjectClass> trainingSetClassList = classList.stream()
-                .filter(c -> c.getRelease().getNumericID() < releaseList.getLast().getNumericID())
                 .toList();
 
         processTrainingSet(gitScraper, trainingSetReleaseList, trainingSetTicketList, classList, projName);
@@ -88,5 +83,9 @@ public class TrainingTestSetsProcessor {
 
         loggerString = projName + " Testing set build on release " + predictingRelease.getNumericID() + "\n";
         logger.info(loggerString);
+    }
+
+    public int getWalkForwardIterations() {
+        return walkForwardIterations;
     }
 }

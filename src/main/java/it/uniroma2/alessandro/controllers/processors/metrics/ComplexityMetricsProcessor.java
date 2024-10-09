@@ -21,7 +21,7 @@ import static it.uniroma2.alessandro.controllers.scrapers.GitScraper.FAKE_RELEAS
 import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
 
 public class ComplexityMetricsProcessor {
-    private final Logger logger = Logger.getLogger(MetricsScraper.class.getName());
+    private final Logger logger = Logger.getLogger(ComplexityMetricsProcessor.class.getName());
 
     private final String projName;
     private final String projDirectory;
@@ -88,6 +88,6 @@ public class ComplexityMetricsProcessor {
 
         writer.flushAndClose();
         String loggerString = "Metrics extracted for release number " + releaseNum;
-        System.out.println(loggerString);
+        logger.info(loggerString);
     }
 }

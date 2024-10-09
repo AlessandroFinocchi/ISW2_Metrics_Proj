@@ -54,7 +54,6 @@ public class MetricsProcessor {
      * touches the class
      */
     private void processNumberOfDefectFixes() {
-        int numberOfFixes;
         // For each class
         for (ProjectClass projectClass : classList) {
             // Initialize an empty list of tickets representing the bugs involved with the class

@@ -78,7 +78,7 @@ public class MetricsScraper {
                 List<Release> consideringReleases = getConsideringReleases(datasetReleases, currentRelease);
                 List<Ticket> consideringTickets = getConsideringTickets(ticketList, currentRelease);
                 List<Commit> consideringCommits = getConsideringCommits(commitList, currentRelease);
-                List<Commit> consideringTicketedCommits = applyFilters(consideringReleases, consideringTickets, consideringCommits);
+                List<Commit> consideringTicketedCommits = applyFilters(consideringTickets, consideringCommits);
 
                 // Adjust the infos of the tickets setting their IVs with proportion
                 Ticket.proportionTickets(consideringTickets, consideringReleases, projName);
@@ -99,13 +99,9 @@ public class MetricsScraper {
                 setsProcessor.processWalkForward(gitScraper, consideringReleases, consideringTickets, classList, projName);
             }
 
-//            loggerString = "Reporting results from " + projString;
-//            logger.info(loggerString);
-//            ReportUtility.writeOnReportFiles(projName, jiraReleases, ticketList, commitList, ticketedCommitList);
-
             loggerString = "Training WEKA classifiers for " + projString;
             logger.info(loggerString);
-            WekaProcessor wekaProcessor = new WekaProcessor(projName, setsProcessor.walkForwardIterations);
+            WekaProcessor wekaProcessor = new WekaProcessor(projName, setsProcessor.getWalkForwardIterations());
             List<ClassifierResult> results = wekaProcessor.processClassifierResults();
 
             loggerString = "Writing results for " + projString;
@@ -194,7 +190,7 @@ public class MetricsScraper {
      * @param ticketList tickets to take ids from
      * @return a list of commits that reference a ticket
      */
-    public List<Commit> applyFilters(List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList) {
+    public List<Commit> applyFilters(List<Ticket> ticketList, List<Commit> commitList) {
         // Filter commits
         List<Commit> filteredCommitList = new ArrayList<>();
         for (Commit commit : commitList) {

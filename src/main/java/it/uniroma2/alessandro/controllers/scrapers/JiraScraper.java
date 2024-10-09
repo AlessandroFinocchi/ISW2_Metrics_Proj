@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 import static it.uniroma2.alessandro.utilities.JsonUtility.readJsonFromUrl;
 
 public class JiraScraper {
-    private final Logger logger = Logger.getLogger(MetricsScraper.class.getName());
+    private final Logger logger = Logger.getLogger(JiraScraper.class.getName());
     private final String projName;
 
     public JiraScraper(String projName) {
@@ -66,7 +66,7 @@ public class JiraScraper {
         return releases;
     }
 
-    public List<Ticket> scrapeTickets(List<Release> releasesList) throws Exception {
+    public List<Ticket> scrapeTickets(List<Release> releasesList) throws IOException, URISyntaxException {
         int total;
         int j;
         int i = 0;
