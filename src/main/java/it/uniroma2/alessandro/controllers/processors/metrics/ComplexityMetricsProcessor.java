@@ -5,7 +5,6 @@ import com.github.mauricioaniche.ck.CKClassResult;
 import com.github.mauricioaniche.ck.CKNotifier;
 import com.github.mauricioaniche.ck.ResultWriter;
 import it.uniroma2.alessandro.controllers.scrapers.GitScraper;
-import it.uniroma2.alessandro.controllers.scrapers.MetricsScraper;
 import it.uniroma2.alessandro.models.Release;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
