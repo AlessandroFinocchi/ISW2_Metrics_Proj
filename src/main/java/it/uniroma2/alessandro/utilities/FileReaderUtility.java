@@ -3,7 +3,6 @@ package it.uniroma2.alessandro.utilities;
 import it.uniroma2.alessandro.models.ComplexityMetrics;
 import it.uniroma2.alessandro.models.ProjectClass;
 
-import java.awt.geom.IllegalPathStateException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
