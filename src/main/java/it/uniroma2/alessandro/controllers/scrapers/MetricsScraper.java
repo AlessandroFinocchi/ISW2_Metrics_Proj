@@ -91,7 +91,8 @@ public class MetricsScraper {
 
                 loggerString = "Extracting metrics from " + projString;
                 logger.info(loggerString);
-                MetricsProcessor metricsProcessor = new MetricsProcessor(consideringReleases, consideringTicketedCommits, classList, gitScraper, projName);
+                MetricsProcessor metricsProcessor = new MetricsProcessor(consideringReleases, consideringTicketedCommits,
+                        classList, gitScraper, projName);
                 metricsProcessor.processMetrics();
 
                 loggerString = "Starting walk forward to build training and testing sets for " + projString;
@@ -137,7 +138,7 @@ public class MetricsScraper {
         List<Ticket> returningTicketList = new ArrayList<>();
 
         for (Ticket ticket: consideringTicketList) {
-            Ticket newTicket = ticket.cloneTicketAtRelease(currentRelease);
+            Ticket newTicket = ticket.cloneTicketAtRelease(ticket.getFixedVersion());
             returningTicketList.add(newTicket);
         }
 
@@ -153,7 +154,7 @@ public class MetricsScraper {
         List<Commit> returningCommitList = new ArrayList<>();
 
         for (Commit commit: consideringCommitList) {
-            Commit newCommit = commit.cloneCommitAtRelease(currentRelease);
+            Commit newCommit = commit.cloneCommitAtRelease(commit.getRelease());
             returningCommitList.add(newCommit);
         }
 

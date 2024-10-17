@@ -12,7 +12,7 @@ import java.util.List;
 import static it.uniroma2.alessandro.controllers.scrapers.MetricsScraper.RESULT_DIRECTORY_NAME;
 
 public class MetricsProcessor {
-    List<Release>releaseList;
+    List<Release> releaseList;
     List<Commit> ticketedCommitList;
     List<ProjectClass> classList;
     GitScraper gitScraper;

@@ -31,7 +31,11 @@ public class TrainingTestSetsProcessor {
                 .filter(t -> t.getFixedVersion().getNumericID() < releaseList.getLast().getNumericID())
                 .toList();
 
-        processTrainingSet(gitScraper, trainingSetReleaseList, trainingSetTicketList, classList, projName);
+        List<ProjectClass> trainingSetClassList = classList.stream()
+                .filter(c -> c.getRelease().getNumericID() < releaseList.getLast().getNumericID())
+                .toList();
+
+        processTrainingSet(gitScraper, trainingSetReleaseList, trainingSetTicketList, trainingSetClassList, projName);
 
         processTestingSet(gitScraper, releaseList, ticketList, classList, projName);
     }
