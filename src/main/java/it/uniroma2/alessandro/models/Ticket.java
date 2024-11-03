@@ -10,6 +10,7 @@ import java.util.*;
 public class Ticket {
     private final String ticketKey;
 
+    // IV < AVs < FV, IV < OV < FV
     private final LocalDate creationDate;
     private final LocalDate resolutionDate;
     private Release injectedVersion;

@@ -60,8 +60,7 @@ public class MetricsScraper {
             List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2 + 1);
             TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
 
-            // Since it is time-consuming computing these files, and they are always th same, apart from the case where
-            // new releases are published in Jira, compute them only if needed
+            // Since it is time-consuming computing these files, and they are always the same, compute them only if needed
             if(computeComplexityFiles){
                 loggerString = "Extracting complexity metrics from " + projString;
                 logger.info(loggerString);
@@ -70,7 +69,6 @@ public class MetricsScraper {
             }
 
             for (Release currentRelease: datasetReleases){
-
                 //Skip first release
                 if(currentRelease.getNumericID() == 1)
                     continue;
