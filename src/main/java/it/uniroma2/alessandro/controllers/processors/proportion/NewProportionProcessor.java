@@ -58,9 +58,6 @@ public class NewProportionProcessor extends ProportionProcessor{
 
         // For each ticket...
         for (Ticket correctTicket : ticketList) {
-                    outputToFile.append(STARTING_SEPARATOR)
-                    .append(correctTicket.getTicketKey())
-                    .append(ENDING_SEPARATOR);
             propForTicket = 0.0F;
 
             // If the OV != FV the denominator can be computed, otherwise proportion is 0
@@ -84,9 +81,6 @@ public class NewProportionProcessor extends ProportionProcessor{
                 .append("\n")
                 .append("----------------------------------------------------------\n");
         for(Ticket ticket: ticketList){
-            outputToFile.append(STARTING_SEPARATOR)
-                    .append(ticket.getTicketKey())
-                    .append(ENDING_SEPARATOR);
             computeInjectedVersion(ticket, releaseList, proportion);
             computeAffectedVersionsList(ticket, releaseList);
         }

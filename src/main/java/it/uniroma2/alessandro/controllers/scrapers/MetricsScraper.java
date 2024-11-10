@@ -130,13 +130,14 @@ public class MetricsScraper {
     private List<Ticket> getConsideringTickets(List<Ticket> ticketList, Release currentRelease) {
         List<Ticket> consideringTicketList = ticketList
                 .stream()
-                .filter(t -> t.getFixedVersion().getNumericID() <= currentRelease.getNumericID())
+                .filter(t -> t.getOpeningVersion().getNumericID() <= currentRelease.getNumericID())
                 .toList();
 
         List<Ticket> returningTicketList = new ArrayList<>();
 
         for (Ticket ticket: consideringTicketList) {
-            Ticket newTicket = ticket.cloneTicketAtRelease(ticket.getFixedVersion());
+            Ticket newTicket = ticket.cloneTicketAtRelease(currentRelease);
+            if(newTicket==null) continue;
             returningTicketList.add(newTicket);
         }
 

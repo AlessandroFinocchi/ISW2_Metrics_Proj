@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import static java.lang.Math.max;
+import static java.lang.Math.min;
 
 
 public abstract class ProportionProcessor implements IProportionProcessor{
@@ -29,17 +30,21 @@ public abstract class ProportionProcessor implements IProportionProcessor{
     protected void computeInjectedVersion(Ticket ticket, List<Release> releasesList, float proportion) {
         int injectedVersionId;
 
-        // Predicted IV = max(1; FV-(FV-OV)*P), ma se FV = OV then I substitute FV - OV con 1
+        // Predicted IV = min(1; FV-(FV-OV)*P), ma se FV = OV then substitute FV - OV con 1
         if(ticket.getFixedVersion().getNumericID() == ticket.getOpeningVersion().getNumericID()){
             injectedVersionId = max(
-                    1,
-                    (int) (ticket.getFixedVersion().getNumericID() - proportion)
+                    1, min(
+                            releasesList.getLast().getNumericID(),
+                            (int) (ticket.getFixedVersion().getNumericID() - proportion)
+                    )
             );
         }
         else{
             injectedVersionId = max(
-                    1,
-                    (int) (ticket.getFixedVersion().getNumericID()-((ticket.getFixedVersion().getNumericID()-ticket.getOpeningVersion().getNumericID()) * proportion))
+                    1, min(
+                            releasesList.getLast().getNumericID(),
+                            (int) (ticket.getFixedVersion().getNumericID()-((ticket.getFixedVersion().getNumericID()-ticket.getOpeningVersion().getNumericID()) * proportion))
+                    )
             );
         }
 

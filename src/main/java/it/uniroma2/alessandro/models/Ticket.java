@@ -109,8 +109,9 @@ public class Ticket {
                 .stream()
                 .filter(av -> av.getNumericID() <= release.getNumericID())
                 .toList();
+        Release newFixedVersion = fixedVersion.getNumericID() <= release.getNumericID() ? fixedVersion : null;
+        if(newFixedVersion == null) return null;
 
-        return new Ticket(ticketKey, creationDate, resolutionDate, openingVersion, fixedVersion, newAffectedVersions);
+        return new Ticket(ticketKey, creationDate, resolutionDate, openingVersion, newFixedVersion, newAffectedVersions);
     }
-
 }
