@@ -22,7 +22,7 @@ public class IncrementProportionProcessor extends ProportionProcessor {
         List<Ticket> finalTicketList = new ArrayList<>();
         float proportion = 0;
 
-        File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles/");
+        File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles");
         if (!file.exists() && !file.mkdirs()) throw new IOException();
 
         // We can start proportion from the first ticket with an IV, the preceding ones cannot be proportioned

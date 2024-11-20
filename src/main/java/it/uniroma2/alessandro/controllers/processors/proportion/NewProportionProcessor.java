@@ -19,6 +19,7 @@ public class NewProportionProcessor extends ProportionProcessor{
         List<Ticket> ticketForProportionList = new ArrayList<>(); // List of tickets already with IV
         List<Ticket> ticketToProportionList = new ArrayList<>(); // List of ticket without IV
         float proportion = 0;
+
         File file = new File(RESULT_DIRECTORY_NAME + projName.toLowerCase() + "/reportFiles");
         if (!file.exists() && !file.mkdirs()) throw new IOException();
 
@@ -58,14 +59,15 @@ public class NewProportionProcessor extends ProportionProcessor{
 
         // For each ticket...
         for (Ticket correctTicket : ticketList) {
-            propForTicket = 0.0F;
+            denominator = 1.0F;
 
             // If the OV != FV the denominator can be computed, otherwise proportion is 0
             if (!correctTicket.getOpeningVersion().getReleaseID().equals(correctTicket.getFixedVersion().getReleaseID())) {
                 denominator = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getOpeningVersion().getNumericID());
-                propForTicket = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
-                        / denominator;
             }
+
+            propForTicket = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
+                    / denominator;
 
             totalProportion += propForTicket;
         }
