@@ -31,11 +31,11 @@ public abstract class ProportionProcessor implements IProportionProcessor{
         int injectedVersionId;
 
         // Predicted IV = min(1; FV-(FV-OV)*P), ma se FV = OV then substitute FV - OV con 1
-        if(ticket.getFixedVersion().getNumericID() == ticket.getOpeningVersion().getNumericID()){
+        if(ticket.getFV().getNumericID() == ticket.getOV().getNumericID()){
             injectedVersionId = max(
                     1, min(
                             releasesList.getLast().getNumericID(),
-                            (int) (ticket.getFixedVersion().getNumericID() - proportion)
+                            (int) (ticket.getFV().getNumericID() - proportion)
                     )
             );
         }
@@ -43,7 +43,7 @@ public abstract class ProportionProcessor implements IProportionProcessor{
             injectedVersionId = max(
                     1, min(
                             releasesList.getLast().getNumericID(),
-                            (int) (ticket.getFixedVersion().getNumericID()-((ticket.getFixedVersion().getNumericID()-ticket.getOpeningVersion().getNumericID()) * proportion))
+                            (int) (ticket.getFV().getNumericID()-((ticket.getFV().getNumericID()-ticket.getOV().getNumericID()) * proportion))
                     )
             );
         }
@@ -69,7 +69,7 @@ public abstract class ProportionProcessor implements IProportionProcessor{
                 .stream()
                 .filter(release ->
                         release.getNumericID() >= ticket.getInjectedVersion().getNumericID()
-                                && release.getNumericID() <= ticket.getOpeningVersion().getNumericID())
+                                && release.getNumericID() <= ticket.getOV().getNumericID())
                 .toList()){
             completeAffectedVersionsList.add(new Release(release.getReleaseID(), release.getReleaseName(), release.getReleaseDateString()));
         }

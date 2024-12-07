@@ -7,7 +7,6 @@ import it.uniroma2.alessandro.models.Release;
 import it.uniroma2.alessandro.models.Ticket;
 import it.uniroma2.alessandro.utilities.PropertyUtility;
 import org.eclipse.jgit.api.Git;
-import org.eclipse.jgit.api.ListBranchCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.diff.DiffEntry;
 import org.eclipse.jgit.diff.DiffFormatter;
@@ -85,21 +84,8 @@ public class GitScraper {
         // All useful information about all the commits
         List<Commit> commitList = new ArrayList<>();
 
-        // Get list of branches: git branch -a
-        List<Ref> branchList = git.branchList().setListMode(ListBranchCommand.ListMode.ALL).call();
-
-        // Get all commits from all branches
-        for (Ref branch : branchList) {
-            String branchName = branch.getName();
-
-            // Get list of commits: git log <branchName>
-            Iterable<RevCommit> commits = git.log().add(repository.resolve(branchName)).call();
-            for(RevCommit commit : commits){
-                if(!revCommitList.contains(commit)) {
-                    revCommitList.add(commit);
-                }
-            }
-        }
+        Iterable<RevCommit> iterableCommits = git.log().all().call();
+        iterableCommits.forEach(revCommitList::add);
 
         // Sort all the commits using the commit time
         revCommitList.sort(Comparator.comparing(RevCommit::getCommitTime));
@@ -122,7 +108,7 @@ public class GitScraper {
                 LocalDate nextReleaseDate = release.getReleaseDateTime();
                 // If a commit date is after the last release date considered and the next one being considered add it
                 // to the next one being considered
-                if (commitDate.isAfter(previusReleaseDate) && !commitDate.isAfter(nextReleaseDate)) {
+                if (!commitDate.isAfter(previusReleaseDate) && !commitDate.isAfter(nextReleaseDate)) {
                     Commit newCommit = new Commit(revCommit, release);
                     commitList.add(newCommit);
                     release.addCommit(newCommit);
@@ -223,7 +209,7 @@ public class GitScraper {
      * @param ticketList the tickets where taking information
      * @param classList the classes to set information
      */
-    public void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> classList) throws IOException {
+    public void labelClassBuggyness(List<Ticket> ticketList, List<ProjectClass> classList) throws IOException {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
         // Initialize buggyness to false

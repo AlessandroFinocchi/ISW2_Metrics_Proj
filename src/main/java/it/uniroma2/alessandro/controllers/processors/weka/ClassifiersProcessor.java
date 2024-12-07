@@ -3,7 +3,6 @@ package it.uniroma2.alessandro.controllers.processors.weka;
 import it.uniroma2.alessandro.models.ProjectClassifier;
 import it.uniroma2.alessandro.utilities.PropertyUtility;
 import weka.attributeSelection.BestFirst;
-import weka.attributeSelection.GreedyStepwise;
 import weka.classifiers.Classifier;
 import weka.classifiers.CostMatrix;
 import weka.classifiers.bayes.NaiveBayes;
@@ -32,7 +31,7 @@ public class ClassifiersProcessor {
     public final boolean usingSampling;
 
     public ClassifiersProcessor() throws IOException {
-        falsePositiveWeight = PropertyUtility.readIntegerProperty("FALSE_NEGATIVE_WEIGHT");
+        falsePositiveWeight = PropertyUtility.readIntegerProperty("FALSE_POSITIVE_WEIGHT");
         falseNegativeWeight = PropertyUtility.readIntegerProperty("FALSE_NEGATIVE_WEIGHT");
         usingSampling = PropertyUtility.readBooleanProperty("USING_SAMPLING");
     }
@@ -58,7 +57,7 @@ public class ClassifiersProcessor {
         createFeatureSelectedAndCostSensitiveClassifiers(classifierList, featureSelectionFilters, projectClassifiersList);
 
         if(usingSampling)
-            samplingClassifiers(isBuggyAttributeStats, classifierList, featureSelectionFilters, projectClassifiersList);
+            createSamplingClassifiers(isBuggyAttributeStats, classifierList, featureSelectionFilters, projectClassifiersList);
 
         return projectClassifiersList;
     }
@@ -68,17 +67,13 @@ public class ClassifiersProcessor {
      * @return a list of the attribute selection filters
      */
     private List<AttributeSelection> getFeatureSelectionFilters() {
-        AttributeSelection greedyStepwiseAS = new AttributeSelection();
-        GreedyStepwise greedyStepwise = new GreedyStepwise();
-        greedyStepwise.setSearchBackwards(false);
-        greedyStepwiseAS.setSearch(greedyStepwise);
 
         AttributeSelection bestFirstAS = new AttributeSelection();
         BestFirst bestFirst = new BestFirst();
         bestFirst.setDirection(new SelectedTag(2, bestFirst.getDirection().getTags()));
         bestFirstAS.setSearch(bestFirst);
 
-        return new ArrayList<>(List.of(greedyStepwiseAS, bestFirstAS));
+        return new ArrayList<>(List.of(bestFirstAS));
     }
 
     /**
@@ -170,8 +165,8 @@ public class ClassifiersProcessor {
         return costMatrix;
     }
 
-    private void samplingClassifiers(AttributeStats isBuggyAttributeStats, List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters,
-                                     List<ProjectClassifier> projectClassifiersList) {
+    private void createSamplingClassifiers(AttributeStats isBuggyAttributeStats, List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters,
+                                           List<ProjectClassifier> projectClassifiersList) {
         int majorityClassSize = isBuggyAttributeStats.nominalCounts[1];
         int minorityClassSize = isBuggyAttributeStats.nominalCounts[0];
         List<Filter> samplingFilters = getSamplingFilters(majorityClassSize, minorityClassSize);
@@ -184,7 +179,6 @@ public class ClassifiersProcessor {
     }
 
     private List<Filter> getSamplingFilters(int majorityClassSize, int minorityClassSize) {
-        double percentStandardOversampling = ((100.0*majorityClassSize)/(majorityClassSize + minorityClassSize))*2;
         double percentSMOTE;
         if(minorityClassSize==0 || minorityClassSize > majorityClassSize){
             percentSMOTE = 0;
@@ -192,13 +186,7 @@ public class ClassifiersProcessor {
             percentSMOTE = (100.0*(majorityClassSize-minorityClassSize))/minorityClassSize;
         }
         List<Filter> filterList = new ArrayList<>();
-        Resample resample = new Resample();
-        resample.setBiasToUniformClass(1.0);
-        resample.setSampleSizePercent(percentStandardOversampling);
-        filterList.add(resample);
-        SpreadSubsample spreadSubsample = new SpreadSubsample();
-        spreadSubsample.setDistributionSpread(1.0);
-        filterList.add(spreadSubsample);
+
         SMOTE smote = new SMOTE();
         smote.setClassValue("1");
         smote.setPercentage(percentSMOTE);

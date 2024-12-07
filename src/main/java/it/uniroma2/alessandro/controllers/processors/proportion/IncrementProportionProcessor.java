@@ -112,9 +112,9 @@ public class IncrementProportionProcessor extends ProportionProcessor {
             propForTicket = 0.0F;
 
             // If the OV != FV the denominator can be computed, otherwise proportion is 0
-            if (!correctTicket.getOpeningVersion().getReleaseID().equals(correctTicket.getFixedVersion().getReleaseID())) {
-                denominator = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getOpeningVersion().getNumericID());
-                propForTicket = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
+            if (!correctTicket.getOV().getReleaseID().equals(correctTicket.getFV().getReleaseID())) {
+                denominator = ((float) correctTicket.getFV().getNumericID() - (float) correctTicket.getOV().getNumericID());
+                propForTicket = ((float) correctTicket.getFV().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
                         / denominator;
             }
 

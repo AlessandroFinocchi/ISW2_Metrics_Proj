@@ -18,26 +18,27 @@ public class TrainingTestSetsProcessor {
 
     private int walkForwardIterations = 0;
 
-    public void processWalkForward(GitScraper gitScraper, List<Release> releaseList, List<Ticket> ticketList,
+    public void processWalkForward(GitScraper gitScraper, List<Release> consideringReleaseList,
+                                   List<Ticket> consideringTicketList, List<Ticket> allTickets,
                                    List<ProjectClass> classList, String projName) throws IOException {
         walkForwardIterations++;
 
         //Last release cannot be used as a training set, otherwise there wouldn't be release in the testing set
-        List<Release> trainingSetReleaseList = releaseList.stream()
-                .filter(r -> r.getNumericID() < releaseList.getLast().getNumericID())
+        List<Release> trainingSetReleaseList = consideringReleaseList.stream()
+                .filter(r -> r.getNumericID() < consideringReleaseList.getLast().getNumericID())
                 .toList();
 
-        List<Ticket> trainingSetTicketList = ticketList.stream()
-                .filter(t -> t.getFixedVersion().getNumericID() < releaseList.getLast().getNumericID())
+        List<Ticket> trainingSetTicketList = consideringTicketList.stream()
+                .filter(t -> t.getFV().getNumericID() < consideringReleaseList.getLast().getNumericID())
                 .toList();
 
         List<ProjectClass> trainingSetClassList = classList.stream()
-                .filter(c -> c.getRelease().getNumericID() < releaseList.getLast().getNumericID())
+                .filter(c -> c.getRelease().getNumericID() < consideringReleaseList.getLast().getNumericID())
                 .toList();
 
         processTrainingSet(gitScraper, trainingSetReleaseList, trainingSetTicketList, trainingSetClassList, projName);
 
-        processTestingSet(gitScraper, releaseList, ticketList, classList, projName);
+        processTestingSet(gitScraper, consideringReleaseList, allTickets, classList, projName);
     }
 
     private void processTrainingSet(GitScraper gitScraper, List<Release> trainingSetReleaseList, List<Ticket> trainingSetTicketList,
@@ -45,7 +46,7 @@ public class TrainingTestSetsProcessor {
         String loggerString;
 
         // Compute buggyness with information until current release
-        gitScraper.completeClassesInfo(trainingSetTicketList, trainingSetClassList);
+        gitScraper.labelClassBuggyness(trainingSetTicketList, trainingSetClassList);
 
         // Build training set at current release
         DatasetsProcessor.writeDataset(projName, trainingSetReleaseList, trainingSetClassList,
@@ -74,7 +75,7 @@ public class TrainingTestSetsProcessor {
                 .toList();
 
         // Compute buggyness with all information until the present
-        gitScraper.completeClassesInfo(currentTicketList, predictingClassList);
+        gitScraper.labelClassBuggyness(currentTicketList, predictingClassList);
 
         // Build testing set for the predicting release
         DatasetsProcessor.writeDataset(projName, releaseList, predictingClassList,

@@ -62,11 +62,11 @@ public class NewProportionProcessor extends ProportionProcessor{
             denominator = 1.0F;
 
             // If the OV != FV the denominator can be computed, otherwise proportion is 0
-            if (!correctTicket.getOpeningVersion().getReleaseID().equals(correctTicket.getFixedVersion().getReleaseID())) {
-                denominator = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getOpeningVersion().getNumericID());
+            if (!correctTicket.getOV().getReleaseID().equals(correctTicket.getFV().getReleaseID())) {
+                denominator = ((float) correctTicket.getFV().getNumericID() - (float) correctTicket.getOV().getNumericID());
             }
 
-            propForTicket = ((float) correctTicket.getFixedVersion().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
+            propForTicket = ((float) correctTicket.getFV().getNumericID() - (float) correctTicket.getInjectedVersion().getNumericID())
                     / denominator;
 
             totalProportion += propForTicket;

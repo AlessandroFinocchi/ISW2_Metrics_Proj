@@ -57,7 +57,7 @@ public class MetricsScraper {
             setReleasesNumericID(jiraReleases);
 
             // Take half release
-            List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2 + 1);
+            List<Release> datasetReleases = jiraReleases.subList(0, jiraReleases.size()/2);
             TrainingTestSetsProcessor setsProcessor = new TrainingTestSetsProcessor();
 
             // Since it is time-consuming computing these files, and they are always the same, compute them only if needed
@@ -67,6 +67,10 @@ public class MetricsScraper {
                 ComplexityMetricsProcessor complexityMetricsProcessor = new ComplexityMetricsProcessor(projName, datasetReleases, gitScraper);
                 complexityMetricsProcessor.extractComplexityMetrics();
             }
+
+            // Get a clone of all tickets proportioned to use in the training set
+            List<Ticket> allTickets = getAllTicketsProportioned(jiraReleases, ticketList, projName);
+            applyFilters(allTickets, commitList);
 
             for (Release currentRelease: datasetReleases){
                 //Skip first release
@@ -95,7 +99,7 @@ public class MetricsScraper {
 
                 loggerString = "Starting walk forward to build training and testing sets for " + projString;
                 logger.info(loggerString);
-                setsProcessor.processWalkForward(gitScraper, consideringReleases, consideringTickets, classList, projName);
+                setsProcessor.processWalkForward(gitScraper, consideringReleases, consideringTickets, allTickets, classList, projName);
             }
 
             loggerString = "Training WEKA classifiers for " + projString;
@@ -127,10 +131,17 @@ public class MetricsScraper {
                 .toList();
     }
 
+    /**
+     * The list of ticket to consider at a certain release is composed by the view of those tickets that were available
+     * at that release
+     * @param ticketList all the tickets available
+     * @param currentRelease the release to take as tickets point of view
+     * @return tickets with OV <= currentRelease
+     */
     private List<Ticket> getConsideringTickets(List<Ticket> ticketList, Release currentRelease) {
         List<Ticket> consideringTicketList = ticketList
                 .stream()
-                .filter(t -> t.getOpeningVersion().getNumericID() <= currentRelease.getNumericID())
+                .filter(t -> t.getOV().getNumericID() <= currentRelease.getNumericID())
                 .toList();
 
         List<Ticket> returningTicketList = new ArrayList<>();
@@ -209,6 +220,18 @@ public class MetricsScraper {
         ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
 
         return filteredCommitList;
+    }
+
+    private List<Ticket> getAllTicketsProportioned(List<Release> jiraReleases, List<Ticket> ticketList,
+                                                   String projName) throws IOException {
+        List<Ticket> allTickets = new ArrayList<>();
+        for(Ticket t: ticketList){
+            Ticket newTicket = t.cloneTicketAtRelease(jiraReleases.getLast());
+            allTickets.add(newTicket);
+        }
+        Ticket.proportionTickets(allTickets, jiraReleases, projName);
+
+        return allTickets;
     }
 
     private void setReleasesNumericID(List<Release> releaseList) {

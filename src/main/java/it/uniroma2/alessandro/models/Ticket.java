@@ -55,11 +55,11 @@ public class Ticket {
         this.injectedVersion = injectedVersion;
     }
 
-    public Release getOpeningVersion() {
+    public Release getOV() {
         return openingVersion;
     }
 
-    public Release getFixedVersion() {
+    public Release getFV() {
         return fixedVersion;
     }
 
