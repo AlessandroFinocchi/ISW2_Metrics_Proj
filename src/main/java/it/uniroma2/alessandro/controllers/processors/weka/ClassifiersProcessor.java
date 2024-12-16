@@ -14,9 +14,7 @@ import weka.core.AttributeStats;
 import weka.core.SelectedTag;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
-import weka.filters.supervised.instance.Resample;
 import weka.filters.supervised.instance.SMOTE;
-import weka.filters.supervised.instance.SpreadSubsample;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -56,8 +54,9 @@ public class ClassifiersProcessor {
         //YES FEATURE SELECTION NO SAMPLING YES COST SENSITIVE
         createFeatureSelectedAndCostSensitiveClassifiers(classifierList, featureSelectionFilters, projectClassifiersList);
 
-        if(usingSampling)
+        if (usingSampling){
             createSamplingClassifiers(isBuggyAttributeStats, classifierList, featureSelectionFilters, projectClassifiersList);
+    }
 
         return projectClassifiersList;
     }
@@ -131,7 +130,8 @@ public class ClassifiersProcessor {
      * @param featureSelectionFilters Filters of feature selection
      * @param projectClassifiersList List of models with all their useful infos
      */
-    private void createFeatureSelectedAndCostSensitiveClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters, List<ProjectClassifier> projectClassifiersList) {
+    private void createFeatureSelectedAndCostSensitiveClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters,
+                                                                  List<ProjectClassifier> projectClassifiersList) {
         for (Classifier classifier : classifierList) {
             List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
             for(CostSensitiveClassifier costSensitiveClassifier: costSensitiveFilters){
@@ -165,17 +165,24 @@ public class ClassifiersProcessor {
         return costMatrix;
     }
 
-    private void createSamplingClassifiers(AttributeStats isBuggyAttributeStats, List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters,
+    private void createSamplingClassifiers(AttributeStats isBuggyAttributeStats, List<Classifier> classifierList,
+                                           List<AttributeSelection> featureSelectionFilters,
                                            List<ProjectClassifier> projectClassifiersList) {
         int majorityClassSize = isBuggyAttributeStats.nominalCounts[1];
         int minorityClassSize = isBuggyAttributeStats.nominalCounts[0];
         List<Filter> samplingFilters = getSamplingFilters(majorityClassSize, minorityClassSize);
 
-        //ONLY SAMPLING
+        // ONLY SAMPLING
         onlySamplingClassifiers(classifierList, samplingFilters, projectClassifiersList);
 
-        //FEATURE SELECTION AND SAMPLING
+        // FEATURE SELECTION AND SAMPLING
         featureSelectionAndSamplingClassifiers(classifierList, featureSelectionFilters, samplingFilters, projectClassifiersList);
+
+        // COST SENSITIVITY AND SAMPLING
+        costSensitiveAndSamplingClassifiers(classifierList, samplingFilters, projectClassifiersList);
+
+        // FEATURE SELECTION, SAMPLING, AND COST SENSITIVITY
+        allCombinationClassifiers(classifierList, featureSelectionFilters, samplingFilters, projectClassifiersList);
     }
 
     private List<Filter> getSamplingFilters(int majorityClassSize, int minorityClassSize) {
@@ -210,15 +217,60 @@ public class ClassifiersProcessor {
         for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
             for (Filter samplingFilter : samplingFilters) {
                 for (Classifier classifier : classifierList) {
+
+                    FilteredClassifier innerClassifier = new FilteredClassifier();
+                    innerClassifier.setClassifier(classifier);
+                    innerClassifier.setFilter(featureSelectionFilter);
+
+                    FilteredClassifier externalClassifier = new FilteredClassifier();
+                    externalClassifier.setFilter(samplingFilter);
+                    externalClassifier.setClassifier(innerClassifier);
+
+                    projectClassifiersList.add(new ProjectClassifier(externalClassifier, classifier.getClass().getSimpleName(),
+                            featureSelectionFilter.getSearch().getClass().getSimpleName(), samplingFilter.getClass().getSimpleName(), false));
+                }
+            }
+        }
+    }
+
+    private void costSensitiveAndSamplingClassifiers(List<Classifier> classifierList, List<Filter> samplingFilters,
+                                                     List<ProjectClassifier> projectClassifiersList) {
+        List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
+        for (Classifier classifier : classifierList) {
+            for (Filter samplingFilter : samplingFilters) {
+                for(CostSensitiveClassifier costSensitiveClassifier: costSensitiveFilters){
                     FilteredClassifier innerClassifier = new FilteredClassifier();
                     innerClassifier.setClassifier(classifier);
                     innerClassifier.setFilter(samplingFilter);
 
-                    FilteredClassifier externalClassifier = new FilteredClassifier();
-                    externalClassifier.setFilter(featureSelectionFilter);
-                    externalClassifier.setClassifier(innerClassifier);
+                    costSensitiveClassifier.setClassifier(innerClassifier);
+                    projectClassifiersList.add(new ProjectClassifier(costSensitiveClassifier, classifier.getClass().getSimpleName(),
+                            NO_SELECTION, samplingFilter.getClass().getSimpleName(), true));
 
-                    projectClassifiersList.add(new ProjectClassifier(externalClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), samplingFilter.getClass().getSimpleName(), false));
+                }
+            }
+        }
+    }
+
+    private void allCombinationClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters,
+                                           List<Filter> samplingFilters, List<ProjectClassifier> projectClassifiersList) {
+        List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
+        for (Classifier classifier : classifierList) {
+            for (Filter samplingFilter : samplingFilters) {
+                for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
+                    for (CostSensitiveClassifier costSensitiveClassifier : costSensitiveFilters) {
+                        FilteredClassifier innerClassifier = new FilteredClassifier();
+                        innerClassifier.setClassifier(classifier);
+                        innerClassifier.setFilter(featureSelectionFilter);
+
+                        FilteredClassifier externalClassifier = new FilteredClassifier();
+                        externalClassifier.setFilter(samplingFilter);
+                        externalClassifier.setClassifier(innerClassifier);
+
+                        costSensitiveClassifier.setClassifier(externalClassifier);
+                        projectClassifiersList.add(new ProjectClassifier(costSensitiveClassifier, classifier.getClass().getSimpleName(),
+                                featureSelectionFilter.getSearch().getClass().getSimpleName(), samplingFilter.getClass().getSimpleName(), true));
+                    }
                 }
             }
         }
