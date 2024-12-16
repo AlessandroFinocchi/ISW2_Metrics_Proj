@@ -32,19 +32,15 @@ public abstract class ProportionProcessor implements IProportionProcessor{
 
         // Predicted IV = min(1; FV-(FV-OV)*P), ma se FV = OV then substitute FV - OV con 1
         if(ticket.getFV().getNumericID() == ticket.getOV().getNumericID()){
-            injectedVersionId = max(
-                    1, min(
-                            releasesList.getLast().getNumericID(),
-                            (int) (ticket.getFV().getNumericID() - proportion)
-                    )
+            injectedVersionId = Math.clamp(
+                    (int) (ticket.getFV().getNumericID() - proportion),
+                    1, releasesList.getLast().getNumericID()
             );
         }
         else{
-            injectedVersionId = max(
-                    1, min(
-                            releasesList.getLast().getNumericID(),
-                            (int) (ticket.getFV().getNumericID()-((ticket.getFV().getNumericID()-ticket.getOV().getNumericID()) * proportion))
-                    )
+            injectedVersionId = Math.clamp(
+                    (int) (ticket.getFV().getNumericID()-((ticket.getFV().getNumericID()-ticket.getOV().getNumericID()) * proportion)),
+                    1, releasesList.getLast().getNumericID()
             );
         }
 
