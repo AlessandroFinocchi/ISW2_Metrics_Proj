@@ -9,8 +9,10 @@
 
 ---
 ## Goal
-This application goal is to train machine learning model using available online information, in GitHub
-and Jira, which goal is to predict the buggyness of a class.
+This application goal is training machine learning models using available online information, in GitHub and Jira, 
+that a software testing team can exploit to discover the classes which more likely contain bugs, and focus the testing 
+activities on these classes. Different optimal configuration will be searched for each project, actually the empirical
+study assesses the results on two open source project: avro and bookkeeper.
 
 ## Implementation details
 For more information, read the [documentation](docs/remarks.md)
